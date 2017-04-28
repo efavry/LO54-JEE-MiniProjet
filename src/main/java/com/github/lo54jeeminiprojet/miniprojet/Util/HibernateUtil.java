@@ -1,15 +1,28 @@
 package com.github.lo54jeeminiprojet.miniprojet.Util;
 
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+
 public class HibernateUtil {
 
 	private static final SessionFactory sessionFactory = buildSessionFactory();
-
-	public SessionFactory buildSessionFactory() {
-		return null;
+	private static SessionFactory buildSessionFactory()
+	{
+		try
+		{
+		// Create the SessionFactory from hibernate.cfg.xml
+			return new Configuration().configure().buildSessionFactory();
+		}
+        catch (ClassFormatError ex)
+		{
+			System.err.println("Initial SessionFactory creation failed." + ex);
+			throw new ExceptionInInitializerError(ex);
+		}
 	}
 
-	public static SessionFactory getSessionFactory() {
-		return null;
+	public static SessionFactory getSessionFactory()
+	{
+		return sessionFactory;
 	}
 
 }
