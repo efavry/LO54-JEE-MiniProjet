@@ -1,5 +1,6 @@
 package com.github.lo54jeeminiprojet.miniprojet.Service;
 
+import com.github.lo54jeeminiprojet.miniprojet.Entity.Client;
 import com.github.lo54jeeminiprojet.miniprojet.Repository.PublisherDao.IPublisherDao;
 
 public class PublisherService {
@@ -14,7 +15,7 @@ public class PublisherService {
 
 	}
 
-	public void publishMessage(String msg) {
+	public void publishRegistrationMessage(Client client) {
 
 	}
 
