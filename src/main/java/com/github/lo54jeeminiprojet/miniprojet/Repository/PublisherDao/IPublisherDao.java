@@ -5,7 +5,8 @@ import com.github.lo54jeeminiprojet.miniprojet.Repository.PublisherDao.exception
 
 import java.io.Serializable;
 
-public interface IPublisherDao {
+public interface IPublisherDao
+{
 
     public int addTopic(String title) throws IndexOutOfBoundsException, PublisherDaoException;
     public boolean removeTopic(int topicID) throws PublisherDaoException;
