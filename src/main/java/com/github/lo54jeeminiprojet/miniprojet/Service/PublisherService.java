@@ -48,6 +48,6 @@ public class PublisherService {
 
 	private String generateRegistrationMessage(Client client){
 		//TODO
-		return null;
+		return String.format("%s %s just registered to course %s, at %s in %s", client.getLastName(), client.getFirstName(), /*TODO ajout nom cours*/, /*TODO ajout heure cours*/, /*TODO ajout lieu cours*/);
 	}
 }
