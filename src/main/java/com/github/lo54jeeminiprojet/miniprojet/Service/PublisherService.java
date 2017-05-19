@@ -7,6 +7,8 @@ import com.github.lo54jeeminiprojet.miniprojet.Repository.PublisherDao.exception
 import com.github.lo54jeeminiprojet.miniprojet.Service.exceptions.PublisherServiceException;
 
 import javax.jms.JMSException;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 
 public class PublisherService {
 
@@ -47,7 +49,7 @@ public class PublisherService {
 	}
 
 	private String generateRegistrationMessage(Client client){
-		//TODO
-		return String.format("%s %s just registered to course %s, at %s in %s", client.getLastName(), client.getFirstName(), /*TODO ajout nom cours*/, /*TODO ajout heure cours*/, /*TODO ajout lieu cours*/);
+		DateFormat dateFormat = new SimpleDateFormat("EEE, MMM d, HH:mm");
+		return String.format("%s %s just registered to course %s, at %s in %s", client.getLastName(), client.getFirstName(), client.getCourseSession().getCourse().getTitle(), dateFormat.format(client.getCourseSession().getStartDate()), client.getCourseSession().getLocation().getCity());
 	}
 }
