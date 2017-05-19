@@ -23,7 +23,7 @@
 .idea/**/mongoSettings.xml
 
 #Project#
-*.iml
+#*.iml
 
 ## File-based project format:
 *.iws

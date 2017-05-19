@@ -24,7 +24,11 @@ public class Client implements Serializable
 
 	@Column(name="EMAIL",nullable = false)
 	private String email;
-
+	
+	
+	/**
+	 * TODO : This doc
+	 */
 	@Column(name="COURSE_SESSION_ID")
 	@ManyToOne(cascade = CascadeType.ALL, fetch=FetchType.LAZY)
 	private CourseSession courseSession;
