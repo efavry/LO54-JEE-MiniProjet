@@ -11,12 +11,12 @@ import javax.jms.JMSException;
 public class PublisherService {
 
 	private IPublisherDao dao;
-	private int registreationTopicID;
+	private int registrationTopicID;
 
 	public PublisherService(String url) throws PublisherServiceException {
 		try {
 			dao = new JmsDao(url);
-			registreationTopicID = dao.addTopic("LO54_JEE-JMS_PROJECT");
+			registrationTopicID = dao.addTopic("LO54_JEE/PROJECT_JMS/COURSES/REGISTRATION");
 		}catch(JMSException e){
 			throw new PublisherServiceException("Error during initialization", e);
 		}catch(PublisherDaoException e){
@@ -38,7 +38,7 @@ public class PublisherService {
 
 	public boolean publishRegistrationMessage(Client client) {
 		try {
-			dao.publishText(registreationTopicID, generateRegistrationMessage(client));
+			dao.publishText(registrationTopicID, generateRegistrationMessage(client));
 			return true;
 		} catch (PublisherDaoException e) {
 			e.printStackTrace();
