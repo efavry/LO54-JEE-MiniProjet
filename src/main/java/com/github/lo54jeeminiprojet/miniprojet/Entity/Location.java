@@ -1,28 +1,39 @@
 package com.github.lo54jeeminiprojet.miniprojet.Entity;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
 import java.io.Serializable;
 
+@Entity
+@Table(name="LOCATION")
 public class Location implements Serializable
 {
-
+	@Id
 	private long id;
 
+	@Column(name="CITY",nullable = false)
 	private String city;
 
-	public void setId(long id) {
 
+	public long getId()
+	{
+		return id;
 	}
 
-	public long getId() {
-		return 0;
+	public void setId(long id)
+	{
+		this.id = id;
 	}
 
-	public void setCity(String city) {
-
+	public String getCity()
+	{
+		return city;
 	}
 
-	public String getCity() {
-		return null;
+	public void setCity(String city)
+	{
+		this.city = city;
 	}
-
 }

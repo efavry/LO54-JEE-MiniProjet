@@ -1,78 +1,103 @@
 package com.github.lo54jeeminiprojet.miniprojet.Entity;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
 import java.io.Serializable;
 
+@Entity
+@Table(name="CLIENT")
 public class Client implements Serializable
 {
 
-	private long id;
+	@Id private long id;
 
+	@Column(name="LASTNAME",nullable = false)
 	private String lastName;
 
+	@Column(name="FIRSTNAME",nullable = false)
 	private String firstName;
 
+	@Column(name="ADDRESS",nullable = false)
 	private String address;
 
+	@Column(name="PHONE",nullable = false)
 	private String phoneNumber;
 
+	@Column(name="EMAIL",nullable = false)
 	private String email;
 
 	private long courseSessionId;
 
-	public void setId(long id) {
 
+	public long getId()
+	{
+		return id;
 	}
 
-	public long getId() {
-		return 0;
+	public void setId(long id)
+	{
+		this.id = id;
 	}
 
-	public void setLastName(String lastName) {
-
+	public String getLastName()
+	{
+		return lastName;
 	}
 
-	public String getLastName() {
-		return null;
+	public void setLastName(String lastName)
+	{
+		this.lastName = lastName;
 	}
 
-	public void setFirstName(String firstName) {
-
+	public String getFirstName()
+	{
+		return firstName;
 	}
 
-	public String getFirstName() {
-		return null;
+	public void setFirstName(String firstName)
+	{
+		this.firstName = firstName;
 	}
 
-	public void setAddress(String address) {
-
+	public String getAddress()
+	{
+		return address;
 	}
 
-	public String getAddress() {
-		return null;
+	public void setAddress(String address)
+	{
+		this.address = address;
 	}
 
-	public void setPhoneNumber(String phoneNumber) {
-
+	public String getPhoneNumber()
+	{
+		return phoneNumber;
 	}
 
-	public String getPhoneNumber() {
-		return null;
+	public void setPhoneNumber(String phoneNumber)
+	{
+		this.phoneNumber = phoneNumber;
 	}
 
-	public void setEmail(String email) {
-
+	public String getEmail()
+	{
+		return email;
 	}
 
-	public String getEmail() {
-		return null;
+	public void setEmail(String email)
+	{
+		this.email = email;
 	}
 
-	public void setCourseSessionId(long courseSessionId) {
-
+	public long getCourseSessionId()
+	{
+		return courseSessionId;
 	}
 
-	public long getCourseSessionId() {
-		return 0;
+	public void setCourseSessionId(long courseSessionId)
+	{
+		this.courseSessionId = courseSessionId;
 	}
-
 }

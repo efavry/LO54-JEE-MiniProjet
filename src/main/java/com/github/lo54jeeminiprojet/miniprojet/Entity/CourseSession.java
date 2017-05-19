@@ -1,59 +1,81 @@
 package com.github.lo54jeeminiprojet.miniprojet.Entity;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
 import java.io.Serializable;
 import java.util.Date;
 
+
+@Entity
+@Table(name="COURSE_SESSION")
 public class CourseSession implements Serializable
 {
 
-	private long id;
+	@Id private long id;
 
+	@Column(name="START_DATE",nullable = false)
 	private Date startDate;
 
+	@Column(name="END_DATE",nullable = false)
 	private Date endDate;
+
 
 	private String courseCode;
 
 	private long locationId;
 
+
+	public long getId()
+	{
+		return id;
+	}
+
 	public void setId(long id) {
-
+		this.id = id;
 	}
 
-	public long getId() {
-		return 0;
+
+	public void setStartDate(Date startDate)
+	{
+		this.startDate = startDate;
 	}
 
-	public void setStartDate(Date startDate) {
-
+	public Date getStartDate()
+	{
+		return startDate;
 	}
 
-	public Date getStartDate() {
-		return null;
+	public void setEndDate(Date endDate)
+	{
+		this.endDate = endDate;
 	}
 
-	public void setEndDate(Date endDate) {
-
+	public Date getEndDate()
+	{
+		return endDate;
 	}
 
-	public Date getEndDate() {
-		return null;
+	public void setCourseCode(String courseCode)
+	{
+		this.courseCode = courseCode;
 	}
 
-	public void setCourseCode(String courseCode) {
-
+	public String getCourseCode()
+	{
+		return courseCode;
 	}
 
-	public String getCourseCode() {
-		return null;
+	public void setLocationId(long locationId)
+	{
+		this.locationId = locationId;
 	}
 
-	public void setLocationId(long locationId) {
+	public long getLocationId()
+	{
 
-	}
-
-	public long getLocationId() {
-		return 0;
+		return locationId;
 	}
 
 }
