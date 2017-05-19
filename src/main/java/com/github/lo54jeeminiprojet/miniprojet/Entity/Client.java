@@ -1,9 +1,6 @@
 package com.github.lo54jeeminiprojet.miniprojet.Entity;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 import java.io.Serializable;
 
 @Entity
@@ -28,7 +25,9 @@ public class Client implements Serializable
 	@Column(name="EMAIL",nullable = false)
 	private String email;
 
-	private long courseSessionId;
+	@Column(name="COURSE_SESSION_ID")
+	@ManyToOne(cascade = CascadeType.ALL, fetch=FetchType.LAZY)
+	private CourseSession courseSession;
 
 
 	public long getId()
@@ -91,13 +90,13 @@ public class Client implements Serializable
 		this.email = email;
 	}
 
-	public long getCourseSessionId()
+	public CourseSession getCourseSession ()
 	{
-		return courseSessionId;
+		return courseSession;
 	}
 
-	public void setCourseSessionId(long courseSessionId)
+	public void setCourseSession (CourseSession courseSession)
 	{
-		this.courseSessionId = courseSessionId;
+		this.courseSession = courseSession;
 	}
 }

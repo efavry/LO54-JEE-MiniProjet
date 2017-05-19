@@ -1,9 +1,6 @@
 package com.github.lo54jeeminiprojet.miniprojet.Entity;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 import java.io.Serializable;
 import java.util.Date;
 
@@ -20,11 +17,14 @@ public class CourseSession implements Serializable
 
 	@Column(name="END_DATE",nullable = false)
 	private Date endDate;
-
-
-	private String courseCode;
-
-	private long locationId;
+	
+	@Column(name="COURSE_CODE", nullable = false)
+	@ManyToOne(cascade = CascadeType.ALL, fetch=FetchType.LAZY)
+	private Course course;
+	
+	@Column(name="LOCATION_ID", nullable = false)
+	@ManyToOne(cascade = CascadeType.ALL, fetch=FetchType.LAZY)
+	private Location location;
 
 
 	public long getId()
@@ -57,25 +57,25 @@ public class CourseSession implements Serializable
 		return endDate;
 	}
 
-	public void setCourseCode(String courseCode)
+	public void setCourse (Course course)
 	{
-		this.courseCode = courseCode;
+		this.course = course;
 	}
 
-	public String getCourseCode()
+	public Course getCourse ()
 	{
-		return courseCode;
+		return course;
 	}
 
-	public void setLocationId(long locationId)
+	public void setLocation (Location location)
 	{
-		this.locationId = locationId;
+		this.location = location;
 	}
 
-	public long getLocationId()
+	public Location getLocation ()
 	{
 
-		return locationId;
+		return location;
 	}
 
 }
