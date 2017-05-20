@@ -202,6 +202,8 @@
             <scope>test</scope>
         </dependency>
 
+
+        <!-- Messaging dep -->
         <!-- https://mvnrepository.com/artifact/javax.jms/jms -->
         <dependency>
             <groupId>javax.jms</groupId>
