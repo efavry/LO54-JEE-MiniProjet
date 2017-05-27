@@ -12,7 +12,7 @@
 	
     <modules>
         <module>core</module>
-        <module>broker_jms</module>
+        <module>jms</module>
     </modules>
 
     <packaging>pom</packaging>
