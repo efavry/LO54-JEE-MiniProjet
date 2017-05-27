@@ -38,12 +38,11 @@ public class JmsDao implements IPublisherDao {
             try {
                 Topic topic = session.createTopic(title);
                 topics.put(topicIdCounter, topic);
+                topicIdCounter++;
+                return topicIdCounter-1;
             } catch (JMSException e) {
                 throw new PublisherDaoException(e);
             }
-
-            topicIdCounter++;
-            return topicIdCounter-1;
         }
         return -1;
     }
