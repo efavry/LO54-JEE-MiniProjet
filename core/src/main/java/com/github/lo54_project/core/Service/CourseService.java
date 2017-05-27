@@ -1,8 +1,9 @@
-package com.github.lo54jeeminiprojet.miniprojet.Service;
+package com.github.lo54_project.core.Service;
 
-import com.github.lo54jeeminiprojet.miniprojet.Repository.CourseDao;
-import com.github.lo54jeeminiprojet.miniprojet.Entity.Client;
-import com.github.lo54jeeminiprojet.miniprojet.Entity.CourseSession;
+
+import com.github.lo54_project.core.Entity.Client;
+import com.github.lo54_project.core.Entity.CourseSession;
+import com.github.lo54_project.core.Repository.CourseDao;
 
 public class CourseService {
 

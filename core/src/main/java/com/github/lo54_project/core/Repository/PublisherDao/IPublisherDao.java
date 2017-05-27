@@ -1,7 +1,6 @@
-package com.github.lo54jeeminiprojet.miniprojet.Repository.PublisherDao;
+package com.github.lo54_project.core.Repository.PublisherDao;
 
-import com.github.lo54jeeminiprojet.miniprojet.Entity.Client;
-import com.github.lo54jeeminiprojet.miniprojet.Repository.PublisherDao.exceptions.PublisherDaoException;
+import com.github.lo54_project.core.Repository.PublisherDao.exceptions.PublisherDaoException;
 
 import java.io.Serializable;
 

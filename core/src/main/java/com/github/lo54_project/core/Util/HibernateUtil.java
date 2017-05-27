@@ -1,13 +1,12 @@
-package com.github.lo54jeeminiprojet.miniprojet.Util;
+package com.github.lo54_project.core.Util;
 
-import com.github.lo54jeeminiprojet.miniprojet.Entity.Client;
-import com.github.lo54jeeminiprojet.miniprojet.Entity.Course;
-import com.github.lo54jeeminiprojet.miniprojet.Entity.CourseSession;
-import com.github.lo54jeeminiprojet.miniprojet.Entity.Location;
+import com.github.lo54_project.core.Entity.Client;
+import com.github.lo54_project.core.Entity.Course;
+import com.github.lo54_project.core.Entity.CourseSession;
+import com.github.lo54_project.core.Entity.Location;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.AnnotationConfiguration;
-import org.hibernate.cfg.Configuration;
 
 public class HibernateUtil {
 

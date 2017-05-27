@@ -1,6 +1,6 @@
-package com.github.lo54jeeminiprojet.miniprojet.Repository.PublisherDao;
+package com.github.lo54_project.core.Repository.PublisherDao;
 
-import com.github.lo54jeeminiprojet.miniprojet.Repository.PublisherDao.exceptions.PublisherDaoException;
+import com.github.lo54_project.core.Repository.PublisherDao.exceptions.PublisherDaoException;
 import org.apache.activemq.ActiveMQConnectionFactory;
 
 import javax.jms.*;
@@ -29,7 +29,7 @@ public class JmsDao implements IPublisherDao {
     }
 
     @Override
-    public int addTopic(String title) throws PublisherDaoException{
+    public int addTopic(String title) throws PublisherDaoException {
         if(session!=null && title!= null && !title.isEmpty()) {
 
             if(topicIdCounter==Integer.MAX_VALUE)

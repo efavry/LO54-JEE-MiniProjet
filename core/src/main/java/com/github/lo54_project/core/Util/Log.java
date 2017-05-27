@@ -1,4 +1,4 @@
-package com.github.lo54jeeminiprojet.miniprojet.Util;
+package com.github.lo54_project.core.Util;
 
 
 import org.apache.log4j.Level;

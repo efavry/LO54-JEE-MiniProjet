@@ -1,4 +1,4 @@
-package com.github.lo54jeeminiprojet.miniprojet.Repository;
+package com.github.lo54_project.core.Repository;
 
 import org.hibernate.Session;
 

@@ -1,10 +1,10 @@
-package com.github.lo54jeeminiprojet.miniprojet.Service;
+package com.github.lo54_project.core.Service;
 
-import com.github.lo54jeeminiprojet.miniprojet.Entity.Client;
-import com.github.lo54jeeminiprojet.miniprojet.Repository.PublisherDao.IPublisherDao;
-import com.github.lo54jeeminiprojet.miniprojet.Repository.PublisherDao.JmsDao;
-import com.github.lo54jeeminiprojet.miniprojet.Repository.PublisherDao.exceptions.PublisherDaoException;
-import com.github.lo54jeeminiprojet.miniprojet.Service.exceptions.PublisherServiceException;
+import com.github.lo54_project.core.Entity.Client;
+import com.github.lo54_project.core.Repository.PublisherDao.IPublisherDao;
+import com.github.lo54_project.core.Repository.PublisherDao.JmsDao;
+import com.github.lo54_project.core.Repository.PublisherDao.exceptions.PublisherDaoException;
+import com.github.lo54_project.core.Service.exceptions.PublisherServiceException;
 
 import javax.jms.JMSException;
 import java.text.DateFormat;
