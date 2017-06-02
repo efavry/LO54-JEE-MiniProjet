@@ -12,12 +12,13 @@ public class Client implements Serializable
 
 	}
 
-	public Client(String firstName, String lastName, String address, String phoneNumber, String email){
+	public Client(String firstName, String lastName, String address, String phoneNumber, String email, CourseSession courseSession){
 		this.firstName=firstName;
 		this.lastName=lastName;
 		this.address=address;
 		this.phoneNumber=phoneNumber;
 		this.email=email;
+		this.courseSession = courseSession;
 	}
 
 	@Id private long id;
