@@ -1,6 +1,6 @@
-package com.github.lo54jeeminiprojet.miniprojet.Repository.PublisherDao;
+package com.github.lo54_project.app.repository.publisherdao;
 
-import com.github.lo54jeeminiprojet.miniprojet.Repository.PublisherDao.exceptions.PublisherDaoException;
+import com.github.lo54_project.app.repository.publisherdao.exceptions.PublisherDaoException;
 import org.apache.activemq.ActiveMQConnectionFactory;
 
 import javax.jms.*;

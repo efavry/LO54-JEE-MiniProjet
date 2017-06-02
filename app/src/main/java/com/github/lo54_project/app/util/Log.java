@@ -1,9 +1,8 @@
-package com.github.lo54jeeminiprojet.miniprojet.Util;
+package com.github.lo54_project.app.util;
 
 
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
-import org.apache.log4j.Priority;
 
 /**
  * Created by qsm on 05/05/17.

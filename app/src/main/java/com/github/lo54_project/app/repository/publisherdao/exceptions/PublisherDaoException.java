@@ -1,4 +1,4 @@
-package com.github.lo54jeeminiprojet.miniprojet.Repository.PublisherDao.exceptions;
+package com.github.lo54_project.app.repository.publisherdao.exceptions;
 
 /**
  * Created by Notmoo on 14/05/2017.

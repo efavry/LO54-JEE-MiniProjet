@@ -1,6 +1,6 @@
-package com.github.lo54jeeminiprojet.miniprojet.Service;
+package com.github.lo54_project.app.service;
 
-import com.github.lo54jeeminiprojet.miniprojet.Repository.ClientDao;
+import com.github.lo54_project.app.repository.ClientDao;
 
 public class ClientService {
 

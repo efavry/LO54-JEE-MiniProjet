@@ -1,13 +1,12 @@
-package com.github.lo54jeeminiprojet.miniprojet.Util;
+package com.github.lo54_project.app.util;
 
-import com.github.lo54jeeminiprojet.miniprojet.Entity.Client;
-import com.github.lo54jeeminiprojet.miniprojet.Entity.Course;
-import com.github.lo54jeeminiprojet.miniprojet.Entity.CourseSession;
-import com.github.lo54jeeminiprojet.miniprojet.Entity.Location;
+import com.github.lo54_project.app.entity.Client;
+import com.github.lo54_project.app.entity.Course;
+import com.github.lo54_project.app.entity.CourseSession;
+import com.github.lo54_project.app.entity.Location;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.AnnotationConfiguration;
-import org.hibernate.cfg.Configuration;
 
 public class HibernateUtil {
 
@@ -21,7 +20,7 @@ public class HibernateUtil {
 
 			//Create the SessionFactory from annotation
 			return new AnnotationConfiguration()
-					.addPackage("com.github.lo54jeeminiprojet.miniprojet.Entity")
+					.addPackage("com.github.lo54jeeminiprojet.miniprojet.entity")
 					.addAnnotatedClass(Client.class)
 					.addAnnotatedClass(Course.class)
 					.addAnnotatedClass(CourseSession.class)

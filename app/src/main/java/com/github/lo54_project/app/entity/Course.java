@@ -1,4 +1,4 @@
-package com.github.lo54jeeminiprojet.miniprojet.Entity;
+package com.github.lo54_project.app.entity;
 
 import java.io.Serializable;
 import javax.persistence.*;
