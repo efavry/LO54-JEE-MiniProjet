@@ -18,7 +18,7 @@ public class CourseService {
 		dao = new CourseDao();
 	}
 
-	public void registerClient(Client client, CourseSession session) {
+	public boolean registerClient(Client client, CourseSession session) {
         //TODO
 	}
 
