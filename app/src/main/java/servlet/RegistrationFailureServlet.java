@@ -13,10 +13,14 @@ import java.io.IOException;
 @WebServlet(name = "RegistrationFailureServlet", urlPatterns="/registration/fail")
 public class RegistrationFailureServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
+        executeServlet(request, response);
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        executeServlet(request, response);
+    }
 
+    private void executeServlet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException{
+        //TODO
     }
 }
