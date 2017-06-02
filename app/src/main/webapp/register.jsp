@@ -8,9 +8,49 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Title</title>
+    <%@ page import="java.text.SimpleDateFormat" %>
+    <%@ page import="com.github.lo54_project.app.entity.CourseSession" %>
+    <%@ page import="com.github.lo54_project.app.service.CourseService" %>
+    <title>Register</title>
 </head>
 <body>
+
+    <% if(request.getAttribute("ID")!=null){
+            CourseSession courseSession = new CourseService().getCourseSession(Integer.parseInt((String)request.getAttribute("ID")));
+            request.setAttribute("courseSession", courseSession);
+    %>
+
+        <p>
+            Course : ${courseSession.course.code}<br>
+            Date : <%new SimpleDateFormat("EEE, MMM d, HH:mm").format(courseSession.getStartDate());%><br>
+            Location : ${courseSession.location.city}<br>
+        </p>
+        <hr/>
+        <p>
+            <form action="/registration" method="post">
+            <fieldset>
+                <legend>Personal informations</legend>
+                First name:<br>
+                <input type="text" name="firstname"><br>
+                Last name:<br>
+                <input type="text" name="lastname"><br>
+                Address:<br>
+                <input type="text" name="address"><br>
+                Phone number:<br>
+                <input type="number" name="phone" maxlength="10"><br>
+                E-mail address:<br>
+                <input type="text" name="email"><br>
+
+                <input type="submit" value="Submit">
+                <input type="reset" value="Clear">
+            </fieldset>
+            </form>
+        </p>
+
+    <%}else{%>
+        Woops! It seems that your course's id wasn't recovered.<br>
+        Please go back to <a href="index.jsp">Course overview</a> or <a href="search.jsp">Course selection</a>.
+    <%}%>
 
 </body>
 </html>

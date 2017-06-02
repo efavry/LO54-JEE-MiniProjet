@@ -10,7 +10,6 @@
 <head>
     <%@ page import="java.text.SimpleDateFormat" %>
     <%@ page import="com.github.lo54_project.app.entity.CourseSession" %>
-    <%@ page import="com.github.lo54_project.app.entity.Course" %>
     <%@ page import="com.github.lo54_project.app.service.CourseService" %>
     <%@ page import="java.util.List" %>
     <title>Home</title>
@@ -18,18 +17,15 @@
 <body>
     <%
         /*
-            getNextCourses() : renvoie une liste de courses sessions, contenant la  prochaine session pour chacune des courses de la table.
-            getUnassignedCourses() : renvoie la liste des courses n'ayant aucune session de prévu
+            getNextCoursesSessions() : renvoie une liste de courses sessions, contenant la  prochaine session pour chacune des courses de la table.
          */
-        List<CourseSession> sessions = new CourseService().getNextCourses();
-        List<Course> unassignedCourses = new CourseService().getUnassignedCourses();
+        List<CourseSession> sessions = new CourseService().getNextCoursesSessions();
         request.setAttribute("sessions", sessions);
-        request.setAttribute("unassignedCourses", unassignedCourses);
     %>
 
     <h1>Course overview</h1>
 
-    <form action="/search.jsp">
+    <form action="/search.jsp" method="post">
         <input type="submit" value="Recherche...">
     </form>
     <div>
@@ -40,15 +36,10 @@
                     <c:forEach var="session" items="${sessions}">
                         <li>
                             <a href="register.jsp?ID=${session.id}">
-                                    ${session.course.title} : ${session.location.city}, at <%new SimpleDateFormat("EEE, MMM d, HH:mm").format(((CourseSession)pageContext.getAttribute("courseSession")).getStartDate())%>
+                                    ${session.course.title} : ${session.location.city}, at <%new SimpleDateFormat("EEE, MMM d, HH:mm").format(((CourseSession)pageContext.getAttribute("courseSession")).getStartDate());%>
                             </a>
                         </li>
                     </c:forEach>
-                    <c:forEach var="course" items="${unassignedCourses}">
-                    <li>
-                        ${course.title} : Aucune session planifiée
-                    </li>
-                </c:forEach>
                 </ul>
             </c:when>
             <c:otherwise>
