@@ -30,16 +30,17 @@
             <form action="/registration" method="post">
             <fieldset>
                 <legend>Personal informations</legend>
-                First name:<br>
-                <input type="text" name="firstname"><br>
-                Last name:<br>
-                <input type="text" name="lastname"><br>
-                Address:<br>
-                <input type="text" name="address"><br>
-                Phone number:<br>
-                <input type="number" name="phone" maxlength="10"><br>
-                E-mail address:<br>
-                <input type="text" name="email"><br>
+                First name:<br/>
+                <input type="text" name="firstname" required /><br/>
+                Last name:<br/>
+                <input type="text" name="lastname" required /><br/>
+                Address:<br/>
+                <input type="text" name="address" required /><br/>
+                Phone number:<br/>
+                <input type="number" name="phone" maxlength="10" required /><br/>
+                E-mail address:<br/>
+                <input type="text" name="email" /><br/>
+                <input type="hidden" name="session" value="${param.id}" required />
 
                 <input type="submit" value="Submit">
                 <input type="reset" value="Clear">
