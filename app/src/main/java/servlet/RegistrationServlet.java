@@ -1,5 +1,11 @@
 package servlet;
 
+import com.github.lo54_project.app.entity.Client;
+import com.github.lo54_project.app.entity.CourseSession;
+import com.github.lo54_project.app.service.ClientService;
+import com.github.lo54_project.app.service.CourseService;
+
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -21,6 +27,24 @@ public class RegistrationServlet extends HttpServlet {
     }
 
     private void executeServlet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException{
-        //TODO
+
+        String  firstname = (String)request.getAttribute("firstname"),
+                lastname = (String)request.getAttribute("lastname"),
+                address = (String)request.getAttribute("address"),
+                phone = (String)request.getAttribute("phone"),
+                email = (String)request.getAttribute("email");
+        Integer sessionId = Integer.parseInt((String)request.getAttribute("session"));
+
+        CourseService courseService = new CourseService();
+        Client client = new Client(firstname, lastname, address, phone, email);
+        CourseSession courseSession = courseService.getCourseSession(sessionId);
+
+        RequestDispatcher dispatcher;
+        if(courseService.registerClient(client, courseSession)){
+            dispatcher = request.getRequestDispatcher("/registration/success");
+        }else{
+            dispatcher = request.getRequestDispatcher("/registration/failure");
+        }
+        dispatcher.forward(request, response);
     }
 }
