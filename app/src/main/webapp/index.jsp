@@ -8,11 +8,11 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <%@ page import="" %> //Import course service
-    <%@ page import="" %> //Import course
-    <%@ page import="" %> //Import course session
-    <%@ page import="" %> //Import location
     <%@ page import="java.text.SimpleDateFormat" %>
+    <%@ page import="com.github.lo54_project.app.entity.CourseSession" %>
+    <%@ page import="com.github.lo54_project.app.entity.Course" %>
+    <%@ page import="com.github.lo54_project.app.service.CourseService" %>
+    <%@ page import="java.util.List" %>
     <title>Home</title>
 </head>
 <body>
