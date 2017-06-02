@@ -17,8 +17,7 @@ public class CourseService {
 		dao = new CourseDao();
 	}
 
-	public boolean registerClient(Client client, CourseSession session) {
-        client.setCourseSession(session);
+	public boolean registerClient(Client client) {
         return dao.saveClient(client);
 	}
 
@@ -45,7 +44,6 @@ public class CourseService {
         }
         return first;
     }
-
 
     public CourseSession getCourseSession(int id) {
         return dao.getCourseSession(id);

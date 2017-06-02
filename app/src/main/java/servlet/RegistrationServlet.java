@@ -2,8 +2,9 @@ package servlet;
 
 import com.github.lo54_project.app.entity.Client;
 import com.github.lo54_project.app.entity.CourseSession;
-import com.github.lo54_project.app.service.ClientService;
 import com.github.lo54_project.app.service.CourseService;
+import com.github.lo54_project.app.service.PublisherService;
+import com.github.lo54_project.app.service.exceptions.PublisherServiceException;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -34,17 +35,34 @@ public class RegistrationServlet extends HttpServlet {
                 phone = (String)request.getAttribute("phone"),
                 email = (String)request.getAttribute("email");
         Integer sessionId = Integer.parseInt((String)request.getAttribute("session"));
-
         CourseService courseService = new CourseService();
-        Client client = new Client(firstname, lastname, address, phone, email);
+        RequestDispatcher dispatcher;
         CourseSession courseSession = courseService.getCourseSession(sessionId);
 
-        RequestDispatcher dispatcher;
-        if(courseService.registerClient(client, courseSession)){
-            dispatcher = request.getRequestDispatcher("/registration/success");
-        }else{
+
+        if(courseSession!=null) {
+
+            Client client = new Client(firstname, lastname, address, phone, email, courseSession);
+
+            if (courseService.registerClient(client)) {
+                dispatcher = request.getRequestDispatcher("/registration/success");
+
+                try {
+                    //TODO Ajouter url broker
+                    PublisherService publisherService = new PublisherService(null);
+
+                    publisherService.startService();
+                    publisherService.publishRegistrationMessage(client);
+
+                } catch (PublisherServiceException e) {
+                    e.printStackTrace();
+                }
+            } else {
+                dispatcher = request.getRequestDispatcher("/registration/failure");
+            }
+        }else
             dispatcher = request.getRequestDispatcher("/registration/failure");
-        }
+
         dispatcher.forward(request, response);
     }
 }
