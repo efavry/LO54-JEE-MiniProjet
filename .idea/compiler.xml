@@ -8,7 +8,6 @@
         <outputRelativeToContentRoot value="true" />
         <module name="app" />
         <module name="broker_jms" />
-        <module name="MiniProjet" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
