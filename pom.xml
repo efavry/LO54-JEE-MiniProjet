@@ -4,22 +4,18 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.github.lo54-jee-miniprojet</groupId>
-    <artifactId>MiniProjet</artifactId>
+    <groupId>com.utbm.lo54</groupId>
+    <artifactId>projet</artifactId>
     <version>1.0-SNAPSHOT</version>
-
-    <name>MainAggregator</name>
-	
     <modules>
         <module>core</module>
         <module>jms</module>
+        <module>web</module>
     </modules>
-
     <packaging>pom</packaging>
 
     <description>A Small playground project for J2E</description>
     <url>https://github.com/efavry/LO54-JEE-MiniProjet</url>
-
 
     <prerequisites>
         <maven>3.0.1</maven>
@@ -57,4 +53,5 @@
             </plugin>
         </plugins>
     </build>
+
 </project>

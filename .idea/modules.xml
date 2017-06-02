@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/MiniProjet.iml" filepath="$PROJECT_DIR$/MiniProjet.iml" />
-      <module fileurl="file://$PROJECT_DIR$/broker_jms/broker_jms.iml" filepath="$PROJECT_DIR$/broker_jms/broker_jms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LO54-JEE-MiniProjet.iml" filepath="$PROJECT_DIR$/LO54-JEE-MiniProjet.iml" />
       <module fileurl="file://$PROJECT_DIR$/core/core.iml" filepath="$PROJECT_DIR$/core/core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jms/jms.iml" filepath="$PROJECT_DIR$/jms/jms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web/web.iml" filepath="$PROJECT_DIR$/web/web.iml" />
     </modules>
   </component>
 </project>
