@@ -21,8 +21,8 @@
             getNextCourses() : renvoie une liste de courses sessions, contenant la  prochaine session pour chacune des courses de la table.
             getUnassignedCourses() : renvoie la liste des courses n'ayant aucune session de prévu
          */
-        List<CourseSession> sessions = new CourseService.getNextCourses();
-        List<Course> unassignedCourses = new CourseService.getUnassignedCourses();
+        List<CourseSession> sessions = new CourseService().getNextCourses();
+        List<Course> unassignedCourses = new CourseService().getUnassignedCourses();
         request.setAttribute("sessions", sessions);
         request.setAttribute("unassignedCourses", unassignedCourses);
     %>
