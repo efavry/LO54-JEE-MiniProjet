@@ -25,7 +25,7 @@
 
         boolean hasKeyword = request.getAttribute("keywords")!=null && !((String)request.getAttribute("keywords")).isEmpty(),
                 hasDate = request.getAttribute("hasDate")!=null && !((String)request.getAttribute("date")).isEmpty(),
-                hasLocation = request.getAttribute("hasLocation")!=null && !((String)request.getAttribute("location")).isEmpty();
+                hasLocation = request.getAttribute("hasLocation")!=null && !((String)request.getAttribute("location")).equals(" -- ");
 
         List<CourseSession> rawSessionList = courseService.getAllCoursesSessions();
         List<CourseSession> sessionList = new ArrayList<>();
