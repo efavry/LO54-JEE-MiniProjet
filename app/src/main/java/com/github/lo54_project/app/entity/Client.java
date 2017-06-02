@@ -8,6 +8,18 @@ import java.io.Serializable;
 public class Client implements Serializable
 {
 
+	public Client(){
+
+	}
+
+	public Client(String firstName, String lastName, String address, String phoneNumber, String email){
+		this.firstName=firstName;
+		this.lastName=lastName;
+		this.address=address;
+		this.phoneNumber=phoneNumber;
+		this.email=email;
+	}
+
 	@Id private long id;
 
 	@Column(name="LASTNAME",nullable = false)
@@ -22,7 +34,7 @@ public class Client implements Serializable
 	@Column(name="PHONE",nullable = false)
 	private String phoneNumber;
 
-	@Column(name="EMAIL",nullable = false)
+	@Column(name="EMAIL")
 	private String email;
 	
 	
