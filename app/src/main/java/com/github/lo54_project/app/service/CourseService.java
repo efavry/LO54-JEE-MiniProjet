@@ -12,14 +12,14 @@ import java.util.List;
 public class CourseService {
 
 	private CourseDao dao;
-    private List<Location> allLocations;
 
     public CourseService(){
 		dao = new CourseDao();
 	}
 
 	public boolean registerClient(Client client, CourseSession session) {
-        //TODO
+        client.setCourseSession(session);
+        return dao.saveClient(client);
 	}
 
 	/**

@@ -1,5 +1,6 @@
 package com.github.lo54_project.app.repository;
 
+import com.github.lo54_project.app.entity.Client;
 import com.github.lo54_project.app.entity.Course;
 import com.github.lo54_project.app.entity.CourseSession;
 import com.github.lo54_project.app.entity.Location;
@@ -123,5 +124,34 @@ public class CourseDao {
             }
         }
         return null;
+    }
+
+    public boolean saveClient(Client client) {
+        Session session = HibernateUtil.getSessionFactory().openSession();
+        boolean reply;
+        try {
+            session.beginTransaction();
+            session.save(client);
+            reply = true;
+        } catch (HibernateException he) {
+            reply = false;
+            he.printStackTrace();
+            if (session.getTransaction() != null) {
+                try {
+                    session.getTransaction().rollback();
+                } catch (HibernateException he2) {
+                    he2.printStackTrace();
+                }
+            }
+        } finally {
+            if (session != null) {
+                try {
+                    session.close();
+                } catch (HibernateException ex) {
+                    ex.printStackTrace();
+                }
+            }
+        }
+        return reply;
     }
 }
