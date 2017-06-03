@@ -17,12 +17,10 @@ public class CourseSession implements Serializable
 
 	@Column(name="END_DATE",nullable = false)
 	private Date endDate;
-	
-	@Column(name="COURSE_CODE", nullable = false)
+
 	@ManyToOne(cascade = CascadeType.ALL, fetch=FetchType.LAZY)
 	private Course course;
-	
-	@Column(name="LOCATION_ID", nullable = false)
+
 	@ManyToOne(cascade = CascadeType.ALL, fetch=FetchType.LAZY)
 	private Location location;
 
