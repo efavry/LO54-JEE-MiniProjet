@@ -29,40 +29,46 @@ public class RegistrationServlet extends HttpServlet {
 
     private void executeServlet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException{
 
-        String  firstname = (String)request.getAttribute("firstname"),
-                lastname = (String)request.getAttribute("lastname"),
-                address = (String)request.getAttribute("address"),
-                phone = (String)request.getAttribute("phone"),
-                email = (String)request.getAttribute("email");
-        Integer sessionId = Integer.parseInt((String)request.getAttribute("session"));
-        CourseService courseService = new CourseService();
         RequestDispatcher dispatcher;
-        CourseSession courseSession = courseService.getCourseSession(sessionId);
+
+        if(request.getAttribute("session")!=null){
+            String  firstname = (String)request.getAttribute("firstname"),
+                    lastname = (String)request.getAttribute("lastname"),
+                    address = (String)request.getAttribute("address"),
+                    phone = (String)request.getAttribute("phone"),
+                    email = (String)request.getAttribute("email");
+            Integer sessionId = Integer.parseInt((String)request.getAttribute("session"));
+            CourseService courseService = new CourseService();
+            CourseSession courseSession = courseService.getCourseSession(sessionId);
 
 
-        if(courseSession!=null) {
+            if(courseSession!=null) {
 
-            Client client = new Client(firstname, lastname, address, phone, email, courseSession);
+                Client client = new Client(firstname, lastname, address, phone, email, courseSession);
 
-            if (courseService.registerClient(client)) {
-                dispatcher = request.getRequestDispatcher("/registration/success");
+                if (courseService.registerClient(client)) {
+                    dispatcher = request.getRequestDispatcher("/registration/success");
 
-                try {
-                    //TODO Ajouter url broker
-                    PublisherService publisherService = new PublisherService(null);
+                    try {
+                        PublisherService publisherService = new PublisherService("tcp://localhost:10000");
 
-                    publisherService.startService();
-                    publisherService.publishRegistrationMessage(client);
+                        publisherService.startService();
+                        publisherService.publishRegistrationMessage(client);
+                        publisherService.closeService();
 
-                } catch (PublisherServiceException e) {
-                    e.printStackTrace();
+                    } catch (PublisherServiceException e) {
+                        e.printStackTrace();
+                    }
+                } else {
+                    request.setAttribute("error", "Registration failed");
+                    dispatcher = request.getRequestDispatcher("/registration/failure");
                 }
-            } else {
-                request.setAttribute("error", "Registration failed");
+            }else{
+                request.setAttribute("error", "Invalid session specified");
                 dispatcher = request.getRequestDispatcher("/registration/failure");
             }
         }else{
-            request.setAttribute("error", "No sessions specified");
+            request.setAttribute("error", "No session specified");
             dispatcher = request.getRequestDispatcher("/registration/failure");
         }
 
