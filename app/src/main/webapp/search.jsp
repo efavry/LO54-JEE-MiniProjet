@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%--
   Created by IntelliJ IDEA.
   User: Guillaume
@@ -18,22 +19,23 @@
 </head>
 <body>
     <%
-        /*
-            getNextCoursesSessions() : renvoie une liste de courses rawSessionList, contenant la  prochaine session pour chacune des courses de la table.
-         */
         CourseService courseService = new CourseService();
 
         boolean hasKeyword = request.getAttribute("keywords")!=null && !((String)request.getAttribute("keywords")).isEmpty(),
                 hasDate = request.getAttribute("hasDate")!=null && !((String)request.getAttribute("date")).isEmpty(),
-                hasLocation = request.getAttribute("hasLocation")!=null && !((String)request.getAttribute("location")).equals(" -- ");
+                hasLocation = request.getAttribute("hasLocation")!=null && !(request.getAttribute("location")).equals(" -- ");
 
         List<CourseSession> rawSessionList = courseService.getAllCoursesSessions();
-        List<CourseSession> sessionList = new ArrayList<>();
-        List<CourseSession> toRemove = new ArrayList<>();
+        List<CourseSession> sessionList = new ArrayList<CourseSession>();
+        List<CourseSession> toRemove = new ArrayList<CourseSession>();
 
         if(hasKeyword){
-            for(String keyword : ((String)request.getAttribute("keywords")).split("\\s"))
-                rawSessionList.stream().filter(currentSession->currentSession.getCourse().getCode().contains(keyword)).forEach(currentSession->sessionList.add(currentSession));
+            for(String keyword : ((String)request.getAttribute("keywords")).split("\\s")) {
+                for(CourseSession currentSession : rawSessionList){
+                    if(currentSession.getCourse().getCode().contains(keyword))
+                        sessionList.add(currentSession);
+                }
+            }
         }
         if(hasDate){
             if(!sessionList.isEmpty()){
@@ -42,9 +44,10 @@
                         toRemove.add(currentSession);
                 }
             }else{
-                rawSessionList.stream()
-                        .filter(currentSession->new SimpleDateFormat("yyyy-MM-dd").format(currentSession.getStartDate()).compareTo((String)request.getAttribute("date"))==0)
-                        .forEach(currentSession->sessionList.add(currentSession));
+                for(CourseSession currentSession : rawSessionList){
+                    if(new SimpleDateFormat("yyyy-MM-dd").format(currentSession.getStartDate()).compareTo((String)request.getAttribute("date"))==0)
+                        sessionList.add(currentSession);
+                }
             }
         }
         if(hasLocation){
@@ -54,9 +57,10 @@
                         toRemove.add(currentSession);
                 }
             }else{
-                rawSessionList.stream()
-                        .filter(currentSession->currentSession.getLocation().getCity().equals(request.getAttribute("location")))
-                        .forEach(currentSession->sessionList.add(currentSession));
+                for(CourseSession currentSession : rawSessionList){
+                    if(currentSession.getLocation().getCity().equals(request.getAttribute("location")))
+                        sessionList.add(currentSession);
+                }
             }
         }
 
@@ -68,21 +72,29 @@
 
     <h1>Course overview</h1>
 
-    <form action="/search.jsp" method="post" id="searchForm">
+    <form action="<%=request.getContextPath()%>/search.jsp" method="post" id="searchForm">
 
         Keywords (separed by blanks) :
-        <input type="text" name="keywords"><br/>
+        <label>
+            <input type="text" name="keywords">
+        </label><br/>
 
         Date :
-        <input type="date" name="date"><br/>
+        <label>
+            <input type="date" name="date">
+        </label><br/>
 
         Location :
-        <select name="location" form="searchForm">
-            <option value="null"> -- </option>
-            <c:forEach var="location" items="${locations}">
-                <option value="${location.city}">${location.city}</option>
-            </c:forEach>
-        </select><br/>
+        <label>
+            <select name="location" form="searchForm">
+                <option value="null"> --</option>
+                <c:if test="${not empty locations}">
+                    <c:forEach var="location" items="${locations}">
+                        <option value="${location.city}"> ${location.city} </option>
+                    </c:forEach>
+                </c:if>
+            </select>
+        </label><br/>
 
         <input type="submit" value="Rechercher">
     </form>
@@ -93,7 +105,7 @@
                 <ul>
                     <c:forEach var="session" items="${sessions}">
                         <li>
-                            <a href="register.jsp?ID=${session.id}">
+                            <a href="<%=request.getContextPath()%>/register.jsp?ID=${session.id}">
                                     ${session.course.title} : ${session.location.city}, at <%new SimpleDateFormat("EEE, MMM d, HH:mm").format(((CourseSession)pageContext.getAttribute("courseSession")).getStartDate());%>
                             </a>
                         </li>

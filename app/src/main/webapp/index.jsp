@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%--
   Created by IntelliJ IDEA.
   User: Guillaume
@@ -19,24 +20,26 @@
         /*
             getNextCoursesSessions() : renvoie une liste de courses sessions, contenant la  prochaine session pour chacune des courses de la table.
          */
-        List<CourseSession> sessions = new CourseService().getNextCoursesSessions();
-        request.setAttribute("sessions", sessions);
+        List<CourseSession> courseSessions = new CourseService().getNextCoursesSessions();
+        request.setAttribute("courseSessions", courseSessions);
     %>
 
     <h1>Course overview</h1>
 
-    <form action="/search.jsp" method="post">
+    <form action="<%=request.getContextPath()%>/search.jsp" method="post">
         <input type="submit" value="Recherche...">
     </form>
     <div>
         <h2>Next courses</h2>
         <c:choose>
-            <c:when test="${not empty sessions}">
+            <c:when test="${not empty courseSessions}">
                 <ul>
-                    <c:forEach var="session" items="${sessions}">
+                    <c:forEach var="courseSession" items="${courseSessions}">
                         <li>
-                            <a href="register.jsp?ID=${session.id}">
-                                    ${session.course.title} : ${session.location.city}, at <%new SimpleDateFormat("EEE, MMM d, HH:mm").format(((CourseSession)pageContext.getAttribute("courseSession")).getStartDate());%>
+                            <a href="<%=request.getContextPath()%>/register.jsp?ID=${courseSession.id}">
+                                    <!-- ${courseSession.course.title} :
+                                     ${courseSession.location.city},
+                                     at <%new SimpleDateFormat("EEE, MMM d, HH:mm").format(((CourseSession)pageContext.getAttribute("courseSession")).getStartDate());%>-->
                             </a>
                         </li>
                     </c:forEach>

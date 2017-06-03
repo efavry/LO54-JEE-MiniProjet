@@ -26,31 +26,40 @@
             Location : ${courseSession.location.city}<br>
         </p>
         <hr/>
-        <p>
-            <form action="/registration" method="post">
+        <div>
+            <form action="<%=request.getContextPath()%>/registration" method="post">
             <fieldset>
                 <legend>Personal informations</legend>
                 First name:<br/>
-                <input type="text" name="firstname" required /><br/>
+                <label>
+                    <input type="text" name="firstname" required/>
+                </label><br/>
                 Last name:<br/>
-                <input type="text" name="lastname" required /><br/>
+                <label>
+                    <input type="text" name="lastname" required/>
+                </label><br/>
                 Address:<br/>
-                <input type="text" name="address" required /><br/>
+                <label>
+                    <input type="text" name="address" required/>
+                </label><br/>
                 Phone number:<br/>
-                <input type="number" name="phone" maxlength="10" required /><br/>
+                <label>
+                    <input type="number" name="phone" maxlength="10" required/>
+                </label><br/>
                 E-mail address:<br/>
-                <input type="text" name="email" /><br/>
+                <label>
+                    <input type="text" name="email"/>
+                </label><br/>
                 <input type="hidden" name="session" value="${param.id}" required />
 
                 <input type="submit" value="Submit">
                 <input type="reset" value="Clear">
             </fieldset>
             </form>
-        </p>
-
+        </div>
     <%}else{%>
         Woops! It seems that your course's id wasn't recovered.<br>
-        Please go back to <a href="index.jsp">Course overview</a> or <a href="search.jsp">Course selection</a>.
+        Please go back to <a href="<%=request.getContextPath()%>/index.jsp">Course overview</a> or <a href="<%=request.getContextPath()%>/search.jsp">Course selection</a>.
     <%}%>
 
 </body>
