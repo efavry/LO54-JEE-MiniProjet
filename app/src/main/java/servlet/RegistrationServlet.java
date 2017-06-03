@@ -58,10 +58,13 @@ public class RegistrationServlet extends HttpServlet {
                     e.printStackTrace();
                 }
             } else {
+                request.setAttribute("error", "Registration failed");
                 dispatcher = request.getRequestDispatcher("/registration/failure");
             }
-        }else
+        }else{
+            request.setAttribute("error", "No sessions specified");
             dispatcher = request.getRequestDispatcher("/registration/failure");
+        }
 
         dispatcher.forward(request, response);
     }
