@@ -12,7 +12,7 @@ import com.github.lo54_project.app.repository.LocationDao;
  */
 public class CourseSessionService
 {
-    CourseSessionDao dao;
+    private CourseSessionDao dao;
     public CourseSessionService()
     {
         dao = new CourseSessionDao();
@@ -21,18 +21,12 @@ public class CourseSessionService
     public Course getCourse(CourseSession courseSession)
     {
         CourseDao courseDao = new CourseDao(dao.getOpenedSession());
-        //we re-get a coursession because there is a lot of chance coursession was
-        // lazily fetched from a previous session
-        //and i don't want to use Hibernate.initialize()
         return courseDao.get(dao.get(courseSession.getId()).getCourse().getCode());
     }
 
     public Location getLocation(CourseSession courseSession)
     {
         LocationDao locationDao = new LocationDao(dao.getOpenedSession());
-        //we re-get a coursession because there is a lot of chance coursession was
-        // lazily fetched from a previous session
-        //and i don't want to use Hibernate.initialize()
         return locationDao.get(dao.get(courseSession.getId()).getLocation().getId());
     }
 }

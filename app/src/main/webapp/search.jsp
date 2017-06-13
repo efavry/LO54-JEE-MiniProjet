@@ -8,6 +8,7 @@
     <%@ page import="java.text.SimpleDateFormat" %>
     <%@ page import="java.util.List" %>
     <%@ page import="java.util.ArrayList" %>
+    <%@ page import="org.apache.commons.lang3.StringUtils" %>
     <title>Search</title>
     <link rel="stylesheet" href="assets/css/main.css" />
 </head>
@@ -15,42 +16,47 @@
     <%
         CourseService courseService = new CourseService();
 
-        boolean hasKeyword = request.getAttribute("keywords")!=null && !((String)request.getAttribute("keywords")).isEmpty(),
-                hasDate = request.getAttribute("hasDate")!=null && !((String)request.getAttribute("date")).isEmpty(),
-                hasLocation = request.getAttribute("hasLocation")!=null && !(request.getAttribute("location")).equals(" -- ");
+        String keywords = request.getParameter("keywords");
+        String dateASString = request.getParameter("hasDate");
+        String locationAsString = request.getParameter("hasLocation");
 
         List<CourseSession> rawSessionList = courseService.getAllCoursesSessions();
         List<CourseSession> sessionList = new ArrayList<CourseSession>();
         List<CourseSession> toRemove = new ArrayList<CourseSession>();
 
-        if(hasKeyword){
-            for(String keyword : ((String)request.getAttribute("keywords")).split("\\s")) {
-                for(CourseSession currentSession : rawSessionList){
+        if(StringUtils.isNotEmpty(keywords))
+            for(String keyword : keywords.split("\\s"))
+                for(CourseSession currentSession : rawSessionList)
                     if(currentSession.getCourse().getCode().contains(keyword))
                         sessionList.add(currentSession);
-                }
-            }
-        }
-        if(hasDate){
-            if(!sessionList.isEmpty()){
-                for(CourseSession currentSession : sessionList){
-                    if( new SimpleDateFormat("yyyy-MM-dd").format(currentSession.getStartDate()).compareTo((String)request.getAttribute("date"))!=0)
+
+
+
+
+        if(StringUtils.isNotEmpty(dateASString))
+        {
+            if(!sessionList.isEmpty())
+            {
+                for(CourseSession currentSession : sessionList)
+                    if( new SimpleDateFormat("yyyy-MM-dd").format(currentSession.getStartDate()).compareTo(dateASString)!=0)
                         toRemove.add(currentSession);
-                }
-            }else{
-                for(CourseSession currentSession : rawSessionList){
-                    if(new SimpleDateFormat("yyyy-MM-dd").format(currentSession.getStartDate()).compareTo((String)request.getAttribute("date"))==0)
-                        sessionList.add(currentSession);
-                }
             }
+            else
+                for(CourseSession currentSession : rawSessionList)
+                    if(new SimpleDateFormat("yyyy-MM-dd").format(currentSession.getStartDate()).compareTo(dateASString)==0)
+                        sessionList.add(currentSession);
         }
-        if(hasLocation){
-            if(!sessionList.isEmpty()){
+
+        if(StringUtils.isNotEmpty(locationAsString) && !StringUtils.equalsIgnoreCase(locationAsString," -- "))
+        {
+            if(!sessionList.isEmpty())
+            {
                 for(CourseSession currentSession : sessionList){
                     if( !currentSession.getLocation().getCity().equals(request.getAttribute("location")))
                         toRemove.add(currentSession);
                 }
-            }else{
+            }
+            else{
                 for(CourseSession currentSession : rawSessionList){
                     if(currentSession.getLocation().getCity().equals(request.getAttribute("location")))
                         sessionList.add(currentSession);
