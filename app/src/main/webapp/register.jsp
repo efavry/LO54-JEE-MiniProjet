@@ -26,7 +26,7 @@
         </p>
         <hr/>
         <div>
-            <form action="<%=request.getContextPath()%>/registration" method="post">
+            <form action="<%=request.getContextPath()%>/registration" method="get">
             <fieldset>
                 <legend>Personal informations</legend>
                 First name:
@@ -49,8 +49,7 @@
                 <label>
                     <input type="text" name="email"/>
                 </label>
-                <input type="hidden" name="session" value="${param.id}" required />
-
+                <input type="hidden" name="sessionId" value="<%=request.getParameter("id")%>" required />
                 <input type="submit" value="Submit">
                 <input type="reset" value="Clear">
             </fieldset>

@@ -23,23 +23,30 @@
   </servlet>
 
 
+  <servlet>
+    <servlet-name>RegistrationServlet</servlet-name>
+    <jsp-file>/registration.jsp</jsp-file>
+  </servlet>
+
+
   <servlet-mapping>
     <servlet-name>IndexServlet</servlet-name>
     <url-pattern>/index</url-pattern>
   </servlet-mapping>
-
-
 
   <servlet-mapping>
     <servlet-name>RegisterServlet</servlet-name>
     <url-pattern>/register</url-pattern>
   </servlet-mapping>
 
-
-
   <servlet-mapping>
     <servlet-name>SearchServlet</servlet-name>
     <url-pattern>/search</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>RegistrationServlet</servlet-name>
+    <url-pattern>/registration</url-pattern>
   </servlet-mapping>
 
   <resource-ref>

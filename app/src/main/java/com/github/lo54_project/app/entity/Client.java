@@ -12,7 +12,8 @@ public class Client implements Serializable,IEntity
 
 	}
 
-	public Client(String firstName, String lastName, String address, String phoneNumber, String email, CourseSession courseSession){
+	public Client(String firstName, String lastName, String address, String phoneNumber, String email, CourseSession courseSession)
+	{
 		this.firstName=firstName;
 		this.lastName=lastName;
 		this.address=address;
