@@ -56,10 +56,15 @@
             </fieldset>
             </form>
         </div>
-    <%}else{%>
+    <%
+    }
+    else
+    {%>
         Woops! It seems that your course's id wasn't recovered.<br>
-        Please go back to <a href="<%=request.getContextPath()%>/index.jsp">Course overview</a> or <a href="<%=request.getContextPath()%>/search.jsp">Course selection</a>.
-    <%}%>
+        Please go back to <a href="<%=request.getContextPath()%>/index.jsp">Course overview</a> or <a href="<%=request.getContextPath()%>/search">Course selection</a>.
+    <%
+    }
+    %>
 
 </body>
 </html>
