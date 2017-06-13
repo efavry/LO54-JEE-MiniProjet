@@ -6,24 +6,26 @@ import java.util.Date;
 
 
 @Entity
-@Table(name="COURSE_SESSION")
-public class CourseSession implements Serializable
+@Table(name="COURSE_SESSION", schema = "ADMIN")
+public class CourseSession implements Serializable,IEntity
 {
 
-	@Id private long id;
+	@Id
+	@Column(name="ID")
+	private long id;
 
-	@Column(name="START_DATE",nullable = false)
+	@Column(name="START_DATE",nullable = false, columnDefinition = "date")
 	private Date startDate;
 
-	@Column(name="END_DATE",nullable = false)
+	@Column(name="END_DATE",nullable = false, columnDefinition = "date")
 	private Date endDate;
-	
-	@Column(name="COURSE_CODE", nullable = false)
+
 	@ManyToOne(cascade = CascadeType.ALL, fetch=FetchType.LAZY)
+	@JoinColumn(name="COURSE_CODE")
 	private Course course;
-	
-	@Column(name="LOCATION_ID", nullable = false)
+
 	@ManyToOne(cascade = CascadeType.ALL, fetch=FetchType.LAZY)
+	@JoinColumn(name="LOCATION_ID")
 	private Location location;
 
 
