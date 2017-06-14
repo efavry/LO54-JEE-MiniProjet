@@ -11,7 +11,7 @@ import java.io.PrintWriter;
 /**
  * Created by Notmoo on 02/06/2017.
  */
-@WebServlet(name = "RegistrationFailureServlet", urlPatterns="/registration/fail")
+@WebServlet(name = "RegistrationFailureServlet", value="/registration/failure")
 public class RegistrationFailureServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         executeServlet(request, response);
@@ -28,7 +28,7 @@ public class RegistrationFailureServlet extends HttpServlet {
             PrintWriter out = response.getWriter();
             out.print("<html><head><title>");
             out.print("Error");
-            out.print("</title></head><body>");
+            out.print("</title><link rel=\"stylesheet\" href=\"assets/css/main.css\" /></head><body>");
             if(request.getAttribute("error")!=null && !((String)request.getAttribute("error")).isEmpty()) {
                 out.print("An error occured during registration : ");
                 out.print((String)request.getAttribute("error"));

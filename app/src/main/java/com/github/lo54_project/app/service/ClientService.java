@@ -14,11 +14,20 @@ public class ClientService
 		this.dao = new ClientDao();
 	}
 
-	public void createClient(String firstName, String lastName, String address, String phoneNumber, String email, long sessionId)
+	public Client createClient(String firstName, String lastName, String address, String phoneNumber, String email, long sessionId)
 	{
-		CourseSessionDao courseSessionDao = new CourseSessionDao(dao.getOpenedSession());
-		Client client = new Client(firstName,lastName,address,phoneNumber,email,courseSessionDao.get(sessionId));
-		dao.save(client);
+		try
+		{
+			CourseSessionDao courseSessionDao = new CourseSessionDao(dao.getOpenedSession());
+			Client client = new Client(firstName,lastName,address,phoneNumber,email,courseSessionDao.get(sessionId));
+			dao.save(client);
+			return client;
+		}
+		catch (Exception ex)
+		{
+			return null;
+		}
+
 	}
 
 }

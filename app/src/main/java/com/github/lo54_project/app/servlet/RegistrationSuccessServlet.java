@@ -27,7 +27,7 @@ public class RegistrationSuccessServlet extends javax.servlet.http.HttpServlet {
             PrintWriter out = response.getWriter();
             out.print("<html><head><title>");
             out.print("Registered!");
-            out.print("</title></head><body>");
+            out.print("</title><link rel=\"stylesheet\" href=\"assets/css/main.css\" /></head><body>");
             out.print("Registration was made successfully<br/><br/>");
             out.print("<a href=\"");
             out.print(request.getContextPath());
