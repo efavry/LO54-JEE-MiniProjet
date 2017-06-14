@@ -7,7 +7,7 @@ import java.io.Serializable;
 
 public interface IPublisherDao
 {
-    public boolean publishText(int topicID, String text) throws PublisherDaoException;
+    public boolean publishText(String topic, String text) throws PublisherDaoException;
     public boolean startConnection();
     public boolean closeConnection();
 

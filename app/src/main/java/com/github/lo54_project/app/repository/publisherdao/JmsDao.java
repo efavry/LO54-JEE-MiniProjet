@@ -11,8 +11,6 @@ public class JmsDao implements IPublisherDao {
     private TopicConnection connection;
     private TopicSession session;
 
-    private Topic registrationTopic;
-
     public JmsDao() throws JMSException {
         this(null);
     }
@@ -22,29 +20,28 @@ public class JmsDao implements IPublisherDao {
             url=ActiveMQConnectionFactory.DEFAULT_BROKER_URL;
         connectionFactory = new ActiveMQConnectionFactory(url);
         connection = null;
-
-        registrationTopic = null;
     }
 
     @Override
-    public boolean publishText(int topicID, String text) throws PublisherDaoException{
+    public boolean publishText(String topic, String text) throws PublisherDaoException{
         if(session == null)
             return false;
 
         try {
             TextMessage msg = session.createTextMessage(text);
-            return publishMessage(msg);
+            return publishMessage(topic, msg);
         } catch (JMSException e) {
             throw new PublisherDaoException(e);
         }
     }
 
-    private boolean publishMessage(Message message) throws PublisherDaoException {
-        if(registrationTopic == null || session==null)
+    private boolean publishMessage(String topic, Message message) throws PublisherDaoException {
+        if(topic == null || session==null)
             return false;
 
         try {
-            TopicPublisher publisher = session.createPublisher(registrationTopic);
+            Topic jmsTopic = session.createTopic("topic");
+            TopicPublisher publisher = session.createPublisher(jmsTopic);
             publisher.send(message);
             return true;
         } catch (JMSException e) {
@@ -58,9 +55,6 @@ public class JmsDao implements IPublisherDao {
             connection = connectionFactory.createTopicConnection();
             session = connection.createTopicSession(false, Session.AUTO_ACKNOWLEDGE);
 
-            // create the Topic to which messages will be sent
-            registrationTopic = session.createTopic("topic");
-
             return true;
         } catch (JMSException e) {
             e.printStackTrace();
@@ -71,7 +65,6 @@ public class JmsDao implements IPublisherDao {
     @Override
     public boolean closeConnection() {
         try {
-            registrationTopic=null;
             session.close();
             connection.close();
             return true;
