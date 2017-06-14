@@ -50,7 +50,7 @@ public class RegistrationServlet extends HttpServlet {
                     dispatcher = request.getRequestDispatcher("/registration/success");
 
                     try {
-                        PublisherService publisherService = new PublisherService("tcp://localhost:10000");
+                        PublisherService publisherService = new PublisherService("tcp://localhost:61616");
 
                         publisherService.startService();
                         publisherService.publishRegistrationMessage(client);

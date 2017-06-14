@@ -18,24 +18,17 @@ public class PublisherService {
 	public PublisherService(String url) throws PublisherServiceException {
 		try {
 			dao = new JmsDao(url);
-			registrationTopicID = dao.addTopic("LO54_JEE/PROJECT_JMS/COURSES/REGISTRATION");
 		}catch(JMSException e){
-			throw new PublisherServiceException("Error during initialization", e);
-		}catch(PublisherDaoException e){
 			throw new PublisherServiceException("Error during initialization", e);
 		}
 	}
 
-	public void startService() {
-		dao.startConnection();
+	public boolean startService() {
+		return dao.startConnection();
 	}
 
-	public void stopService() {
-		dao.stopConnection();
-	}
-
-	public void closeService() {
-		dao.closeConnection();
+	public boolean closeService() {
+		return dao.closeConnection();
 	}
 
 	public boolean publishRegistrationMessage(Client client) {
