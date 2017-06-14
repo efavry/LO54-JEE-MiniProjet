@@ -9,8 +9,4 @@ public interface IJMSBroker {
     void waitUntilStarted();
     void stop() throws Exception;
     void waitUntilStopped();
-    void setName(String name);
-    String getName();
-    void setId(String id);
-    boolean addConnector(String protocol, String address, int port);
 }
