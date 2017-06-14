@@ -148,7 +148,7 @@
         </dependency>
 
         <!--db-->
-
+<!--
         <dependency>
             <groupId>org.apache.derby</groupId>
             <artifactId>derbyclient</artifactId>
@@ -178,7 +178,7 @@
             <artifactId>hibernate-annotations</artifactId>
             <version>${hibernate-core.version}</version>
         </dependency>
-
+-->
         <!--
         <dependency>
             <groupId>javax.persistence</groupId>

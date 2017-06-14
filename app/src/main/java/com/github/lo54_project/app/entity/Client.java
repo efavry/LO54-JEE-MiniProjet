@@ -4,15 +4,16 @@ import javax.persistence.*;
 import java.io.Serializable;
 
 @Entity
-@Table(name="CLIENT")
-public class Client implements Serializable
+@Table(name="CLIENT", schema = "ADMIN")
+public class Client implements Serializable,IEntity
 {
 
 	public Client(){
 
 	}
 
-	public Client(String firstName, String lastName, String address, String phoneNumber, String email, CourseSession courseSession){
+	public Client(String firstName, String lastName, String address, String phoneNumber, String email, CourseSession courseSession)
+	{
 		this.firstName=firstName;
 		this.lastName=lastName;
 		this.address=address;
@@ -21,7 +22,9 @@ public class Client implements Serializable
 		this.courseSession = courseSession;
 	}
 
-	@Id private long id;
+	@Id
+	@Column(name="ID")
+	private long id;
 
 	@Column(name="LASTNAME",nullable = false)
 	private String lastName;
@@ -39,10 +42,19 @@ public class Client implements Serializable
 	private String email;
 	
 	
+	 /*@ManyToOne(cascade = CascadeType.ALL, fetch=FetchType.LAZY)
+	 @JoinColumn(name="COURSE_SESSION_ID")
+	 @JoinTable(name="COURSE_SESSION",
+	 joinColumns = @JoinColumn(name="COURSE_SESSION_ID")
+	 )
+	 @OneToOne
+	 @Column(name="COURSE_SESSION_ID")
+	 @JoinColumn(name="COURSE_SESSION_ID")*/
 	/**
 	 * TODO : This doc
 	 */
-	@ManyToOne(cascade = CascadeType.ALL, fetch=FetchType.LAZY)
+	@ManyToOne(cascade = CascadeType.ALL, fetch=FetchType.EAGER)
+    @JoinColumn(name="COURSE_SESSION_ID")
 	private CourseSession courseSession;
 
 

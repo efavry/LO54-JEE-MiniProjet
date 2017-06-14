@@ -1,11 +1,4 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<%--
-  Created by IntelliJ IDEA.
-  User: Guillaume
-  Date: 02/06/2017
-  Time: 17:30
-  To change this template use File | Settings | File Templates.
---%>
 <html>
 <head>
     <%@ page contentType="text/html;charset=UTF-8" language="java" %>
@@ -15,71 +8,135 @@
     <%@ page import="java.text.SimpleDateFormat" %>
     <%@ page import="java.util.List" %>
     <%@ page import="java.util.ArrayList" %>
+    <%@ page import="org.apache.commons.lang3.StringUtils" %>
+    <%@ page import="com.github.lo54_project.app.entity.Course" %>
+    <%@ page import="com.github.lo54_project.app.entity.Location" %>
     <title>Search</title>
+    <link rel="stylesheet" href="assets/css/main.css" />
 </head>
 <body>
+
+    <%!
+        private String buildSessionList(String contextPath,List<CourseSession> sessionsList)
+        {
+            StringBuilder builder = new StringBuilder();
+            String simpleForm ="";
+            if(!sessionsList.isEmpty())
+            {
+
+                builder.append("<h2>Results</h2>\n<ul>");
+                for(CourseSession session : sessionsList)
+                {
+                    builder.append("<li>\n<a href=\"");
+                    builder.append(contextPath);
+                    builder.append("/register?id=");
+                    builder.append(session.getId());
+                    builder.append("\">");
+                    builder.append(session.getCourse().getTitle());
+                    builder.append(" : ");
+                    builder.append(session.getLocation().getCity());
+                    builder.append(" at ");
+                    builder.append(new SimpleDateFormat("EEE, MMM d, HH:mm").format(session.getStartDate()));
+                    builder.append("</a>\n</li>");
+                }
+                builder.append("</ul>");
+                simpleForm = builder.toString();
+            }
+            else
+            {
+                simpleForm = "No results";
+            }
+            return simpleForm;
+        }
+
+        private String buildLocationList(List<Location> locations)
+        {
+            StringBuilder builder = new StringBuilder();
+                if(!locations.isEmpty())
+                    for( Location location : locations)
+                    {
+                        builder.append("<option value=\"");
+                        builder.append(location.getCity());
+                        builder.append("\">");
+                        builder.append(location.getCity());
+                        builder.append("</option>");
+                    }
+
+            return builder.toString();
+        }
+
+    %>
+
     <%
         CourseService courseService = new CourseService();
 
-        boolean hasKeyword = request.getAttribute("keywords")!=null && !((String)request.getAttribute("keywords")).isEmpty(),
-                hasDate = request.getAttribute("hasDate")!=null && !((String)request.getAttribute("date")).isEmpty(),
-                hasLocation = request.getAttribute("hasLocation")!=null && !(request.getAttribute("location")).equals(" -- ");
+        String keywords = request.getParameter("keywords");
+        String dateASString = request.getParameter("date");
+        String locationAsString = request.getParameter("location");
 
         List<CourseSession> rawSessionList = courseService.getAllCoursesSessions();
         List<CourseSession> sessionList = new ArrayList<CourseSession>();
         List<CourseSession> toRemove = new ArrayList<CourseSession>();
 
-        if(hasKeyword){
-            for(String keyword : ((String)request.getAttribute("keywords")).split("\\s")) {
-                for(CourseSession currentSession : rawSessionList){
-                    if(currentSession.getCourse().getCode().contains(keyword))
+        if(StringUtils.isNotEmpty(keywords))
+            for(String keyword : keywords.split("\\s"))
+                for(CourseSession currentSession : rawSessionList)
+                {
+                    Course course = currentSession.getCourse();
+                    String courseCode = course.getCode();
+                    String courseTitle = course.getTitle();
+                    if(courseCode.contains(keyword) || StringUtils.containsIgnoreCase(courseTitle,keyword))
                         sessionList.add(currentSession);
                 }
+
+
+
+
+        if(StringUtils.isNotEmpty(dateASString))
+        {
+            if(!sessionList.isEmpty())
+            {
+                for(CourseSession currentSession : sessionList)
+                    if( new SimpleDateFormat("yyyy-MM-dd").format(currentSession.getStartDate()).compareTo(dateASString)!=0)
+                        toRemove.add(currentSession);
             }
+            else
+                for(CourseSession currentSession : rawSessionList)
+                    if(new SimpleDateFormat("yyyy-MM-dd").format(currentSession.getStartDate()).compareTo(dateASString)==0)
+                        sessionList.add(currentSession);
         }
-        if(hasDate){
-            if(!sessionList.isEmpty()){
-                for(CourseSession currentSession : sessionList){
-                    if( new SimpleDateFormat("yyyy-MM-dd").format(currentSession.getStartDate()).compareTo((String)request.getAttribute("date"))!=0)
+
+        if(StringUtils.isNotEmpty(locationAsString) && !StringUtils.equalsIgnoreCase(locationAsString,"-1")) //we should use id, it would be less ugly
+        {
+            if(!sessionList.isEmpty())
+            {
+                for(CourseSession currentSession : sessionList)
+                {
+                    if( !currentSession.getLocation().getCity().equals(locationAsString))
                         toRemove.add(currentSession);
                 }
-            }else{
-                for(CourseSession currentSession : rawSessionList){
-                    if(new SimpleDateFormat("yyyy-MM-dd").format(currentSession.getStartDate()).compareTo((String)request.getAttribute("date"))==0)
-                        sessionList.add(currentSession);
-                }
             }
-        }
-        if(hasLocation){
-            if(!sessionList.isEmpty()){
-                for(CourseSession currentSession : sessionList){
-                    if( !currentSession.getLocation().getCity().equals(request.getAttribute("location")))
-                        toRemove.add(currentSession);
-                }
-            }else{
-                for(CourseSession currentSession : rawSessionList){
-                    if(currentSession.getLocation().getCity().equals(request.getAttribute("location")))
+            else
+            {
+                for(CourseSession currentSession : rawSessionList)
+                    if(currentSession.getLocation().getCity().equals(locationAsString))
                         sessionList.add(currentSession);
-                }
             }
         }
 
         sessionList.removeAll(toRemove);
-
-        request.setAttribute("sessions", sessionList);
-        request.setAttribute("locations", courseService.getAllLocations());
     %>
 
     <h1>Course overview</h1>
 
-    <form action="<%=request.getContextPath()%>/search.jsp" method="post" id="searchForm">
+    <form action="<%=request.getContextPath()%>/search" method="get" id="searchForm">
 
         Keywords (separed by blanks) :
         <label>
             <input type="text" name="keywords">
         </label><br/>
 
-        Date :
+        Date (ex : 2017-06-23) :
         <label>
             <input type="date" name="date">
         </label><br/>
@@ -87,35 +144,15 @@
         Location :
         <label>
             <select name="location" form="searchForm">
-                <option value="null"> --</option>
-                <c:if test="${not empty locations}">
-                    <c:forEach var="location" items="${locations}">
-                        <option value="${location.city}"> ${location.city} </option>
-                    </c:forEach>
-                </c:if>
+                <option value="-1"> --</option>
+                <%=buildLocationList(courseService.getAllLocations())%>
             </select>
         </label><br/>
 
-        <input type="submit" value="Rechercher">
+        <input type="submit" value="Search">
     </form>
     <div>
-        <c:choose>
-            <c:when test="${not empty sessions}">
-                <h2>Results</h2>
-                <ul>
-                    <c:forEach var="session" items="${sessions}">
-                        <li>
-                            <a href="<%=request.getContextPath()%>/register.jsp?ID=${session.id}">
-                                    ${session.course.title} : ${session.location.city}, at <%new SimpleDateFormat("EEE, MMM d, HH:mm").format(((CourseSession)pageContext.getAttribute("courseSession")).getStartDate());%>
-                            </a>
-                        </li>
-                    </c:forEach>
-                </ul>
-            </c:when>
-            <c:otherwise>
-                Erreur lors du chargement de la liste -> Demerdenzizich
-            </c:otherwise>
-        </c:choose>
+        <%=buildSessionList(request.getContextPath(),sessionList)%>
     </div>
 </body>
 </html>

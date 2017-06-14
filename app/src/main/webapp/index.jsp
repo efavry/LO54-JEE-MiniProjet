@@ -1,11 +1,4 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<%--
-  Created by IntelliJ IDEA.
-  User: Guillaume
-  Date: 02/06/2017
-  Time: 17:31
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
@@ -13,42 +6,63 @@
     <%@ page import="com.github.lo54_project.app.entity.CourseSession" %>
     <%@ page import="com.github.lo54_project.app.service.CourseService" %>
     <%@ page import="java.util.List" %>
+    <%@ page import="com.github.lo54_project.app.repository.CourseDao" %>
+    <%@ page import="com.github.lo54_project.app.entity.Location" %>
+    <%@ page import="com.github.lo54_project.app.repository.LocationDao" %>
+    <%@ page import="com.github.lo54_project.app.service.CourseSessionService" %>
     <title>Home</title>
+    <link rel="stylesheet" href="assets/css/main.css" />
 </head>
 <body>
     <%
         /*
             getNextCoursesSessions() : renvoie une liste de courses sessions, contenant la  prochaine session pour chacune des courses de la table.
          */
-        List<CourseSession> courseSessions = new CourseService().getNextCoursesSessions();
-        request.setAttribute("courseSessions", courseSessions);
+        List<CourseSession> coursesSessions = new CourseService().getNextCoursesSessions();
+        //request.setAttribute("courseSessions", coursesSessions);
+        String dynContent = "";
+
+        if(coursesSessions != null && !coursesSessions.isEmpty())
+        {
+            //CourseDao courseDao = new CourseDao();
+            //LocationDao locationDao = new LocationDao(courseDao.get
+            CourseSessionService courseSessionService = new CourseSessionService();
+            StringBuilder builder = new StringBuilder();
+            for (CourseSession courseSession : coursesSessions)
+            {
+                builder.append("<li>\n");
+                builder.append("   <a href=");
+                builder.append(request.getContextPath());
+                builder.append("/register?id=");
+                builder.append(courseSession.getId());
+                builder.append(">");
+                builder.append("\n");
+                builder.append(/*courseSessionService.getCourse(*/courseSession.getCourse().getTitle());
+                builder.append(":");
+                builder.append(courseSessionService.getLocation(courseSession).getCity());
+                builder.append(" at ");
+                builder.append(new SimpleDateFormat("EEE, MMM d, HH:mm").format(courseSession.getStartDate()));
+                builder.append("\n");
+                builder.append("   </a>\n</li>");
+            }
+            dynContent = builder.toString();
+            //((CourseSession)pageContext.getAttribute("courseSession")).getStartDate()
+        }
+        else
+        {
+            dynContent = "Erreur lors du chargement de la liste";
+        }
+        //request.setAttribute("dynContent",dynContent);
+        pageContext.setAttribute("dynContent", dynContent);
+
     %>
 
-    <h1>Course overview</h1>
-
-    <form action="<%=request.getContextPath()%>/search.jsp" method="post">
+    <form action="<%=request.getContextPath()%>/search" method="post">
         <input type="submit" value="Recherche...">
     </form>
     <div>
         <h2>Next courses</h2>
-        <c:choose>
-            <c:when test="${not empty courseSessions}">
-                <ul>
-                    <c:forEach var="courseSession" items="${courseSessions}">
-                        <li>
-                            <a href="<%=request.getContextPath()%>/register.jsp?ID=${courseSession.id}">
-                                    <!-- ${courseSession.course.title} :
-                                     ${courseSession.location.city},
-                                     at <%new SimpleDateFormat("EEE, MMM d, HH:mm").format(((CourseSession)pageContext.getAttribute("courseSession")).getStartDate());%>-->
-                            </a>
-                        </li>
-                    </c:forEach>
-                </ul>
-            </c:when>
-            <c:otherwise>
-                Erreur lors du chargement de la liste -> Demerdenzizich
-            </c:otherwise>
-        </c:choose>
+        <%= dynContent%>
     </div>
 </body>
 </html>

@@ -7,8 +7,8 @@ import javax.persistence.Table;
 import java.io.Serializable;
 
 @Entity
-@Table(name="LOCATION")
-public class Location implements Serializable
+@Table(name="LOCATION", schema = "ADMIN")
+public class Location implements Serializable,IEntity
 {
 	@Id
 	private long id;
