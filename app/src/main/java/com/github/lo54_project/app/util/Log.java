@@ -4,9 +4,7 @@ package com.github.lo54_project.app.util;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 
-/**
- * Created by qsm on 05/05/17.
- */
+
 public class Log
 {
 

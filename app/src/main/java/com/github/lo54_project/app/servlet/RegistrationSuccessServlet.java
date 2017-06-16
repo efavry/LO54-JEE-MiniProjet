@@ -7,9 +7,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-/**
- * Created by Notmoo on 02/06/2017.
- */
+
 @WebServlet(name = "RegistrationSuccessServlet", urlPatterns="/registration/success")
 public class RegistrationSuccessServlet extends javax.servlet.http.HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

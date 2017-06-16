@@ -31,20 +31,6 @@ public class HibernateUtil {
 			return null;
 		}
 
-		/*try
-		{
-		// Create the SessionFactory from hibernate.cfg.xml
-			//return new Configuration().configure().buildSessionFactory();
-
-			//Create the SessionFactory from annotation
-			return new AnnotationConfiguration().configure().buildSessionFactory();
-		}
-        catch (ClassFormatError ex)
-		{
-			System.err.println("Initial SessionFactory creation failed." + ex);
-			Log.error(HibernateUtil.class,"Initial SessionFactory creation failed." + ex);
-			throw new ExceptionInInitializerError(ex);
-		}*/
 	}
 
 	public static boolean persist(Session session, Object o)

@@ -1,8 +1,6 @@
 package com.github.lo54_project.app.service.exceptions;
 
-/**
- * Created by Notmoo on 14/05/2017.
- */
+
 public class PublisherServiceException extends Exception {
 
     public PublisherServiceException(String message){

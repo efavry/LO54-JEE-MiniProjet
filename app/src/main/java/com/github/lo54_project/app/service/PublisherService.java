@@ -42,7 +42,6 @@ public class PublisherService {
 		}
 	}
 
-	//ça me semble bien
 	private String generateRegistrationMessage(Client client){
 		DateFormat dateFormat = new SimpleDateFormat("EEE, MMM d, HH:mm");
 		return String.format("%s %s just registered to course %s, at %s in %s", client.getLastName(), client.getFirstName(), client.getCourseSession().getCourse().getTitle(), dateFormat.format(client.getCourseSession().getStartDate()), client.getCourseSession().getLocation().getCity());
