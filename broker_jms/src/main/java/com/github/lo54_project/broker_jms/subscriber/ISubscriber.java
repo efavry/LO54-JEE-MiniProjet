@@ -1,4 +1,4 @@
-package com.github.lo54_project.subscriber;
+package com.github.lo54_project.broker_jms.subscriber;
 
 import javax.jms.MessageListener;
 import java.io.Serializable;

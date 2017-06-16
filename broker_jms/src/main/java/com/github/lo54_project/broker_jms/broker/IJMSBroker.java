@@ -1,4 +1,4 @@
-package com.github.lo54_project.broker;
+package com.github.lo54_project.broker_jms.broker;
 
 public interface IJMSBroker {
 

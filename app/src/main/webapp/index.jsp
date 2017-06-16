@@ -6,9 +6,6 @@
     <%@ page import="com.github.lo54_project.app.entity.CourseSession" %>
     <%@ page import="com.github.lo54_project.app.service.CourseService" %>
     <%@ page import="java.util.List" %>
-    <%@ page import="com.github.lo54_project.app.repository.CourseDao" %>
-    <%@ page import="com.github.lo54_project.app.entity.Location" %>
-    <%@ page import="com.github.lo54_project.app.repository.LocationDao" %>
     <%@ page import="com.github.lo54_project.app.service.CourseSessionService" %>
     <title>Home</title>
     <link rel="stylesheet" href="assets/css/main.css" />

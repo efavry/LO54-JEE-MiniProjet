@@ -1,5 +1,6 @@
-package com.github.lo54_project.broker;
+package com.github.lo54_project.broker_jms.broker;
 
+import com.github.lo54_project.broker_jms.broker.IJMSBroker;
 import org.apache.activemq.broker.BrokerFactory;
 import org.apache.activemq.broker.BrokerService;
 
@@ -9,7 +10,8 @@ import java.util.Formatter;
 /**
  * Created by Notmoo on 27/05/2017.
  */
-public class ActiveMQJMSBroker implements IJMSBroker{
+public class ActiveMQJMSBroker implements IJMSBroker
+{
 
     private BrokerService broker;
 

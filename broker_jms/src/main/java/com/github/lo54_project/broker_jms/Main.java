@@ -1,9 +1,10 @@
-package com.github.lo54_project;
+package com.github.lo54_project.broker_jms;
 
-import com.github.lo54_project.broker.ActiveMQJMSBroker;
-import com.github.lo54_project.broker.IJMSBroker;
-import com.github.lo54_project.subscriber.ActiveMQSubscriber;
-import com.github.lo54_project.subscriber.ISubscriber;
+
+import com.github.lo54_project.broker_jms.broker.ActiveMQJMSBroker;
+import com.github.lo54_project.broker_jms.broker.IJMSBroker;
+import com.github.lo54_project.broker_jms.subscriber.ActiveMQSubscriber;
+import com.github.lo54_project.broker_jms.subscriber.ISubscriber;
 import javafx.application.Application;
 import javafx.application.Platform;
 import javafx.scene.Scene;
@@ -15,9 +16,6 @@ import org.apache.activemq.ActiveMQConnectionFactory;
 import javax.jms.JMSException;
 import javax.jms.TextMessage;
 
-/**
- * Created by Notmoo on 03/06/2017.
- */
 public class Main extends Application{
     public static void main(String[] args){
         launch();
