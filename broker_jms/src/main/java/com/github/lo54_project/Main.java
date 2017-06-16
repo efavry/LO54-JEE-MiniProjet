@@ -14,6 +14,7 @@ import org.apache.activemq.ActiveMQConnectionFactory;
 
 import javax.jms.JMSException;
 import javax.jms.TextMessage;
+import java.net.Inet4Address;
 
 /**
  * Created by Notmoo on 03/06/2017.
@@ -57,14 +58,16 @@ public class Main extends Application{
 
         try {
             String topic = "topic";
-            String url = "tcp://localhost:61616";
+            String clientUrl = "tcp://"+ Inet4Address.getLocalHost().getHostAddress()+":61616";
+            String brokerConnectorUrl = "tcp://0.0.0.0:61616";
 
-            broker = new ActiveMQJMSBroker(url);
+            appendLine("Attempting to start broker");
+            broker = new ActiveMQJMSBroker(brokerConnectorUrl);
             broker.start();
             broker.waitUntilStarted();
-            appendLine("Broker started on '"+url+"'");
+            appendLine("Broker started on '"+brokerConnectorUrl+"'");
             try {
-                subscriber = new ActiveMQSubscriber();
+                subscriber = new ActiveMQSubscriber(clientUrl);
                 if(subscriber.startConnection()) {
                     subscriber.subscribe(topic, message -> {
                         if (TextMessage.class.isInstance(message)) {
@@ -78,9 +81,9 @@ public class Main extends Application{
                             appendLine("incoming message : " + message.toString());
                         }
                     });
-                    appendLine("Subscribed to '"+topic+"' on '"+url+"' successfully");
+                    appendLine("Subscribed to '"+topic+"' on '"+clientUrl+"' successfully");
                 }else{
-                    appendLine("Failed to subscribe to '"+topic+"' on '"+url+"'");
+                    appendLine("Failed to subscribe to '"+topic+"' on '"+clientUrl+"'");
                 }
             } catch (Exception e) {
                 e.printStackTrace();
