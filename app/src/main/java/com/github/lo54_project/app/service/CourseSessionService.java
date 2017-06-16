@@ -7,9 +7,6 @@ import com.github.lo54_project.app.repository.CourseDao;
 import com.github.lo54_project.app.repository.CourseSessionDao;
 import com.github.lo54_project.app.repository.LocationDao;
 
-/**
- * Created by qsm on 12/06/17.
- */
 public class CourseSessionService
 {
     private CourseSessionDao dao;
