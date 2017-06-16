@@ -40,19 +40,7 @@ public class Client implements Serializable,IEntity
 
 	@Column(name="EMAIL")
 	private String email;
-	
-	
-	 /*@ManyToOne(cascade = CascadeType.ALL, fetch=FetchType.LAZY)
-	 @JoinColumn(name="COURSE_SESSION_ID")
-	 @JoinTable(name="COURSE_SESSION",
-	 joinColumns = @JoinColumn(name="COURSE_SESSION_ID")
-	 )
-	 @OneToOne
-	 @Column(name="COURSE_SESSION_ID")
-	 @JoinColumn(name="COURSE_SESSION_ID")*/
-	/**
-	 * TODO : This doc
-	 */
+
 	@ManyToOne(cascade = CascadeType.ALL, fetch=FetchType.EAGER)
     @JoinColumn(name="COURSE_SESSION_ID")
 	private CourseSession courseSession;
