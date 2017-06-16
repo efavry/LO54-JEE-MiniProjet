@@ -21,14 +21,7 @@ public class HibernateUtil {
 			//return new Configuration().configure().buildSessionFactory();
 
 			//Create the SessionFactory from annotation
-			return new AnnotationConfiguration()
-					.addPackage("com.github.lo54jeeminiprojet.miniprojet.entity")
-					.addAnnotatedClass(Client.class)
-					.addAnnotatedClass(Course.class)
-					.addAnnotatedClass(CourseSession.class)
-					.addAnnotatedClass(Location.class)
-					.configure()
-					.buildSessionFactory();
+			return new AnnotationConfiguration().configure().buildSessionFactory();
 		}
 		catch (ClassFormatError ex)
 		{

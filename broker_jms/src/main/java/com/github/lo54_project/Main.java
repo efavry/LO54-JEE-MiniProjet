@@ -10,6 +10,7 @@ import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.layout.BorderPane;
 import javafx.stage.Stage;
+import org.apache.activemq.ActiveMQConnectionFactory;
 
 import javax.jms.JMSException;
 import javax.jms.TextMessage;
@@ -23,21 +24,20 @@ public class Main extends Application{
     }
 
     private TextArea textArea;
-    private IJMSBroker broker;
     private ISubscriber subscriber;
+    private IJMSBroker broker;
 
     @Override
     public void start(Stage primaryStage) throws Exception {
         BorderPane mainPane = new BorderPane();
         textArea = new TextArea();
         textArea.setWrapText(true);
+        textArea.setEditable(false);
         mainPane.setCenter(textArea);
 
         primaryStage.setOnCloseRequest((event)->{
             if(subscriber!=null){
                 subscriber.closeConnection();
-            }
-            if(broker!=null){
                 try {
                     broker.stop();
                 } catch (Exception e) {
@@ -54,30 +54,36 @@ public class Main extends Application{
     }
 
     private void initJMS(){
-        broker = new ActiveMQJMSBroker();
+
         try {
-            broker.setName("lo54_jms_broker");
-            broker.addConnector("tcp", "localhost", 10000);
+            String topic = "topic";
+            String url = "tcp://localhost:61616";
+
+            broker = new ActiveMQJMSBroker(url);
             broker.start();
-            appendLine("JSM broker started");
+            broker.waitUntilStarted();
+            appendLine("Broker started on '"+url+"'");
+            try {
+                subscriber = new ActiveMQSubscriber();
+                if(subscriber.startConnection()) {
+                    subscriber.subscribe(topic, message -> {
+                        if (TextMessage.class.isInstance(message)) {
+                            try {
+                                appendLine("incoming text message : " + ((TextMessage) message).getText());
+                            } catch (JMSException e) {
+                                appendLine(e.getMessage());
+                            }
 
-            subscriber = new ActiveMQSubscriber("tcp://localhost:10000");
-            if(subscriber.startConnection()) {
-                subscriber.subscribe("lo54/subscription", message -> {
-                    if (TextMessage.class.isInstance(message)) {
-                        try {
-                            appendLine("incoming text message : " + ((TextMessage) message).getText());
-                        } catch (JMSException e) {
-                            appendLine(e.getMessage());
+                        } else {
+                            appendLine("incoming message : " + message.toString());
                         }
-
-                    } else {
-                        appendLine("incoming message : " + message.toString());
-                    }
-                });
-                appendLine("Subscribed to 'lo54/subscription' on 'tcp://localhost:10000' successfully");
-            }else{
-                appendLine("Failed to subscribe to 'lo54/subscription' on 'tcp://localhost:10000'");
+                    });
+                    appendLine("Subscribed to '"+topic+"' on '"+url+"' successfully");
+                }else{
+                    appendLine("Failed to subscribe to '"+topic+"' on '"+url+"'");
+                }
+            } catch (Exception e) {
+                e.printStackTrace();
             }
         } catch (Exception e) {
             e.printStackTrace();
