@@ -28,10 +28,10 @@ public class RegistrationFailureServlet extends HttpServlet {
             out.print("Error");
             out.print("</title><link rel=\"stylesheet\" href=\"assets/css/main.css\" /></head><body>");
             if(request.getAttribute("error")!=null && !((String)request.getAttribute("error")).isEmpty()) {
-                out.print("An error occured during registration : ");
+                out.print("An error occurred during registration : ");
                 out.print((String)request.getAttribute("error"));
             }else{
-                out.print("An unspecified error occured during registration");
+                out.print("An unspecified error occurred during registration");
             }
             out.print("<br/><br/>");
             out.print("<a href=\"");

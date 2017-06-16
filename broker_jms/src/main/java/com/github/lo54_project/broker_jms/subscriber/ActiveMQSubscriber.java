@@ -3,12 +3,7 @@ package com.github.lo54_project.broker_jms.subscriber;
 import org.apache.activemq.ActiveMQConnectionFactory;
 
 import javax.jms.*;
-import java.util.HashMap;
-import java.util.Map;
 
-/**
- * Created by Notmoo on 27/05/2017.
- */
 public class ActiveMQSubscriber implements ISubscriber {
 
     private TopicConnectionFactory connectionFactory;
