@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rpt="http://openoffice.org/2005/report" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:officeooo="http://openoffice.org/2009/office" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:css3t="http://www.w3.org/TR/css3-text/" office:version="1.2" office:mimetype="application/vnd.oasis.opendocument.text">
- <office:meta><meta:creation-date>2017-06-09T20:00:01.362000000</meta:creation-date><dc:date>2017-06-20T11:07:23.471944413</dc:date><meta:editing-duration>PT7H32M14S</meta:editing-duration><meta:editing-cycles>210</meta:editing-cycles><meta:generator>LibreOffice/5.2.6.2$Linux_X86_64 LibreOffice_project/20m0$Build-2</meta:generator><meta:document-statistic meta:table-count="1" meta:image-count="4" meta:object-count="0" meta:page-count="9" meta:paragraph-count="126" meta:word-count="2834" meta:character-count="18523" meta:non-whitespace-character-count="15806"/></office:meta>
+ <office:meta><meta:creation-date>2017-06-09T20:00:01.362000000</meta:creation-date><dc:date>2017-06-20T11:25:54.481927026</dc:date><meta:editing-duration>PT7H46M56S</meta:editing-duration><meta:editing-cycles>213</meta:editing-cycles><meta:generator>LibreOffice/5.2.6.2$Linux_X86_64 LibreOffice_project/20m0$Build-2</meta:generator><meta:document-statistic meta:table-count="1" meta:image-count="4" meta:object-count="0" meta:page-count="9" meta:paragraph-count="126" meta:word-count="2832" meta:character-count="18522" meta:non-whitespace-character-count="15808"/></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
-   <config:config-item config:name="ViewAreaTop" config:type="long">6625</config:config-item>
+   <config:config-item config:name="ViewAreaTop" config:type="long">235887</config:config-item>
    <config:config-item config:name="ViewAreaLeft" config:type="long">0</config:config-item>
    <config:config-item config:name="ViewAreaWidth" config:type="long">26550</config:config-item>
-   <config:config-item config:name="ViewAreaHeight" config:type="long">24028</config:config-item>
+   <config:config-item config:name="ViewAreaHeight" config:type="long">23088</config:config-item>
    <config:config-item config:name="ShowRedlineChanges" config:type="boolean">true</config:config-item>
    <config:config-item config:name="InBrowseMode" config:type="boolean">false</config:config-item>
    <config:config-item-map-indexed config:name="Views">
     <config:config-item-map-entry>
      <config:config-item config:name="ViewId" config:type="string">view2</config:config-item>
-     <config:config-item config:name="ViewLeft" config:type="long">10379</config:config-item>
-     <config:config-item config:name="ViewTop" config:type="long">251622</config:config-item>
+     <config:config-item config:name="ViewLeft" config:type="long">17829</config:config-item>
+     <config:config-item config:name="ViewTop" config:type="long">251088</config:config-item>
      <config:config-item config:name="VisibleLeft" config:type="long">0</config:config-item>
-     <config:config-item config:name="VisibleTop" config:type="long">6625</config:config-item>
+     <config:config-item config:name="VisibleTop" config:type="long">235887</config:config-item>
      <config:config-item config:name="VisibleRight" config:type="long">26548</config:config-item>
-     <config:config-item config:name="VisibleBottom" config:type="long">30651</config:config-item>
+     <config:config-item config:name="VisibleBottom" config:type="long">258972</config:config-item>
      <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
      <config:config-item config:name="ViewLayoutColumns" config:type="short">1</config:config-item>
      <config:config-item config:name="ViewLayoutBookMode" config:type="boolean">false</config:config-item>
@@ -69,7 +69,7 @@
    <config:config-item config:name="InvertBorderSpacing" config:type="boolean">false</config:config-item>
    <config:config-item config:name="SaveGlobalDocumentLinks" config:type="boolean">false</config:config-item>
    <config:config-item config:name="TabsRelativeToIndent" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="Rsid" config:type="int">16014330</config:config-item>
+   <config:config-item config:name="Rsid" config:type="int">16042806</config:config-item>
    <config:config-item config:name="PrintProspectRTL" config:type="boolean">false</config:config-item>
    <config:config-item config:name="PrintEmptyPages" config:type="boolean">false</config:config-item>
    <config:config-item config:name="ApplyUserData" config:type="boolean">true</config:config-item>
@@ -446,182 +446,189 @@
    <style:text-properties fo:font-size="11pt" officeooo:rsid="0027d31f" officeooo:paragraph-rsid="00ecd04a" style:font-size-asian="11pt" style:font-size-complex="11pt"/>
   </style:style>
   <style:style style:name="P40" style:family="paragraph" style:parent-style-name="Text_20_body">
-   <style:text-properties fo:font-size="11pt" fo:font-style="normal" officeooo:rsid="00ad0a31" officeooo:paragraph-rsid="00ad0a31" style:font-size-asian="11pt" style:font-style-asian="normal" style:font-size-complex="11pt" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-size="11pt" officeooo:rsid="00ecd04a" officeooo:paragraph-rsid="00ecd04a" style:font-size-asian="11pt" style:font-size-complex="11pt"/>
   </style:style>
   <style:style style:name="P41" style:family="paragraph" style:parent-style-name="Text_20_body">
-   <style:text-properties fo:font-size="11pt" fo:font-style="normal" officeooo:rsid="00705a92" officeooo:paragraph-rsid="00705a92" style:font-size-asian="11pt" style:font-style-asian="normal" style:font-size-complex="11pt" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-size="11pt" fo:font-style="normal" officeooo:rsid="00ad0a31" officeooo:paragraph-rsid="00ad0a31" style:font-size-asian="11pt" style:font-style-asian="normal" style:font-size-complex="11pt" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="P42" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:text-properties fo:font-size="11pt" fo:font-style="normal" officeooo:rsid="00705a92" officeooo:paragraph-rsid="00705a92" style:font-size-asian="11pt" style:font-style-asian="normal" style:font-size-complex="11pt" style:font-style-complex="normal"/>
+  </style:style>
+  <style:style style:name="P43" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:text-properties fo:font-size="11pt" fo:font-style="normal" officeooo:rsid="00ecd04a" officeooo:paragraph-rsid="00ecd04a" style:font-size-asian="11pt" style:font-style-asian="normal" style:font-size-complex="11pt" style:font-style-complex="normal"/>
+  </style:style>
+  <style:style style:name="P44" style:family="paragraph" style:parent-style-name="Text_20_body">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties officeooo:rsid="0089e9be" officeooo:paragraph-rsid="0089e9be"/>
   </style:style>
-  <style:style style:name="P43" style:family="paragraph" style:parent-style-name="Text_20_body">
+  <style:style style:name="P45" style:family="paragraph" style:parent-style-name="Text_20_body">
    <style:text-properties officeooo:rsid="00d4d852" officeooo:paragraph-rsid="00d4d852"/>
   </style:style>
-  <style:style style:name="P44" style:family="paragraph" style:parent-style-name="Text_20_body">
+  <style:style style:name="P46" style:family="paragraph" style:parent-style-name="Text_20_body">
    <style:text-properties officeooo:paragraph-rsid="00d561c6"/>
   </style:style>
-  <style:style style:name="P45" style:family="paragraph" style:parent-style-name="Text_20_body">
+  <style:style style:name="P47" style:family="paragraph" style:parent-style-name="Text_20_body">
    <style:text-properties officeooo:rsid="00dd7d31" officeooo:paragraph-rsid="00dd7d31"/>
   </style:style>
-  <style:style style:name="P46" style:family="paragraph" style:parent-style-name="Text_20_body">
+  <style:style style:name="P48" style:family="paragraph" style:parent-style-name="Text_20_body">
    <style:text-properties fo:color="#ff3333" fo:font-style="italic" fo:font-weight="bold" officeooo:rsid="00dd8dda" officeooo:paragraph-rsid="00de32b8" style:font-style-asian="italic" style:font-weight-asian="bold" style:font-style-complex="italic" style:font-weight-complex="bold"/>
   </style:style>
-  <style:style style:name="P47" style:family="paragraph" style:parent-style-name="Text_20_body">
+  <style:style style:name="P49" style:family="paragraph" style:parent-style-name="Text_20_body">
    <style:text-properties fo:color="#ff3333" fo:font-style="normal" fo:font-weight="bold" officeooo:rsid="00dd8dda" officeooo:paragraph-rsid="00dd8dda" style:font-style-asian="normal" style:font-weight-asian="bold" style:font-style-complex="normal" style:font-weight-complex="bold"/>
   </style:style>
-  <style:style style:name="P48" style:family="paragraph" style:parent-style-name="Text_20_body">
+  <style:style style:name="P50" style:family="paragraph" style:parent-style-name="Text_20_body">
    <style:text-properties fo:color="#ff3333" fo:font-style="normal" fo:font-weight="bold" officeooo:rsid="00dd8dda" officeooo:paragraph-rsid="00de64df" style:font-style-asian="normal" style:font-weight-asian="bold" style:font-style-complex="normal" style:font-weight-complex="bold"/>
   </style:style>
-  <style:style style:name="P49" style:family="paragraph" style:parent-style-name="Text_20_body">
+  <style:style style:name="P51" style:family="paragraph" style:parent-style-name="Text_20_body">
    <style:text-properties fo:color="#ff3333" fo:font-style="normal" fo:font-weight="bold" officeooo:rsid="00dd7d31" officeooo:paragraph-rsid="00de32b8" style:font-style-asian="normal" style:font-weight-asian="bold" style:font-style-complex="normal" style:font-weight-complex="bold"/>
   </style:style>
-  <style:style style:name="P50" style:family="paragraph" style:parent-style-name="Text_20_body">
+  <style:style style:name="P52" style:family="paragraph" style:parent-style-name="Text_20_body">
    <style:text-properties fo:color="#ff3333" fo:font-style="normal" fo:font-weight="bold" officeooo:rsid="00dd7d31" officeooo:paragraph-rsid="00de64df" style:font-style-asian="normal" style:font-weight-asian="bold" style:font-style-complex="normal" style:font-weight-complex="bold"/>
   </style:style>
-  <style:style style:name="P51" style:family="paragraph" style:parent-style-name="Text_20_body">
+  <style:style style:name="P53" style:family="paragraph" style:parent-style-name="Text_20_body">
    <style:text-properties fo:color="#000000" fo:font-style="italic" fo:font-weight="normal" officeooo:rsid="00dd8dda" officeooo:paragraph-rsid="00dd8dda" style:font-style-asian="italic" style:font-weight-asian="normal" style:font-style-complex="italic" style:font-weight-complex="normal"/>
   </style:style>
-  <style:style style:name="P52" style:family="paragraph" style:parent-style-name="Text_20_body">
+  <style:style style:name="P54" style:family="paragraph" style:parent-style-name="Text_20_body">
    <style:text-properties fo:color="#000000" fo:font-style="italic" fo:font-weight="normal" officeooo:rsid="00de64df" officeooo:paragraph-rsid="00de64df" style:font-style-asian="italic" style:font-weight-asian="normal" style:font-style-complex="italic" style:font-weight-complex="normal"/>
   </style:style>
-  <style:style style:name="P53" style:family="paragraph" style:parent-style-name="Text_20_body">
+  <style:style style:name="P55" style:family="paragraph" style:parent-style-name="Text_20_body">
    <style:text-properties fo:color="#000000" fo:font-style="normal" fo:font-weight="normal" officeooo:rsid="00dd8dda" officeooo:paragraph-rsid="00dd8dda" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-style-complex="normal" style:font-weight-complex="normal"/>
   </style:style>
-  <style:style style:name="P54" style:family="paragraph" style:parent-style-name="Text_20_body">
+  <style:style style:name="P56" style:family="paragraph" style:parent-style-name="Text_20_body">
    <style:text-properties fo:color="#000000" fo:font-style="normal" fo:font-weight="normal" officeooo:rsid="00dd8dda" officeooo:paragraph-rsid="00de32b8" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-style-complex="normal" style:font-weight-complex="normal"/>
   </style:style>
-  <style:style style:name="P55" style:family="paragraph" style:parent-style-name="Text_20_body">
+  <style:style style:name="P57" style:family="paragraph" style:parent-style-name="Text_20_body">
    <style:text-properties fo:color="#000000" fo:font-style="normal" fo:font-weight="normal" officeooo:rsid="00de64df" officeooo:paragraph-rsid="00de32b8" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-style-complex="normal" style:font-weight-complex="normal"/>
   </style:style>
-  <style:style style:name="P56" style:family="paragraph" style:parent-style-name="Text_20_body">
+  <style:style style:name="P58" style:family="paragraph" style:parent-style-name="Text_20_body">
    <style:text-properties officeooo:paragraph-rsid="00de64df"/>
   </style:style>
-  <style:style style:name="P57" style:family="paragraph" style:parent-style-name="Text_20_body">
+  <style:style style:name="P59" style:family="paragraph" style:parent-style-name="Text_20_body">
    <style:text-properties officeooo:rsid="00def9a9" officeooo:paragraph-rsid="00def9a9"/>
   </style:style>
-  <style:style style:name="P58" style:family="paragraph" style:parent-style-name="Heading">
+  <style:style style:name="P60" style:family="paragraph" style:parent-style-name="Heading">
    <style:text-properties officeooo:rsid="0069d51a" officeooo:paragraph-rsid="0069d51a"/>
   </style:style>
-  <style:style style:name="P59" style:family="paragraph" style:parent-style-name="Heading">
+  <style:style style:name="P61" style:family="paragraph" style:parent-style-name="Heading">
    <style:text-properties officeooo:rsid="00aa9e8a" officeooo:paragraph-rsid="00aa9e8a"/>
   </style:style>
-  <style:style style:name="P60" style:family="paragraph" style:parent-style-name="Heading">
+  <style:style style:name="P62" style:family="paragraph" style:parent-style-name="Heading">
    <style:text-properties fo:font-size="11pt" officeooo:rsid="00aa9e8a" officeooo:paragraph-rsid="00aa9e8a" style:font-size-asian="11pt" style:font-size-complex="11pt"/>
   </style:style>
-  <style:style style:name="P61" style:family="paragraph" style:parent-style-name="Heading">
+  <style:style style:name="P63" style:family="paragraph" style:parent-style-name="Heading">
    <style:text-properties officeooo:rsid="001e4cc6" officeooo:paragraph-rsid="001e4cc6"/>
   </style:style>
-  <style:style style:name="P62" style:family="paragraph" style:parent-style-name="Table_20_Contents">
+  <style:style style:name="P64" style:family="paragraph" style:parent-style-name="Table_20_Contents">
    <style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
    <style:text-properties officeooo:rsid="0079a18b" officeooo:paragraph-rsid="0079a18b" fo:background-color="transparent"/>
   </style:style>
-  <style:style style:name="P63" style:family="paragraph" style:parent-style-name="Table_20_Contents">
+  <style:style style:name="P65" style:family="paragraph" style:parent-style-name="Table_20_Contents">
    <style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
    <style:text-properties officeooo:rsid="007d1e09" officeooo:paragraph-rsid="007d1e09"/>
   </style:style>
-  <style:style style:name="P64" style:family="paragraph" style:parent-style-name="Illustration_20_Index_20_1">
+  <style:style style:name="P66" style:family="paragraph" style:parent-style-name="Illustration_20_Index_20_1">
    <style:paragraph-properties>
     <style:tab-stops>
      <style:tab-stop style:position="17cm" style:type="right" style:leader-style="dotted" style:leader-text="."/>
     </style:tab-stops>
    </style:paragraph-properties>
   </style:style>
-  <style:style style:name="P65" style:family="paragraph" style:parent-style-name="Heading_20_2">
+  <style:style style:name="P67" style:family="paragraph" style:parent-style-name="Heading_20_2">
    <style:text-properties officeooo:rsid="001d8eaf" officeooo:paragraph-rsid="001d8eaf"/>
   </style:style>
-  <style:style style:name="P66" style:family="paragraph" style:parent-style-name="Heading_20_2">
+  <style:style style:name="P68" style:family="paragraph" style:parent-style-name="Heading_20_2">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties officeooo:rsid="001d8eaf" officeooo:paragraph-rsid="001d8eaf"/>
   </style:style>
-  <style:style style:name="P67" style:family="paragraph" style:parent-style-name="Heading_20_2">
+  <style:style style:name="P69" style:family="paragraph" style:parent-style-name="Heading_20_2">
    <style:text-properties officeooo:rsid="00dd7d31" officeooo:paragraph-rsid="00dd7d31"/>
   </style:style>
-  <style:style style:name="P68" style:family="paragraph" style:parent-style-name="Contents_20_2">
+  <style:style style:name="P70" style:family="paragraph" style:parent-style-name="Contents_20_2">
    <style:paragraph-properties>
     <style:tab-stops>
      <style:tab-stop style:position="16.501cm" style:type="right" style:leader-style="dotted" style:leader-text="."/>
     </style:tab-stops>
    </style:paragraph-properties>
   </style:style>
-  <style:style style:name="P69" style:family="paragraph" style:parent-style-name="Heading_20_1">
+  <style:style style:name="P71" style:family="paragraph" style:parent-style-name="Heading_20_1">
    <style:text-properties officeooo:paragraph-rsid="00ecd04a"/>
   </style:style>
-  <style:style style:name="P70" style:family="paragraph" style:parent-style-name="Heading_20_1">
+  <style:style style:name="P72" style:family="paragraph" style:parent-style-name="Heading_20_1">
    <style:text-properties officeooo:paragraph-rsid="001d8eaf"/>
   </style:style>
-  <style:style style:name="P71" style:family="paragraph" style:parent-style-name="Heading_20_1">
+  <style:style style:name="P73" style:family="paragraph" style:parent-style-name="Heading_20_1">
+   <style:text-properties officeooo:rsid="001d8eaf" officeooo:paragraph-rsid="001d8eaf"/>
+  </style:style>
+  <style:style style:name="P74" style:family="paragraph" style:parent-style-name="Heading_20_1">
    <style:paragraph-properties fo:break-before="page"/>
    <style:text-properties officeooo:paragraph-rsid="0027d31f"/>
   </style:style>
-  <style:style style:name="P72" style:family="paragraph" style:parent-style-name="Contents_20_1">
+  <style:style style:name="P75" style:family="paragraph" style:parent-style-name="Heading_20_1">
+   <style:paragraph-properties fo:break-before="page"/>
+   <style:text-properties officeooo:rsid="0027d31f" officeooo:paragraph-rsid="0027d31f"/>
+  </style:style>
+  <style:style style:name="P76" style:family="paragraph" style:parent-style-name="Contents_20_1">
    <style:paragraph-properties>
     <style:tab-stops>
      <style:tab-stop style:position="17cm" style:type="right" style:leader-style="dotted" style:leader-text="."/>
     </style:tab-stops>
    </style:paragraph-properties>
   </style:style>
-  <style:style style:name="P73" style:family="paragraph" style:parent-style-name="Contents_20_3">
+  <style:style style:name="P77" style:family="paragraph" style:parent-style-name="Contents_20_3">
    <style:paragraph-properties>
     <style:tab-stops>
      <style:tab-stop style:position="16.002cm" style:type="right" style:leader-style="dotted" style:leader-text="."/>
     </style:tab-stops>
    </style:paragraph-properties>
   </style:style>
-  <style:style style:name="P74" style:family="paragraph" style:parent-style-name="Heading_20_3">
+  <style:style style:name="P78" style:family="paragraph" style:parent-style-name="Heading_20_3">
    <style:text-properties officeooo:rsid="001ede28" officeooo:paragraph-rsid="001ede28"/>
   </style:style>
-  <style:style style:name="P75" style:family="paragraph" style:parent-style-name="Heading_20_3">
+  <style:style style:name="P79" style:family="paragraph" style:parent-style-name="Heading_20_3">
    <style:text-properties officeooo:rsid="0064e387" officeooo:paragraph-rsid="0064e387"/>
   </style:style>
-  <style:style style:name="P76" style:family="paragraph" style:parent-style-name="Heading_20_3">
+  <style:style style:name="P80" style:family="paragraph" style:parent-style-name="Heading_20_3">
    <style:text-properties officeooo:rsid="00241aeb" officeooo:paragraph-rsid="00241aeb"/>
   </style:style>
-  <style:style style:name="P77" style:family="paragraph" style:parent-style-name="Text_20_body">
-   <style:text-properties fo:font-size="11pt" officeooo:rsid="00ecd04a" officeooo:paragraph-rsid="00ecd04a" style:font-size-asian="11pt" style:font-size-complex="11pt"/>
-  </style:style>
-  <style:style style:name="P78" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L2">
-   <style:text-properties fo:font-size="11pt" officeooo:rsid="00c32de9" officeooo:paragraph-rsid="00c32de9" style:font-size-asian="11pt" style:font-size-complex="11pt"/>
-  </style:style>
-  <style:style style:name="P79" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L2">
-   <style:text-properties fo:font-size="11pt" officeooo:rsid="00c58745" officeooo:paragraph-rsid="00c58745" style:font-size-asian="11pt" style:font-size-complex="11pt"/>
-  </style:style>
-  <style:style style:name="P80" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L2">
-   <style:text-properties fo:font-size="11pt" officeooo:rsid="00c6fe50" officeooo:paragraph-rsid="00c6fe50" style:font-size-asian="11pt" style:font-size-complex="11pt"/>
-  </style:style>
-  <style:style style:name="P81" style:family="paragraph" style:parent-style-name="Text_20_body">
-   <style:text-properties fo:font-size="11pt" fo:font-style="normal" officeooo:rsid="00ecd04a" officeooo:paragraph-rsid="00ecd04a" style:font-size-asian="11pt" style:font-style-asian="normal" style:font-size-complex="11pt" style:font-style-complex="normal"/>
-  </style:style>
-  <style:style style:name="P82" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L1">
+  <style:style style:name="P81" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L1">
    <style:text-properties fo:font-size="11pt" fo:font-style="normal" officeooo:rsid="00705a92" officeooo:paragraph-rsid="00705a92" style:font-size-asian="11pt" style:font-style-asian="normal" style:font-size-complex="11pt" style:font-style-complex="normal"/>
   </style:style>
-  <style:style style:name="P83" style:family="paragraph" style:parent-style-name="Heading_20_1">
-   <style:text-properties officeooo:paragraph-rsid="00ecd04a"/>
+  <style:style style:name="P82" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L2">
+   <style:text-properties fo:font-size="11pt" officeooo:rsid="00c32de9" officeooo:paragraph-rsid="00c32de9" style:font-size-asian="11pt" style:font-size-complex="11pt"/>
   </style:style>
-  <style:style style:name="P84" style:family="paragraph" style:parent-style-name="Heading_20_1">
-   <style:text-properties officeooo:rsid="001d8eaf" officeooo:paragraph-rsid="001d8eaf"/>
+  <style:style style:name="P83" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L2">
+   <style:text-properties fo:font-size="11pt" officeooo:rsid="00c58745" officeooo:paragraph-rsid="00c58745" style:font-size-asian="11pt" style:font-size-complex="11pt"/>
+  </style:style>
+  <style:style style:name="P84" style:family="paragraph" style:parent-style-name="Text_20_body" style:list-style-name="L2">
+   <style:text-properties fo:font-size="11pt" officeooo:rsid="00c6fe50" officeooo:paragraph-rsid="00c6fe50" style:font-size-asian="11pt" style:font-size-complex="11pt"/>
   </style:style>
   <style:style style:name="P85" style:family="paragraph" style:parent-style-name="Heading_20_1">
+   <style:text-properties officeooo:paragraph-rsid="00ecd04a"/>
+  </style:style>
+  <style:style style:name="P86" style:family="paragraph" style:parent-style-name="Heading_20_1">
+   <style:text-properties officeooo:rsid="001d8eaf" officeooo:paragraph-rsid="001d8eaf"/>
+  </style:style>
+  <style:style style:name="P87" style:family="paragraph" style:parent-style-name="Heading_20_1">
    <style:paragraph-properties fo:break-before="page"/>
    <style:text-properties officeooo:rsid="0027d31f" officeooo:paragraph-rsid="0027d31f"/>
   </style:style>
-  <style:style style:name="P86" style:family="paragraph" style:parent-style-name="Heading_20_2">
+  <style:style style:name="P88" style:family="paragraph" style:parent-style-name="Heading_20_2">
    <style:text-properties officeooo:rsid="001d8eaf" officeooo:paragraph-rsid="001d8eaf"/>
   </style:style>
-  <style:style style:name="P87" style:family="paragraph" style:parent-style-name="Heading_20_2">
+  <style:style style:name="P89" style:family="paragraph" style:parent-style-name="Heading_20_2">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties officeooo:rsid="001d8eaf" officeooo:paragraph-rsid="001d8eaf"/>
   </style:style>
-  <style:style style:name="P88" style:family="paragraph" style:parent-style-name="Heading_20_2">
+  <style:style style:name="P90" style:family="paragraph" style:parent-style-name="Heading_20_2">
    <style:text-properties officeooo:rsid="00dd7d31" officeooo:paragraph-rsid="00dd7d31"/>
   </style:style>
-  <style:style style:name="P89" style:family="paragraph" style:parent-style-name="Heading_20_3">
+  <style:style style:name="P91" style:family="paragraph" style:parent-style-name="Heading_20_3">
    <style:text-properties officeooo:rsid="001ede28" officeooo:paragraph-rsid="001ede28"/>
   </style:style>
-  <style:style style:name="P90" style:family="paragraph" style:parent-style-name="Heading_20_3">
+  <style:style style:name="P92" style:family="paragraph" style:parent-style-name="Heading_20_3">
    <style:text-properties officeooo:rsid="0064e387" officeooo:paragraph-rsid="0064e387"/>
   </style:style>
-  <style:style style:name="P91" style:family="paragraph" style:parent-style-name="Heading_20_3">
+  <style:style style:name="P93" style:family="paragraph" style:parent-style-name="Heading_20_3">
    <style:text-properties officeooo:rsid="00241aeb" officeooo:paragraph-rsid="00241aeb"/>
   </style:style>
   <style:style style:name="T1" style:family="text">
@@ -706,430 +713,442 @@
    <style:text-properties fo:font-style="italic" officeooo:rsid="00efc725" style:font-style-asian="italic" style:font-style-complex="italic"/>
   </style:style>
   <style:style style:name="T28" style:family="text">
-   <style:text-properties fo:font-style="italic" style:text-underline-style="none" style:font-style-asian="italic" style:font-style-complex="italic"/>
+   <style:text-properties fo:font-style="italic" officeooo:rsid="00f4cb36" style:font-style-asian="italic" style:font-style-complex="italic"/>
   </style:style>
   <style:style style:name="T29" style:family="text">
-   <style:text-properties fo:font-style="italic" style:text-underline-style="none" officeooo:rsid="00d561c6" style:font-style-asian="italic" style:font-style-complex="italic"/>
+   <style:text-properties fo:font-style="italic" style:text-underline-style="none" style:font-style-asian="italic" style:font-style-complex="italic"/>
   </style:style>
   <style:style style:name="T30" style:family="text">
-   <style:text-properties fo:font-style="italic" style:text-underline-style="none" officeooo:rsid="00d71f7c" style:font-style-asian="italic" style:font-style-complex="italic"/>
+   <style:text-properties fo:font-style="italic" style:text-underline-style="none" officeooo:rsid="00d561c6" style:font-style-asian="italic" style:font-style-complex="italic"/>
   </style:style>
   <style:style style:name="T31" style:family="text">
-   <style:text-properties fo:font-style="italic" style:text-underline-style="none" officeooo:rsid="00e7a48f" style:font-style-asian="italic" style:font-style-complex="italic"/>
+   <style:text-properties fo:font-style="italic" style:text-underline-style="none" officeooo:rsid="00d71f7c" style:font-style-asian="italic" style:font-style-complex="italic"/>
   </style:style>
   <style:style style:name="T32" style:family="text">
-   <style:text-properties fo:font-style="italic" style:text-underline-style="none" officeooo:rsid="00e7fb12" style:font-style-asian="italic" style:font-style-complex="italic"/>
+   <style:text-properties fo:font-style="italic" style:text-underline-style="none" officeooo:rsid="00e7a48f" style:font-style-asian="italic" style:font-style-complex="italic"/>
   </style:style>
   <style:style style:name="T33" style:family="text">
-   <style:text-properties fo:font-style="italic" style:text-underline-style="none" officeooo:rsid="00e82eab" style:font-style-asian="italic" style:font-style-complex="italic"/>
+   <style:text-properties fo:font-style="italic" style:text-underline-style="none" officeooo:rsid="00e7fb12" style:font-style-asian="italic" style:font-style-complex="italic"/>
   </style:style>
   <style:style style:name="T34" style:family="text">
-   <style:text-properties fo:font-style="italic" style:text-underline-style="none" officeooo:rsid="00e8e23d" style:font-style-asian="italic" style:font-style-complex="italic"/>
+   <style:text-properties fo:font-style="italic" style:text-underline-style="none" officeooo:rsid="00e82eab" style:font-style-asian="italic" style:font-style-complex="italic"/>
   </style:style>
   <style:style style:name="T35" style:family="text">
-   <style:text-properties fo:font-style="italic" style:text-underline-style="none" officeooo:rsid="00e84904" style:font-style-asian="italic" style:font-style-complex="italic"/>
+   <style:text-properties fo:font-style="italic" style:text-underline-style="none" officeooo:rsid="00e8e23d" style:font-style-asian="italic" style:font-style-complex="italic"/>
   </style:style>
   <style:style style:name="T36" style:family="text">
-   <style:text-properties fo:font-style="italic" style:text-underline-style="none" officeooo:rsid="00eaaa49" style:font-style-asian="italic" style:font-style-complex="italic"/>
+   <style:text-properties fo:font-style="italic" style:text-underline-style="none" officeooo:rsid="00e84904" style:font-style-asian="italic" style:font-style-complex="italic"/>
   </style:style>
   <style:style style:name="T37" style:family="text">
-   <style:text-properties fo:font-style="normal" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-style="italic" style:text-underline-style="none" officeooo:rsid="00eaaa49" style:font-style-asian="italic" style:font-style-complex="italic"/>
   </style:style>
   <style:style style:name="T38" style:family="text">
-   <style:text-properties fo:font-style="normal" officeooo:rsid="002cbabe" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-style="normal" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T39" style:family="text">
-   <style:text-properties fo:font-style="normal" officeooo:rsid="002de09a" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-style="normal" officeooo:rsid="002cbabe" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T40" style:family="text">
-   <style:text-properties fo:font-style="normal" officeooo:rsid="002e2fa2" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-style="normal" officeooo:rsid="002de09a" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T41" style:family="text">
-   <style:text-properties fo:font-style="normal" officeooo:rsid="003067ff" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-style="normal" officeooo:rsid="002e2fa2" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T42" style:family="text">
-   <style:text-properties fo:font-style="normal" officeooo:rsid="0030cc96" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-style="normal" officeooo:rsid="003067ff" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T43" style:family="text">
-   <style:text-properties fo:font-style="normal" officeooo:rsid="0035eb91" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-style="normal" officeooo:rsid="0030cc96" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T44" style:family="text">
-   <style:text-properties fo:font-style="normal" officeooo:rsid="0037437f" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-style="normal" officeooo:rsid="0035eb91" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T45" style:family="text">
-   <style:text-properties fo:font-style="normal" officeooo:rsid="0039fa4e" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-style="normal" officeooo:rsid="0037437f" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T46" style:family="text">
-   <style:text-properties fo:font-style="normal" officeooo:rsid="003a7a39" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-style="normal" officeooo:rsid="0039fa4e" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T47" style:family="text">
-   <style:text-properties fo:font-style="normal" officeooo:rsid="003f470f" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-style="normal" officeooo:rsid="003a7a39" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T48" style:family="text">
-   <style:text-properties fo:font-style="normal" officeooo:rsid="0040ef05" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-style="normal" officeooo:rsid="003f470f" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T49" style:family="text">
-   <style:text-properties fo:font-style="normal" officeooo:rsid="004205e4" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-style="normal" officeooo:rsid="0040ef05" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T50" style:family="text">
-   <style:text-properties fo:font-style="normal" officeooo:rsid="00420be2" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-style="normal" officeooo:rsid="004205e4" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T51" style:family="text">
-   <style:text-properties fo:font-style="normal" officeooo:rsid="0043e928" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-style="normal" officeooo:rsid="00420be2" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T52" style:family="text">
-   <style:text-properties fo:font-style="normal" officeooo:rsid="0045ad18" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-style="normal" officeooo:rsid="0043e928" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T53" style:family="text">
-   <style:text-properties fo:font-style="normal" officeooo:rsid="004693a2" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-style="normal" officeooo:rsid="0045ad18" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T54" style:family="text">
-   <style:text-properties fo:font-style="normal" officeooo:rsid="0049b0d4" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-style="normal" officeooo:rsid="004693a2" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T55" style:family="text">
-   <style:text-properties fo:font-style="normal" officeooo:rsid="0049f359" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-style="normal" officeooo:rsid="0049b0d4" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T56" style:family="text">
-   <style:text-properties fo:font-style="normal" officeooo:rsid="004a20e9" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-style="normal" officeooo:rsid="0049f359" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T57" style:family="text">
-   <style:text-properties fo:font-style="normal" officeooo:rsid="004bb739" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-style="normal" officeooo:rsid="004a20e9" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T58" style:family="text">
-   <style:text-properties fo:font-style="normal" officeooo:rsid="004cc142" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-style="normal" officeooo:rsid="004bb739" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T59" style:family="text">
-   <style:text-properties fo:font-style="normal" officeooo:rsid="004f0603" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-style="normal" officeooo:rsid="004cc142" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T60" style:family="text">
-   <style:text-properties fo:font-style="normal" officeooo:rsid="00599fc7" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-style="normal" officeooo:rsid="004f0603" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T61" style:family="text">
-   <style:text-properties fo:font-style="normal" officeooo:rsid="005af295" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-style="normal" officeooo:rsid="00599fc7" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T62" style:family="text">
-   <style:text-properties fo:font-style="normal" officeooo:rsid="005bb579" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-style="normal" officeooo:rsid="005af295" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T63" style:family="text">
-   <style:text-properties fo:font-style="normal" officeooo:rsid="005c1d9a" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-style="normal" officeooo:rsid="005bb579" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T64" style:family="text">
-   <style:text-properties fo:font-style="normal" officeooo:rsid="005e0a70" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-style="normal" officeooo:rsid="005c1d9a" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T65" style:family="text">
-   <style:text-properties fo:font-style="normal" officeooo:rsid="00604b8e" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-style="normal" officeooo:rsid="005e0a70" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T66" style:family="text">
-   <style:text-properties fo:font-style="normal" officeooo:rsid="0072991d" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-style="normal" officeooo:rsid="00604b8e" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T67" style:family="text">
-   <style:text-properties fo:font-style="normal" officeooo:rsid="0072e3fc" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-style="normal" officeooo:rsid="0072991d" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T68" style:family="text">
-   <style:text-properties fo:font-style="normal" officeooo:rsid="0074d39e" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-style="normal" officeooo:rsid="0072e3fc" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T69" style:family="text">
-   <style:text-properties fo:font-style="normal" officeooo:rsid="007b84ac" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-style="normal" officeooo:rsid="0074d39e" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T70" style:family="text">
-   <style:text-properties fo:font-style="normal" officeooo:rsid="007ec8a4" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-style="normal" officeooo:rsid="007b84ac" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T71" style:family="text">
-   <style:text-properties fo:font-style="normal" officeooo:rsid="007fbe90" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-style="normal" officeooo:rsid="007ec8a4" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T72" style:family="text">
-   <style:text-properties fo:font-style="normal" officeooo:rsid="00814587" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-style="normal" officeooo:rsid="007fbe90" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T73" style:family="text">
-   <style:text-properties fo:font-style="normal" officeooo:rsid="00834ab0" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-style="normal" officeooo:rsid="00814587" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T74" style:family="text">
-   <style:text-properties fo:font-style="normal" officeooo:rsid="0084bb48" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-style="normal" officeooo:rsid="00834ab0" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T75" style:family="text">
-   <style:text-properties fo:font-style="normal" officeooo:rsid="008b34fa" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-style="normal" officeooo:rsid="0084bb48" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T76" style:family="text">
-   <style:text-properties fo:font-style="normal" officeooo:rsid="0065ac24" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-style="normal" officeooo:rsid="008b34fa" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T77" style:family="text">
-   <style:text-properties fo:font-style="normal" officeooo:rsid="0090bd3c" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-style="normal" officeooo:rsid="0065ac24" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T78" style:family="text">
-   <style:text-properties fo:font-style="normal" officeooo:rsid="009157d5" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-style="normal" officeooo:rsid="0090bd3c" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T79" style:family="text">
-   <style:text-properties fo:font-style="normal" officeooo:rsid="0092adaf" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-style="normal" officeooo:rsid="009157d5" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T80" style:family="text">
-   <style:text-properties fo:font-style="normal" officeooo:rsid="00a534f1" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-style="normal" officeooo:rsid="0092adaf" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T81" style:family="text">
-   <style:text-properties fo:font-style="normal" officeooo:rsid="00a74bbf" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-style="normal" officeooo:rsid="00a534f1" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T82" style:family="text">
-   <style:text-properties fo:font-style="normal" officeooo:rsid="00a80b69" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-style="normal" officeooo:rsid="00a74bbf" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T83" style:family="text">
-   <style:text-properties fo:font-style="normal" officeooo:rsid="00af1425" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-style="normal" officeooo:rsid="00a80b69" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T84" style:family="text">
-   <style:text-properties fo:font-style="normal" officeooo:rsid="00b104d9" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-style="normal" officeooo:rsid="00af1425" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T85" style:family="text">
-   <style:text-properties fo:font-style="normal" officeooo:rsid="00b410cd" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-style="normal" officeooo:rsid="00b104d9" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T86" style:family="text">
-   <style:text-properties fo:font-style="normal" officeooo:rsid="00b48112" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-style="normal" officeooo:rsid="00b410cd" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T87" style:family="text">
-   <style:text-properties fo:font-style="normal" officeooo:rsid="00cab2e8" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-style="normal" officeooo:rsid="00b48112" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T88" style:family="text">
-   <style:text-properties fo:font-style="normal" officeooo:rsid="00cd132e" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-style="normal" officeooo:rsid="00cab2e8" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T89" style:family="text">
-   <style:text-properties fo:font-style="normal" officeooo:rsid="00cf08a9" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-style="normal" officeooo:rsid="00cd132e" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T90" style:family="text">
-   <style:text-properties fo:font-style="normal" officeooo:rsid="00cfce1c" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-style="normal" officeooo:rsid="00cf08a9" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T91" style:family="text">
-   <style:text-properties fo:font-style="normal" officeooo:rsid="00dd8dda" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-style="normal" officeooo:rsid="00cfce1c" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T92" style:family="text">
-   <style:text-properties fo:font-style="normal" officeooo:rsid="00de32b8" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-style="normal" officeooo:rsid="00dd8dda" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T93" style:family="text">
-   <style:text-properties fo:font-style="normal" officeooo:rsid="00ecd04a" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-style="normal" officeooo:rsid="00de32b8" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T94" style:family="text">
-   <style:text-properties fo:font-style="normal" officeooo:rsid="00ee7375" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-style="normal" officeooo:rsid="00ecd04a" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T95" style:family="text">
-   <style:text-properties fo:font-style="normal" officeooo:rsid="00efc725" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-style="normal" officeooo:rsid="00ee7375" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T96" style:family="text">
-   <style:text-properties fo:font-style="normal" style:text-underline-style="none" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-style="normal" officeooo:rsid="00efc725" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T97" style:family="text">
-   <style:text-properties fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="00b74d0e" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-style="normal" officeooo:rsid="00f4cb36" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T98" style:family="text">
-   <style:text-properties fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="00c32de9" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-style="normal" style:text-underline-style="none" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T99" style:family="text">
-   <style:text-properties fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="00c4f685" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="00b74d0e" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T100" style:family="text">
-   <style:text-properties fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="00c58745" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="00c32de9" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T101" style:family="text">
-   <style:text-properties fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="00c6f280" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="00c4f685" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T102" style:family="text">
-   <style:text-properties fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="00c7db0a" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="00c58745" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T103" style:family="text">
-   <style:text-properties fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="00d395e0" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="00c6f280" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T104" style:family="text">
-   <style:text-properties fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="00d4d852" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="00c7db0a" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T105" style:family="text">
-   <style:text-properties fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="00d561c6" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="00d395e0" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T106" style:family="text">
-   <style:text-properties fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="00d71f7c" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="00d4d852" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T107" style:family="text">
-   <style:text-properties fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="00d7bdc3" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="00d561c6" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T108" style:family="text">
-   <style:text-properties fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="00dc7567" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="00d71f7c" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T109" style:family="text">
-   <style:text-properties fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="00dc929e" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="00d7bdc3" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T110" style:family="text">
-   <style:text-properties fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="00e6e036" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="00dc7567" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T111" style:family="text">
-   <style:text-properties fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="00e7a48f" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="00dc929e" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T112" style:family="text">
-   <style:text-properties fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="00e7fb12" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="00e6e036" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T113" style:family="text">
-   <style:text-properties fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="00e82eab" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="00e7a48f" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T114" style:family="text">
-   <style:text-properties fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="00e84904" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="00e7fb12" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T115" style:family="text">
-   <style:text-properties fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="00e8e23d" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="00e82eab" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T116" style:family="text">
-   <style:text-properties fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="00ec2877" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="00e84904" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T117" style:family="text">
-   <style:text-properties fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="00f2da4f" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="00e8e23d" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T118" style:family="text">
-   <style:text-properties fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="00f45bfa" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="00ec2877" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T119" style:family="text">
-   <style:text-properties fo:font-style="normal" style:text-underline-style="none" fo:font-weight="bold" officeooo:rsid="00f2da4f" style:font-style-asian="normal" style:font-weight-asian="bold" style:font-style-complex="normal" style:font-weight-complex="bold"/>
+   <style:text-properties fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="00f2da4f" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T120" style:family="text">
-   <style:text-properties officeooo:rsid="0030cc96"/>
+   <style:text-properties fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="00f45bfa" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T121" style:family="text">
-   <style:text-properties officeooo:rsid="0037068f"/>
+   <style:text-properties fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="00f4cb36" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T122" style:family="text">
-   <style:text-properties officeooo:rsid="0069d51a"/>
+   <style:text-properties fo:font-style="normal" style:text-underline-style="none" fo:font-weight="bold" officeooo:rsid="00f2da4f" style:font-style-asian="normal" style:font-weight-asian="bold" style:font-style-complex="normal" style:font-weight-complex="bold"/>
   </style:style>
   <style:style style:name="T123" style:family="text">
-   <style:text-properties officeooo:rsid="006baa73"/>
+   <style:text-properties officeooo:rsid="0030cc96"/>
   </style:style>
   <style:style style:name="T124" style:family="text">
-   <style:text-properties officeooo:rsid="006fd7df"/>
+   <style:text-properties officeooo:rsid="0037068f"/>
   </style:style>
   <style:style style:name="T125" style:family="text">
-   <style:text-properties officeooo:rsid="00705a92"/>
+   <style:text-properties officeooo:rsid="0069d51a"/>
   </style:style>
   <style:style style:name="T126" style:family="text">
-   <style:text-properties officeooo:rsid="007b84ac"/>
+   <style:text-properties officeooo:rsid="006baa73"/>
   </style:style>
   <style:style style:name="T127" style:family="text">
-   <style:text-properties officeooo:rsid="00901d65"/>
+   <style:text-properties officeooo:rsid="006fd7df"/>
   </style:style>
   <style:style style:name="T128" style:family="text">
-   <style:text-properties officeooo:rsid="00a1fdb7"/>
+   <style:text-properties officeooo:rsid="00705a92"/>
   </style:style>
   <style:style style:name="T129" style:family="text">
-   <style:text-properties officeooo:rsid="00a80b69"/>
+   <style:text-properties officeooo:rsid="007b84ac"/>
   </style:style>
   <style:style style:name="T130" style:family="text">
-   <style:text-properties officeooo:rsid="00ab82b8"/>
+   <style:text-properties officeooo:rsid="00901d65"/>
   </style:style>
   <style:style style:name="T131" style:family="text">
-   <style:text-properties fo:font-size="11pt" fo:font-style="normal" style:font-size-asian="11pt" style:font-style-asian="normal" style:font-size-complex="11pt" style:font-style-complex="normal"/>
+   <style:text-properties officeooo:rsid="00a1fdb7"/>
   </style:style>
   <style:style style:name="T132" style:family="text">
-   <style:text-properties fo:font-size="11pt" fo:font-style="normal" officeooo:rsid="00876d6c" style:font-size-asian="11pt" style:font-style-asian="normal" style:font-size-complex="11pt" style:font-style-complex="normal"/>
+   <style:text-properties officeooo:rsid="00a80b69"/>
   </style:style>
   <style:style style:name="T133" style:family="text">
-   <style:text-properties fo:font-size="11pt" fo:font-style="normal" officeooo:rsid="0087a140" style:font-size-asian="11pt" style:font-style-asian="normal" style:font-size-complex="11pt" style:font-style-complex="normal"/>
+   <style:text-properties officeooo:rsid="00ab82b8"/>
   </style:style>
   <style:style style:name="T134" style:family="text">
-   <style:text-properties fo:font-size="11pt" fo:font-style="normal" officeooo:rsid="0087ad9c" style:font-size-asian="11pt" style:font-style-asian="normal" style:font-size-complex="11pt" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-size="11pt" fo:font-style="normal" style:font-size-asian="11pt" style:font-style-asian="normal" style:font-size-complex="11pt" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T135" style:family="text">
-   <style:text-properties fo:font-size="11pt" fo:font-style="normal" officeooo:rsid="0088acc2" style:font-size-asian="11pt" style:font-style-asian="normal" style:font-size-complex="11pt" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-size="11pt" fo:font-style="normal" officeooo:rsid="00876d6c" style:font-size-asian="11pt" style:font-style-asian="normal" style:font-size-complex="11pt" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T136" style:family="text">
-   <style:text-properties fo:font-size="11pt" fo:font-style="normal" officeooo:rsid="0088b185" style:font-size-asian="11pt" style:font-style-asian="normal" style:font-size-complex="11pt" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-size="11pt" fo:font-style="normal" officeooo:rsid="0087a140" style:font-size-asian="11pt" style:font-style-asian="normal" style:font-size-complex="11pt" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T137" style:family="text">
-   <style:text-properties fo:font-size="11pt" fo:font-style="normal" officeooo:rsid="008a2255" style:font-size-asian="11pt" style:font-style-asian="normal" style:font-size-complex="11pt" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-size="11pt" fo:font-style="normal" officeooo:rsid="0087ad9c" style:font-size-asian="11pt" style:font-style-asian="normal" style:font-size-complex="11pt" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T138" style:family="text">
-   <style:text-properties fo:font-size="11pt" fo:font-style="normal" officeooo:rsid="008ac216" style:font-size-asian="11pt" style:font-style-asian="normal" style:font-size-complex="11pt" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-size="11pt" fo:font-style="normal" officeooo:rsid="0088acc2" style:font-size-asian="11pt" style:font-style-asian="normal" style:font-size-complex="11pt" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T139" style:family="text">
-   <style:text-properties fo:font-size="11pt" fo:font-style="normal" officeooo:rsid="008b34fa" style:font-size-asian="11pt" style:font-style-asian="normal" style:font-size-complex="11pt" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-size="11pt" fo:font-style="normal" officeooo:rsid="0088b185" style:font-size-asian="11pt" style:font-style-asian="normal" style:font-size-complex="11pt" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T140" style:family="text">
-   <style:text-properties fo:font-size="11pt" fo:font-style="italic" style:font-size-asian="11pt" style:font-style-asian="italic" style:font-size-complex="11pt" style:font-style-complex="italic"/>
+   <style:text-properties fo:font-size="11pt" fo:font-style="normal" officeooo:rsid="008a2255" style:font-size-asian="11pt" style:font-style-asian="normal" style:font-size-complex="11pt" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T141" style:family="text">
-   <style:text-properties fo:font-size="11pt" fo:font-style="italic" officeooo:rsid="00876d6c" style:font-size-asian="11pt" style:font-style-asian="italic" style:font-size-complex="11pt" style:font-style-complex="italic"/>
+   <style:text-properties fo:font-size="11pt" fo:font-style="normal" officeooo:rsid="008ac216" style:font-size-asian="11pt" style:font-style-asian="normal" style:font-size-complex="11pt" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T142" style:family="text">
-   <style:text-properties fo:font-size="11pt" fo:font-style="italic" officeooo:rsid="008a2255" style:font-size-asian="11pt" style:font-style-asian="italic" style:font-size-complex="11pt" style:font-style-complex="italic"/>
+   <style:text-properties fo:font-size="11pt" fo:font-style="normal" officeooo:rsid="008b34fa" style:font-size-asian="11pt" style:font-style-asian="normal" style:font-size-complex="11pt" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T143" style:family="text">
-   <style:text-properties fo:font-size="11pt" fo:font-style="italic" officeooo:rsid="00901d65" style:font-size-asian="11pt" style:font-style-asian="italic" style:font-size-complex="11pt" style:font-style-complex="italic"/>
+   <style:text-properties fo:font-size="11pt" fo:font-style="italic" style:font-size-asian="11pt" style:font-style-asian="italic" style:font-size-complex="11pt" style:font-style-complex="italic"/>
   </style:style>
   <style:style style:name="T144" style:family="text">
-   <style:text-properties fo:font-size="11pt" fo:font-style="italic" officeooo:rsid="008ac216" style:font-size-asian="11pt" style:font-style-asian="italic" style:font-size-complex="11pt" style:font-style-complex="italic"/>
+   <style:text-properties fo:font-size="11pt" fo:font-style="italic" officeooo:rsid="00876d6c" style:font-size-asian="11pt" style:font-style-asian="italic" style:font-size-complex="11pt" style:font-style-complex="italic"/>
   </style:style>
   <style:style style:name="T145" style:family="text">
-   <style:text-properties fo:font-size="11pt" fo:font-style="italic" officeooo:rsid="008b34fa" style:font-size-asian="11pt" style:font-style-asian="italic" style:font-size-complex="11pt" style:font-style-complex="italic"/>
+   <style:text-properties fo:font-size="11pt" fo:font-style="italic" officeooo:rsid="008a2255" style:font-size-asian="11pt" style:font-style-asian="italic" style:font-size-complex="11pt" style:font-style-complex="italic"/>
   </style:style>
   <style:style style:name="T146" style:family="text">
-   <style:text-properties officeooo:rsid="00c32de9"/>
+   <style:text-properties fo:font-size="11pt" fo:font-style="italic" officeooo:rsid="00901d65" style:font-size-asian="11pt" style:font-style-asian="italic" style:font-size-complex="11pt" style:font-style-complex="italic"/>
   </style:style>
   <style:style style:name="T147" style:family="text">
-   <style:text-properties fo:color="#ff3333" fo:font-style="normal" fo:font-weight="bold" officeooo:rsid="00dd8dda" style:font-style-asian="normal" style:font-weight-asian="bold" style:font-style-complex="normal" style:font-weight-complex="bold"/>
+   <style:text-properties fo:font-size="11pt" fo:font-style="italic" officeooo:rsid="008ac216" style:font-size-asian="11pt" style:font-style-asian="italic" style:font-size-complex="11pt" style:font-style-complex="italic"/>
   </style:style>
   <style:style style:name="T148" style:family="text">
-   <style:text-properties fo:color="#ff3333" fo:font-style="normal" fo:font-weight="bold" officeooo:rsid="00df5f6d" style:font-style-asian="normal" style:font-weight-asian="bold" style:font-style-complex="normal" style:font-weight-complex="bold"/>
+   <style:text-properties fo:font-size="11pt" fo:font-style="italic" officeooo:rsid="008b34fa" style:font-size-asian="11pt" style:font-style-asian="italic" style:font-size-complex="11pt" style:font-style-complex="italic"/>
   </style:style>
   <style:style style:name="T149" style:family="text">
-   <style:text-properties fo:color="#000000" fo:font-style="normal" fo:font-weight="normal" officeooo:rsid="00de64df" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+   <style:text-properties officeooo:rsid="00c32de9"/>
   </style:style>
   <style:style style:name="T150" style:family="text">
-   <style:text-properties fo:color="#000000" fo:font-style="normal" fo:font-weight="normal" officeooo:rsid="00def9a9" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+   <style:text-properties fo:color="#ff3333" fo:font-style="normal" fo:font-weight="bold" officeooo:rsid="00dd8dda" style:font-style-asian="normal" style:font-weight-asian="bold" style:font-style-complex="normal" style:font-weight-complex="bold"/>
   </style:style>
   <style:style style:name="T151" style:family="text">
-   <style:text-properties fo:color="#000000" fo:font-style="normal" style:text-underline-style="none" fo:font-weight="normal" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+   <style:text-properties fo:color="#ff3333" fo:font-style="normal" fo:font-weight="bold" officeooo:rsid="00df5f6d" style:font-style-asian="normal" style:font-weight-asian="bold" style:font-style-complex="normal" style:font-weight-complex="bold"/>
   </style:style>
   <style:style style:name="T152" style:family="text">
-   <style:text-properties fo:color="#000000" fo:font-style="normal" style:text-underline-style="none" fo:font-weight="normal" officeooo:rsid="00def9a9" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+   <style:text-properties fo:color="#000000" fo:font-style="normal" fo:font-weight="normal" officeooo:rsid="00de64df" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-style-complex="normal" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="T153" style:family="text">
-   <style:text-properties fo:color="#000000" fo:font-style="normal" style:text-underline-style="none" fo:font-weight="normal" officeooo:rsid="00de64df" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+   <style:text-properties fo:color="#000000" fo:font-style="normal" fo:font-weight="normal" officeooo:rsid="00def9a9" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-style-complex="normal" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="T154" style:family="text">
-   <style:text-properties fo:color="#000000" fo:font-style="italic" fo:font-weight="normal" officeooo:rsid="00de64df" style:font-style-asian="italic" style:font-weight-asian="normal" style:font-style-complex="italic" style:font-weight-complex="normal"/>
+   <style:text-properties fo:color="#000000" fo:font-style="normal" style:text-underline-style="none" fo:font-weight="normal" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-style-complex="normal" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="T155" style:family="text">
-   <style:text-properties fo:color="#000000" fo:font-style="italic" fo:font-weight="normal" officeooo:rsid="00def9a9" style:font-style-asian="italic" style:font-weight-asian="normal" style:font-style-complex="italic" style:font-weight-complex="normal"/>
+   <style:text-properties fo:color="#000000" fo:font-style="normal" style:text-underline-style="none" fo:font-weight="normal" officeooo:rsid="00def9a9" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-style-complex="normal" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="T156" style:family="text">
-   <style:text-properties fo:color="#000000" fo:font-style="italic" style:text-underline-style="none" fo:font-weight="normal" style:font-style-asian="italic" style:font-weight-asian="normal" style:font-style-complex="italic" style:font-weight-complex="normal"/>
+   <style:text-properties fo:color="#000000" fo:font-style="normal" style:text-underline-style="none" fo:font-weight="normal" officeooo:rsid="00de64df" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-style-complex="normal" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="T157" style:family="text">
-   <style:text-properties fo:color="#000000" fo:font-style="italic" style:text-underline-style="none" fo:font-weight="normal" officeooo:rsid="00def9a9" style:font-style-asian="italic" style:font-weight-asian="normal" style:font-style-complex="italic" style:font-weight-complex="normal"/>
+   <style:text-properties fo:color="#000000" fo:font-style="italic" fo:font-weight="normal" officeooo:rsid="00de64df" style:font-style-asian="italic" style:font-weight-asian="normal" style:font-style-complex="italic" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="T158" style:family="text">
-   <style:text-properties fo:color="#000000" fo:font-style="italic" style:text-underline-style="none" fo:font-weight="normal" officeooo:rsid="00de64df" style:font-style-asian="italic" style:font-weight-asian="normal" style:font-style-complex="italic" style:font-weight-complex="normal"/>
+   <style:text-properties fo:color="#000000" fo:font-style="italic" fo:font-weight="normal" officeooo:rsid="00def9a9" style:font-style-asian="italic" style:font-weight-asian="normal" style:font-style-complex="italic" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="T159" style:family="text">
-   <style:text-properties officeooo:rsid="00e52ea5"/>
+   <style:text-properties fo:color="#000000" fo:font-style="italic" style:text-underline-style="none" fo:font-weight="normal" style:font-style-asian="italic" style:font-weight-asian="normal" style:font-style-complex="italic" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="T160" style:family="text">
-   <style:text-properties officeooo:rsid="00ecd04a"/>
+   <style:text-properties fo:color="#000000" fo:font-style="italic" style:text-underline-style="none" fo:font-weight="normal" officeooo:rsid="00def9a9" style:font-style-asian="italic" style:font-weight-asian="normal" style:font-style-complex="italic" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="T161" style:family="text">
-   <style:text-properties officeooo:rsid="0027d31f"/>
+   <style:text-properties fo:color="#000000" fo:font-style="italic" style:text-underline-style="none" fo:font-weight="normal" officeooo:rsid="00de64df" style:font-style-asian="italic" style:font-weight-asian="normal" style:font-style-complex="italic" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="T162" style:family="text">
-   <style:text-properties officeooo:rsid="001d8eaf"/>
+   <style:text-properties officeooo:rsid="00e52ea5"/>
   </style:style>
   <style:style style:name="T163" style:family="text">
-   <style:text-properties fo:color="#800000" fo:font-style="normal" style:text-underline-style="none" fo:font-weight="bold" officeooo:rsid="00f2da4f" style:font-style-asian="normal" style:font-weight-asian="bold" style:font-style-complex="normal" style:font-weight-complex="bold"/>
+   <style:text-properties officeooo:rsid="00ecd04a"/>
   </style:style>
   <style:style style:name="T164" style:family="text">
-   <style:text-properties fo:color="#800000" fo:font-style="normal" style:text-underline-style="none" fo:font-weight="bold" officeooo:rsid="00f45bfa" style:font-style-asian="normal" style:font-weight-asian="bold" style:font-style-complex="normal" style:font-weight-complex="bold"/>
+   <style:text-properties officeooo:rsid="0027d31f"/>
   </style:style>
   <style:style style:name="T165" style:family="text">
-   <style:text-properties style:use-window-font-color="true" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="00f45bfa" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties officeooo:rsid="001d8eaf"/>
   </style:style>
   <style:style style:name="T166" style:family="text">
-   <style:text-properties style:use-window-font-color="true" fo:font-style="normal" style:text-underline-style="none" fo:font-weight="bold" officeooo:rsid="00f2da4f" style:font-style-asian="normal" style:font-weight-asian="bold" style:font-style-complex="normal" style:font-weight-complex="bold"/>
+   <style:text-properties fo:color="#800000" fo:font-style="normal" style:text-underline-style="none" fo:font-weight="bold" officeooo:rsid="00f2da4f" style:font-style-asian="normal" style:font-weight-asian="bold" style:font-style-complex="normal" style:font-weight-complex="bold"/>
   </style:style>
   <style:style style:name="T167" style:family="text">
-   <style:text-properties style:use-window-font-color="true" fo:font-style="normal" style:text-underline-style="none" fo:font-weight="bold" officeooo:rsid="00f45bfa" style:font-style-asian="normal" style:font-weight-asian="bold" style:font-style-complex="normal" style:font-weight-complex="bold"/>
+   <style:text-properties fo:color="#800000" fo:font-style="normal" style:text-underline-style="none" fo:font-weight="bold" officeooo:rsid="00f45bfa" style:font-style-asian="normal" style:font-weight-asian="bold" style:font-style-complex="normal" style:font-weight-complex="bold"/>
   </style:style>
   <style:style style:name="T168" style:family="text">
-   <style:text-properties style:use-window-font-color="true" fo:font-style="normal" style:text-underline-style="none" fo:font-weight="normal" officeooo:rsid="00f45bfa" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+   <style:text-properties style:use-window-font-color="true" fo:font-style="normal" style:text-underline-style="none" officeooo:rsid="00f45bfa" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T169" style:family="text">
+   <style:text-properties style:use-window-font-color="true" fo:font-style="normal" style:text-underline-style="none" fo:font-weight="bold" officeooo:rsid="00f2da4f" style:font-style-asian="normal" style:font-weight-asian="bold" style:font-style-complex="normal" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="T170" style:family="text">
+   <style:text-properties style:use-window-font-color="true" fo:font-style="normal" style:text-underline-style="none" fo:font-weight="bold" officeooo:rsid="00f45bfa" style:font-style-asian="normal" style:font-weight-asian="bold" style:font-style-complex="normal" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="T171" style:family="text">
+   <style:text-properties style:use-window-font-color="true" fo:font-style="normal" style:text-underline-style="none" fo:font-weight="normal" officeooo:rsid="00f45bfa" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="T172" style:family="text">
    <style:text-properties style:use-window-font-color="true" fo:font-style="normal" style:text-underline-style="none" fo:font-weight="normal" officeooo:rsid="00f2da4f" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="T173" style:family="text">
+   <style:text-properties officeooo:rsid="00f4cb36"/>
   </style:style>
   <style:style style:name="fr1" style:family="graphic" style:parent-style-name="Frame">
    <style:graphic-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0cm" style:wrap="dynamic" style:number-wrapped-paragraphs="no-limit" style:vertical-pos="from-top" style:vertical-rel="paragraph" style:horizontal-pos="from-left" style:horizontal-rel="paragraph" fo:padding="0cm" fo:border="none"/>
@@ -1366,22 +1385,22 @@
      <text:index-title text:style-name="Sect1" text:name="Table des matières1_Head">
       <text:p text:style-name="Contents_20_Heading">Table des matières</text:p>
      </text:index-title>
-     <text:p text:style-name="P72"><text:a xlink:type="simple" xlink:href="#__RefHeading___Toc109_1028424442" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">Introduction<text:tab/>3</text:a></text:p>
-     <text:p text:style-name="P72"><text:a xlink:type="simple" xlink:href="#__RefHeading___Toc538_428264128" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">Java Message Service (JMS)<text:tab/>4</text:a></text:p>
-     <text:p text:style-name="P68"><text:a xlink:type="simple" xlink:href="#__RefHeading___Toc111_1028424442" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">Description<text:tab/>4</text:a></text:p>
-     <text:p text:style-name="P68"><text:a xlink:type="simple" xlink:href="#__RefHeading___Toc113_1028424442" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">Types de communications<text:tab/>4</text:a></text:p>
-     <text:p text:style-name="P73"><text:a xlink:type="simple" xlink:href="#__RefHeading___Toc128_1028424442" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">File de messages<text:tab/>4</text:a></text:p>
-     <text:p text:style-name="P73"><text:a xlink:type="simple" xlink:href="#__RefHeading___Toc130_1028424442" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">Publications<text:tab/>5</text:a></text:p>
-     <text:p text:style-name="P68"><text:a xlink:type="simple" xlink:href="#__RefHeading___Toc115_1028424442" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">Messages<text:tab/>5</text:a></text:p>
-     <text:p text:style-name="P73"><text:a xlink:type="simple" xlink:href="#__RefHeading___Toc536_428264128" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">Structure<text:tab/>5</text:a></text:p>
-     <text:p text:style-name="P68"><text:a xlink:type="simple" xlink:href="#__RefHeading___Toc117_1028424442" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">Mettre en place une communication simplement<text:tab/>6</text:a></text:p>
-     <text:p text:style-name="P73"><text:a xlink:type="simple" xlink:href="#__RefHeading___Toc140_1028424442" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">Créer le client<text:tab/>6</text:a></text:p>
-     <text:p text:style-name="P73"><text:a xlink:type="simple" xlink:href="#__RefHeading___Toc142_1028424442" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">Mettre en place le </text:a><text:a xlink:type="simple" xlink:href="#__RefHeading___Toc142_1028424442" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link"><text:span text:style-name="T1">middleware</text:span></text:a><text:a xlink:type="simple" xlink:href="#__RefHeading___Toc142_1028424442" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link"><text:tab/>7</text:a></text:p>
-     <text:p text:style-name="P73"><text:a xlink:type="simple" xlink:href="#__RefHeading___Toc144_1028424442" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">Envoyer et recevoir des messages<text:tab/>7</text:a></text:p>
-     <text:p text:style-name="P72"><text:a xlink:type="simple" xlink:href="#__RefHeading___Toc119_1028424442" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">Rapport d’expérience<text:tab/>8</text:a></text:p>
-     <text:p text:style-name="P68"><text:a xlink:type="simple" xlink:href="#__RefHeading___Toc121_1028424442" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">Architecture globale<text:tab/>8</text:a></text:p>
-     <text:p text:style-name="P68"><text:a xlink:type="simple" xlink:href="#__RefHeading___Toc123_1028424442" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">Application web<text:tab/>9</text:a></text:p>
-     <text:p text:style-name="P68"><text:a xlink:type="simple" xlink:href="#__RefHeading___Toc125_1028424442" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">Intégration JMS<text:tab/>10</text:a></text:p>
+     <text:p text:style-name="P76"><text:a xlink:type="simple" xlink:href="#__RefHeading___Toc109_1028424442" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">Introduction<text:tab/>3</text:a></text:p>
+     <text:p text:style-name="P76"><text:a xlink:type="simple" xlink:href="#__RefHeading___Toc538_428264128" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">Java Message Service (JMS)<text:tab/>4</text:a></text:p>
+     <text:p text:style-name="P70"><text:a xlink:type="simple" xlink:href="#__RefHeading___Toc111_1028424442" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">Description<text:tab/>4</text:a></text:p>
+     <text:p text:style-name="P70"><text:a xlink:type="simple" xlink:href="#__RefHeading___Toc113_1028424442" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">Types de communications<text:tab/>4</text:a></text:p>
+     <text:p text:style-name="P77"><text:a xlink:type="simple" xlink:href="#__RefHeading___Toc128_1028424442" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">File de messages<text:tab/>4</text:a></text:p>
+     <text:p text:style-name="P77"><text:a xlink:type="simple" xlink:href="#__RefHeading___Toc130_1028424442" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">Publications<text:tab/>5</text:a></text:p>
+     <text:p text:style-name="P70"><text:a xlink:type="simple" xlink:href="#__RefHeading___Toc115_1028424442" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">Messages<text:tab/>5</text:a></text:p>
+     <text:p text:style-name="P77"><text:a xlink:type="simple" xlink:href="#__RefHeading___Toc536_428264128" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">Structure<text:tab/>5</text:a></text:p>
+     <text:p text:style-name="P70"><text:a xlink:type="simple" xlink:href="#__RefHeading___Toc117_1028424442" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">Mettre en place une communication simplement<text:tab/>6</text:a></text:p>
+     <text:p text:style-name="P77"><text:a xlink:type="simple" xlink:href="#__RefHeading___Toc140_1028424442" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">Créer le client<text:tab/>6</text:a></text:p>
+     <text:p text:style-name="P77"><text:a xlink:type="simple" xlink:href="#__RefHeading___Toc142_1028424442" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">Mettre en place le </text:a><text:a xlink:type="simple" xlink:href="#__RefHeading___Toc142_1028424442" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link"><text:span text:style-name="T1">middleware</text:span></text:a><text:a xlink:type="simple" xlink:href="#__RefHeading___Toc142_1028424442" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link"><text:tab/>7</text:a></text:p>
+     <text:p text:style-name="P77"><text:a xlink:type="simple" xlink:href="#__RefHeading___Toc144_1028424442" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">Envoyer et recevoir des messages<text:tab/>7</text:a></text:p>
+     <text:p text:style-name="P76"><text:a xlink:type="simple" xlink:href="#__RefHeading___Toc119_1028424442" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">Rapport d’expérience<text:tab/>8</text:a></text:p>
+     <text:p text:style-name="P70"><text:a xlink:type="simple" xlink:href="#__RefHeading___Toc121_1028424442" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">Architecture globale<text:tab/>8</text:a></text:p>
+     <text:p text:style-name="P70"><text:a xlink:type="simple" xlink:href="#__RefHeading___Toc123_1028424442" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">Application web<text:tab/>9</text:a></text:p>
+     <text:p text:style-name="P70"><text:a xlink:type="simple" xlink:href="#__RefHeading___Toc125_1028424442" text:style-name="Index_20_Link" text:visited-style-name="Index_20_Link">Intégration JMS<text:tab/>10</text:a></text:p>
     </text:index-body>
    </text:table-of-content>
    <text:illustration-index text:style-name="Sect1" text:protected="true" text:name="Index des illustrations1">
@@ -1397,114 +1416,114 @@
      <text:index-title text:style-name="Sect1" text:name="Index des illustrations1_Head">
       <text:p text:style-name="Illustration_20_Index_20_Heading">Index des illustrations</text:p>
      </text:index-title>
-     <text:p text:style-name="P64"><text:s/>Illustration 1: Exemple de code pour la mise en place d&apos;un publicateur JMS<text:tab/>6</text:p>
-     <text:p text:style-name="P64"><text:s/>Illustration 2: Exemple de code pour la mise en place d&apos;un broker ActiveMQ<text:tab/>6</text:p>
-     <text:p text:style-name="P64"><text:s/>Illustration 3: Exemple de code pour l&apos;envoi d&apos;un message<text:tab/>6</text:p>
-     <text:p text:style-name="P64"><text:s/>Illustration 4: Extrait de la classe CourseSession montrant les liens many-to-one mis en place pour les clés étrangères<text:tab/>7</text:p>
+     <text:p text:style-name="P66"><text:s/>Illustration 1: Exemple de code pour la mise en place d&apos;un publicateur JMS<text:tab/>6</text:p>
+     <text:p text:style-name="P66"><text:s/>Illustration 2: Exemple de code pour la mise en place d&apos;un broker ActiveMQ<text:tab/>6</text:p>
+     <text:p text:style-name="P66"><text:s/>Illustration 3: Exemple de code pour l&apos;envoi d&apos;un message<text:tab/>6</text:p>
+     <text:p text:style-name="P66"><text:s/>Illustration 4: Extrait de la classe CourseSession montrant les liens many-to-one mis en place pour les clés étrangères<text:tab/>7</text:p>
     </text:index-body>
    </text:illustration-index>
    <text:p text:style-name="Standard"/>
-   <text:h text:style-name="P85" text:outline-level="1"><text:bookmark-start text:name="__RefHeading___Toc109_1028424442"/>Introduction<text:bookmark-end text:name="__RefHeading___Toc109_1028424442"/></text:h>
-   <text:p text:style-name="P77">Le présent rapport a pour objectif la restitution de l’expérience que nous avons vécue tout au long de ce projet de LO54, portant sur le développement d’une application en reprenant les éléments vus en cours, en travaux dirigés et en travaux pratiques.</text:p>
-   <text:p text:style-name="P81">L’application que nous devions développer était une application web permettant la gestion d’inscriptions à des cours. Elle devait donner la possibilité de rechercher un cours en particulier suivant différents critères (mots-clés, dates, lieux) et devait permettre à un utilisateur de s’inscrire aux différents cours. La persistance des données devait être gérée par Hibernate et la structure globale du projet devait respecter l’architecture SOA.</text:p>
-   <text:p text:style-name="P81">La particularité de notre groupe comparé aux autres était que nous devions intégrer une partie notification, qui enverrait un message lors de chaque inscription à une autre application, et ce en utilisant le Java Message Service (JMS).</text:p>
-   <text:p text:style-name="P81">Nous allons donc, dans ce rapport, commencer par décrire la technologie JMS en termes de fonctionnalité, d’utilité et de mise en place, puis nous décrirons l’application que nous avons développée.</text:p>
-   <text:h text:style-name="P69" text:outline-level="1"><text:bookmark-start text:name="__RefHeading___Toc538_428264128"/>Java Message Service (JMS)<text:bookmark-end text:name="__RefHeading___Toc538_428264128"/></text:h>
-   <text:h text:style-name="P65" text:outline-level="2"><text:bookmark-start text:name="__RefHeading___Toc111_1028424442"/>Description<text:bookmark-end text:name="__RefHeading___Toc111_1028424442"/></text:h>
-   <text:p text:style-name="P6">Le <text:span text:style-name="T1">Java Message Service</text:span><text:span text:style-name="T37"> (abrévié en JMS) est une API </text:span><text:span text:style-name="T41">créée </text:span><text:span text:style-name="T47">en </text:span><text:span text:style-name="T53">1998</text:span><text:span text:style-name="T47"> </text:span><text:span text:style-name="T41">par </text:span><text:span text:style-name="T3">Sun Microsystem</text:span><text:span text:style-name="T41"> (qui appartient désormais à </text:span><text:span text:style-name="T3">Oracle</text:span><text:span text:style-name="T41">), </text:span><text:span text:style-name="T48">API permettant la</text:span><text:span text:style-name="T37"> transmission de messages entre applications ou parties d’application</text:span><text:span text:style-name="T38">s, </text:span><text:span text:style-name="T39">et fait partie de </text:span><text:span text:style-name="T2">Java Enterprise Edition</text:span><text:span text:style-name="T39"> </text:span><text:span text:style-name="T40">depuis la version 1.3, </text:span><text:span text:style-name="T48">cette dernière étant la première à inclure une implémentation</text:span><text:span text:style-name="T37">. </text:span></text:p>
-   <text:p text:style-name="P6"><text:span text:style-name="T50">JMS</text:span><text:span text:style-name="T49"> fait partie des </text:span><text:span text:style-name="T51">API</text:span><text:span text:style-name="T49"> de JEE à avoir le moins changé </text:span><text:span text:style-name="T51">dans l’histoire</text:span><text:span text:style-name="T49"> de JEE, puisque seulement 3 versions différentes ont </text:span><text:span text:style-name="T52">existé</text:span><text:span text:style-name="T49"> depuis 2001.</text:span></text:p>
+   <text:h text:style-name="P75" text:outline-level="1"><text:bookmark-start text:name="__RefHeading___Toc109_1028424442"/>Introduction<text:bookmark-end text:name="__RefHeading___Toc109_1028424442"/></text:h>
+   <text:p text:style-name="P40">Le présent rapport a pour objectif la restitution de l’expérience que nous avons vécue tout au long de ce projet de LO54, portant sur le développement d’une application en reprenant les éléments vus en cours, en travaux dirigés et en travaux pratiques.</text:p>
+   <text:p text:style-name="P43">L’application que nous devions développer était une application web permettant la gestion d’inscriptions à des cours. Elle devait donner la possibilité de rechercher un cours en particulier suivant différents critères (mots-clés, dates, lieux) et devait permettre à un utilisateur de s’inscrire aux différents cours. La persistance des données devait être gérée par Hibernate et la structure globale du projet devait respecter l’architecture SOA.</text:p>
+   <text:p text:style-name="P43">La particularité de notre groupe comparé aux autres était que nous devions intégrer une partie notification, qui enverrait un message lors de chaque inscription à une autre application, et ce en utilisant le Java Message Service (JMS).</text:p>
+   <text:p text:style-name="P43">Nous allons donc, dans ce rapport, commencer par décrire la technologie JMS en termes de fonctionnalité, d’utilité et de mise en place, puis nous décrirons l’application que nous avons développée.</text:p>
+   <text:h text:style-name="P71" text:outline-level="1"><text:bookmark-start text:name="__RefHeading___Toc538_428264128"/>Java Message Service (JMS)<text:bookmark-end text:name="__RefHeading___Toc538_428264128"/></text:h>
+   <text:h text:style-name="P67" text:outline-level="2"><text:bookmark-start text:name="__RefHeading___Toc111_1028424442"/>Description<text:bookmark-end text:name="__RefHeading___Toc111_1028424442"/></text:h>
+   <text:p text:style-name="P6">Le <text:span text:style-name="T1">Java Message Service</text:span><text:span text:style-name="T38"> (abrévié en JMS) est une API </text:span><text:span text:style-name="T42">créée </text:span><text:span text:style-name="T48">en </text:span><text:span text:style-name="T54">1998</text:span><text:span text:style-name="T48"> </text:span><text:span text:style-name="T42">par </text:span><text:span text:style-name="T3">Sun Microsystem</text:span><text:span text:style-name="T42"> (qui appartient désormais à </text:span><text:span text:style-name="T3">Oracle</text:span><text:span text:style-name="T42">), </text:span><text:span text:style-name="T49">API permettant la</text:span><text:span text:style-name="T38"> transmission de messages entre applications ou parties d’application</text:span><text:span text:style-name="T39">s, </text:span><text:span text:style-name="T40">et fait partie de </text:span><text:span text:style-name="T2">Java Enterprise Edition</text:span><text:span text:style-name="T40"> </text:span><text:span text:style-name="T41">depuis la version 1.3, </text:span><text:span text:style-name="T49">cette dernière étant la première à inclure une implémentation</text:span><text:span text:style-name="T38">. </text:span></text:p>
+   <text:p text:style-name="P6"><text:span text:style-name="T51">JMS</text:span><text:span text:style-name="T50"> fait partie des </text:span><text:span text:style-name="T52">API</text:span><text:span text:style-name="T50"> de JEE à avoir le moins changé </text:span><text:span text:style-name="T52">dans l’histoire</text:span><text:span text:style-name="T50"> de JEE, puisque seulement 3 versions différentes ont </text:span><text:span text:style-name="T53">existé</text:span><text:span text:style-name="T50"> depuis 2001.</text:span></text:p>
    <text:p text:style-name="Heading">Système de transmission de messages</text:p>
-   <text:p text:style-name="P7">Comme nous venons de le dire, JMS permet la transmission de messages en proposant des services de création, d’envoi, de réception et de lecture de messages. <text:span text:style-name="T120">La structure de transmission ainsi mise en place est un structure de type </text:span><text:span text:style-name="T4">Message-Oriented Middleware</text:span><text:span text:style-name="T42"> (MOM). Cette architecture permet une transmission </text:span><text:span text:style-name="T4">asynchrone</text:span><text:span text:style-name="T42"> ainsi qu’un faible couplage </text:span><text:span text:style-name="T43">entre les émetteurs et les récepteurs.</text:span></text:p>
-   <text:p text:style-name="P61">Dans quel<text:span text:style-name="T121">(s)</text:span> cas l’utiliser ?</text:p>
-   <text:p text:style-name="P8">Le <text:span text:style-name="T1">Java Message Service</text:span><text:span text:style-name="T37"> est particulièrement adapté aux communications entre applications où la notion de transmission asynchrone est utile, c’est-à-dire où le récepteur </text:span><text:span text:style-name="T45">et l’émetteur peuvent être connectés à des moments différents.</text:span></text:p>
-   <text:p text:style-name="P8"><text:span text:style-name="T44">De plus, grâce au faible couplage que nous offre la structure MOM, les applications dont l’exécution est extrêmement courte ne seront pas désavantagées, puisque la connexion/déconnexion de l’émetteur est rapide, et est surtout indépendante de celle du </text:span><text:span text:style-name="T46">ou des récepteurs potentiels.</text:span></text:p>
-   <text:h text:style-name="P65" text:outline-level="2"><text:bookmark-start text:name="__RefHeading___Toc113_1028424442"/><text:soft-page-break/>Types de communications<text:bookmark-end text:name="__RefHeading___Toc113_1028424442"/></text:h>
-   <text:p text:style-name="P9">Avec l’architecture <text:span text:style-name="T1">Message-Oriented Middleware</text:span><text:span text:style-name="T37">, JMS permet de mettre en place deux types de communications, que nous allons maintenant présenter.</text:span></text:p>
-   <text:p text:style-name="P10"><text:span text:style-name="T54">Chacune</text:span><text:span text:style-name="T37"> des interfaces d’entité de JMS (Client, Broker, etc.) possède deux sous-interfaces, une pour chaque type de communication.</text:span></text:p>
-   <text:h text:style-name="P74" text:outline-level="3"><text:bookmark-start text:name="__RefHeading___Toc128_1028424442"/>File de messages<text:bookmark-end text:name="__RefHeading___Toc128_1028424442"/></text:h>
-   <text:p text:style-name="P11">Le premier type de communication est le type <text:span text:style-name="T1">File de messages</text:span><text:span text:style-name="T37">, qui est une communication point-à-point (un seul émetteur et un seul récepteur) </text:span><text:span text:style-name="T55">suivant un patron de </text:span><text:span text:style-name="T94">P</text:span><text:span text:style-name="T5">roducteur-</text:span><text:span text:style-name="T26">C</text:span><text:span text:style-name="T5">onsom</text:span><text:span text:style-name="T7">m</text:span><text:span text:style-name="T5">ateur</text:span><text:span text:style-name="T55">.</text:span></text:p>
-   <text:p text:style-name="P12"><text:span text:style-name="T37">L’envoi de messages via ce type de communication-ci aura pour effet de placer le message en question dans une file d’</text:span><text:span text:style-name="T56">attente </text:span><text:span text:style-name="T57">PEPS (</text:span><text:span text:style-name="T6">Premier Entré, Premier Sorti)</text:span><text:span text:style-name="T37"> où il restera </text:span><text:span text:style-name="T56">pour une durée indéterminée</text:span><text:span text:style-name="T37">. A tout moment, un </text:span><text:span text:style-name="T58">consommateur va pouvoir venir lire un message dans cette file de messages, ce qui aura pour effet de le </text:span><text:span text:style-name="T7">consommer</text:span><text:span text:style-name="T58">, c’est-à-dire le retirer de la file. </text:span><text:span text:style-name="T62">C’est pour cela qu’on parle de transmission </text:span><text:span text:style-name="T9">1-à-1 </text:span><text:span text:style-name="T62">: un seul récepteur peut recevoir ce message, car la lecture retire le message de la file, </text:span><text:span text:style-name="T63">rendant le message indisponible pour d’autres</text:span><text:span text:style-name="T62">.</text:span></text:p>
-   <text:p text:style-name="P13"><text:span text:style-name="T58">L</text:span><text:span text:style-name="T37">a file de messages oblige les consommateurs à venir lire périodiquement la file pour </text:span><text:span text:style-name="T64">vérifier</text:span><text:span text:style-name="T37"> la présence de nouveaux messages. </text:span><text:span text:style-name="T59">Cependant, il existe un mécanisme d’attente qui permet au consommateur de se mettre en attente passive jusqu’à l’arrivée d’un nouveau message à consommer dans la file sur laquelle il est en attente.</text:span></text:p>
-   <text:h text:style-name="P74" text:outline-level="3"><text:bookmark-start text:name="__RefHeading___Toc130_1028424442"/>Publications<text:bookmark-end text:name="__RefHeading___Toc130_1028424442"/></text:h>
-   <text:p text:style-name="P14">Le second type de communication proposé par JMS correspond à un patron <text:span text:style-name="T1">Publication</text:span><text:span text:style-name="T37"> aussi appelé par son nom anglais </text:span><text:span text:style-name="T1">Publish-Subscribe</text:span><text:span text:style-name="T37">, et correspond à un mode de transmission de diffusion </text:span><text:span text:style-name="T1">1-à-plusieurs</text:span><text:span text:style-name="T37">, en se basant </text:span><text:span text:style-name="T60">sur un système de sujets (</text:span><text:span text:style-name="T8">topics</text:span><text:span text:style-name="T60">) pour déterminer les destinataires. </text:span></text:p>
-   <text:p text:style-name="P15"><text:span text:style-name="T37">Avant la diffusion d’un message, les différents récepteurs potentiels vont contacter le </text:span><text:span text:style-name="T1">broker</text:span><text:span text:style-name="T37"> pour s’enregistrer sur un ou plusieurs sujets (</text:span><text:span text:style-name="T1">subscribe</text:span><text:span text:style-name="T37">). Lorsque qu’un client souhaite envoyer un message, il va alors choisir un sujet sur lequel le publier (</text:span><text:span text:style-name="T1">publish</text:span><text:span text:style-name="T37">), et le </text:span><text:span text:style-name="T1">broker</text:span><text:span text:style-name="T37"> va alors se charger de le transmettre à tous les clients qui sont enregistré sur ce sujet. </text:span><text:span text:style-name="T61">Ils vont alors tous recevoir </text:span><text:span text:style-name="T64">le message </text:span><text:span text:style-name="T61">à l’identique, </text:span><text:span text:style-name="T65">d’où la communication </text:span><text:span text:style-name="T10">1-à-plusieurs</text:span><text:span text:style-name="T65">.</text:span></text:p>
-   <text:p text:style-name="P16"><text:span text:style-name="T65">C</text:span><text:span text:style-name="T37">ontrairement à la communication par file de messages, le modèle </text:span><text:span text:style-name="T95">P</text:span><text:span text:style-name="T1">ublish-</text:span><text:span text:style-name="T27">S</text:span><text:span text:style-name="T1">ubscribe</text:span><text:span text:style-name="T37"> se base sur des événements pour la réception des messages, et les différents récepteurs peuvent définir des callbacks pour la réception des messages.</text:span></text:p>
-   <text:h text:style-name="P65" text:outline-level="2"><text:bookmark-start text:name="__RefHeading___Toc115_1028424442"/>Messages<text:bookmark-end text:name="__RefHeading___Toc115_1028424442"/></text:h>
-   <text:p text:style-name="P17">Le <text:span text:style-name="T1">Java Message Service</text:span><text:span text:style-name="T37"> propose également, en plus des différents types de communication, de créer vos propres messages. Nous allons voir maintenant quelles sont les différentes caractéristiques de ces messages, puis comment les générer, les envoyer et les recevoir.</text:span></text:p>
-   <text:h text:style-name="P75" text:outline-level="3"><text:bookmark-start text:name="__RefHeading___Toc536_428264128"/>Structure<text:bookmark-end text:name="__RefHeading___Toc536_428264128"/></text:h>
-   <text:p text:style-name="P17">Les messages <text:span text:style-name="T122">de JMS sont composés de 3 parties distinctes : les en-têtes, les propriétés et le corps du message.</text:span></text:p>
-   <text:p text:style-name="P58"><text:soft-page-break/>En-tête</text:p>
-   <text:p text:style-name="P18">Les en-têtes sont des champs généraux communs à tous les messages, et donnant les informations de base à propos de ceux-ci (destination, mode de communication, identifiant, horodateur, durée de vie, etc.). <text:span text:style-name="T123">La grande majorité des champs sont remplis automatiquement par JMS lorsque le message est envoyé, aussi les modifier à la main avant l’envoi peut ne pas avoir d’effet.</text:span></text:p>
+   <text:p text:style-name="P7">Comme nous venons de le dire, JMS permet la transmission de messages en proposant des services de création, d’envoi, de réception et de lecture de messages. <text:span text:style-name="T123">La structure de transmission ainsi mise en place est une structure de type </text:span><text:span text:style-name="T4">Message-Oriented Middleware</text:span><text:span text:style-name="T43"> (MOM). Cette architecture permet une transmission </text:span><text:span text:style-name="T4">asynchrone</text:span><text:span text:style-name="T43"> ainsi qu’un faible couplage </text:span><text:span text:style-name="T44">entre les émetteurs et les récepteurs.</text:span></text:p>
+   <text:p text:style-name="P63">Dans quel<text:span text:style-name="T124">(s)</text:span> cas l’utiliser ?</text:p>
+   <text:p text:style-name="P8">Le <text:span text:style-name="T1">Java Message Service</text:span><text:span text:style-name="T38"> est particulièrement adapté aux communications entre applications où la notion de transmission asynchrone est utile, c’est-à-dire où le récepteur </text:span><text:span text:style-name="T46">et l’émetteur peuvent être connectés à des moments différents.</text:span></text:p>
+   <text:p text:style-name="P8"><text:span text:style-name="T45">De plus, grâce au faible couplage que nous offre la structure MOM, les applications dont l’exécution est extrêmement courte ne seront pas désavantagées, puisque la connexion/déconnexion de l’émetteur est rapide, et est surtout indépendante de celle du </text:span><text:span text:style-name="T47">ou des récepteurs potentiels.</text:span></text:p>
+   <text:h text:style-name="P67" text:outline-level="2"><text:bookmark-start text:name="__RefHeading___Toc113_1028424442"/><text:soft-page-break/>Types de communications<text:bookmark-end text:name="__RefHeading___Toc113_1028424442"/></text:h>
+   <text:p text:style-name="P9">Avec l’architecture <text:span text:style-name="T1">Message-Oriented Middleware</text:span><text:span text:style-name="T38">, JMS permet de mettre en place deux types de communications, que nous allons maintenant présenter.</text:span></text:p>
+   <text:p text:style-name="P10"><text:span text:style-name="T55">Chacune</text:span><text:span text:style-name="T38"> des interfaces d’entité de JMS (Client, Broker, etc.) possède deux sous-interfaces, une pour chaque type de communication.</text:span></text:p>
+   <text:h text:style-name="P78" text:outline-level="3"><text:bookmark-start text:name="__RefHeading___Toc128_1028424442"/>File de messages<text:bookmark-end text:name="__RefHeading___Toc128_1028424442"/></text:h>
+   <text:p text:style-name="P11">Le premier type de communication est le type <text:span text:style-name="T1">File de messages</text:span><text:span text:style-name="T38">, qui est une communication point-à-point (un seul émetteur et un seul récepteur) </text:span><text:span text:style-name="T56">suivant un patron de </text:span><text:span text:style-name="T95">P</text:span><text:span text:style-name="T5">roducteur-</text:span><text:span text:style-name="T26">C</text:span><text:span text:style-name="T5">onsom</text:span><text:span text:style-name="T7">m</text:span><text:span text:style-name="T5">ateur</text:span><text:span text:style-name="T56">.</text:span></text:p>
+   <text:p text:style-name="P12"><text:span text:style-name="T38">L’envoi de messages via ce type de communication-ci aura pour effet de placer le message en question dans une file d’</text:span><text:span text:style-name="T57">attente </text:span><text:span text:style-name="T58">PEPS (</text:span><text:span text:style-name="T6">Premier Entré, Premier Sorti)</text:span><text:span text:style-name="T38"> où il restera </text:span><text:span text:style-name="T57">pour une durée indéterminée</text:span><text:span text:style-name="T38">. </text:span><text:span text:style-name="T97">À</text:span><text:span text:style-name="T38"> tout moment, un </text:span><text:span text:style-name="T59">consommateur va pouvoir venir lire un message dans cette file de messages, ce qui aura pour effet de le </text:span><text:span text:style-name="T7">consommer</text:span><text:span text:style-name="T59">, c’est-à-dire le retirer de la file. </text:span><text:span text:style-name="T63">C’est pour cela qu’on parle de transmission </text:span><text:span text:style-name="T9">1-à-1 </text:span><text:span text:style-name="T63">: un seul récepteur peut recevoir ce message, car la lecture retire le message de la file, </text:span><text:span text:style-name="T64">rendant le message indisponible pour d’autres</text:span><text:span text:style-name="T63">.</text:span></text:p>
+   <text:p text:style-name="P13"><text:span text:style-name="T59">L</text:span><text:span text:style-name="T38">a file de messages oblige les consommateurs à venir lire périodiquement la file pour </text:span><text:span text:style-name="T65">vérifier</text:span><text:span text:style-name="T38"> la présence de nouveaux messages. </text:span><text:span text:style-name="T60">Cependant, il existe un mécanisme d’attente qui permet au consommateur de se mettre en attente passive jusqu’à l’arrivée d’un nouveau message à consommer dans la file sur laquelle il est en attente.</text:span></text:p>
+   <text:h text:style-name="P78" text:outline-level="3"><text:bookmark-start text:name="__RefHeading___Toc130_1028424442"/>Publications<text:bookmark-end text:name="__RefHeading___Toc130_1028424442"/></text:h>
+   <text:p text:style-name="P14">Le second type de communication proposé par JMS correspond à un patron <text:span text:style-name="T1">Publication</text:span><text:span text:style-name="T38"> aussi appelé par son nom anglais </text:span><text:span text:style-name="T1">Publish-Subscribe</text:span><text:span text:style-name="T38">, et correspond à un mode de transmission de diffusion </text:span><text:span text:style-name="T1">1-à-plusieurs</text:span><text:span text:style-name="T38">, en se basant </text:span><text:span text:style-name="T61">sur un système de sujets (</text:span><text:span text:style-name="T8">topics</text:span><text:span text:style-name="T61">) pour déterminer les destinataires. </text:span></text:p>
+   <text:p text:style-name="P15"><text:span text:style-name="T38">Avant la diffusion d’un message, les différents récepteurs potentiels vont contacter le </text:span><text:span text:style-name="T1">broker</text:span><text:span text:style-name="T38"> pour s’enregistrer sur un ou plusieurs sujets (</text:span><text:span text:style-name="T1">subscribe</text:span><text:span text:style-name="T38">). Lorsqu’un client souhaite envoyer un message, il va alors choisir un sujet sur lequel le publier (</text:span><text:span text:style-name="T1">publish</text:span><text:span text:style-name="T38">), et le </text:span><text:span text:style-name="T1">broker</text:span><text:span text:style-name="T38"> va alors se charger de le transmettre à tous les clients qui sont enregistré</text:span><text:span text:style-name="T97">s</text:span><text:span text:style-name="T38"> sur ce sujet. </text:span><text:span text:style-name="T62">Ils vont alors tous recevoir </text:span><text:span text:style-name="T65">le message </text:span><text:span text:style-name="T62">à l’identique, </text:span><text:span text:style-name="T66">d’où la communication </text:span><text:span text:style-name="T10">1-à-plusieurs</text:span><text:span text:style-name="T66">.</text:span></text:p>
+   <text:p text:style-name="P16"><text:span text:style-name="T66">C</text:span><text:span text:style-name="T38">ontrairement à la communication par file de messages, le modèle </text:span><text:span text:style-name="T96">P</text:span><text:span text:style-name="T1">ublish-</text:span><text:span text:style-name="T27">S</text:span><text:span text:style-name="T1">ubscribe</text:span><text:span text:style-name="T38"> se base sur des événements pour la réception des messages, et les différents récepteurs peuvent définir des callbacks pour la réception des messages.</text:span></text:p>
+   <text:h text:style-name="P67" text:outline-level="2"><text:bookmark-start text:name="__RefHeading___Toc115_1028424442"/>Messages<text:bookmark-end text:name="__RefHeading___Toc115_1028424442"/></text:h>
+   <text:p text:style-name="P17">Le <text:span text:style-name="T1">Java Message Service</text:span><text:span text:style-name="T38"> propose également, en plus des différents types de communication, de créer vos propres messages. Nous allons voir maintenant quelles sont les différentes caractéristiques de ces messages, puis comment les générer, les envoyer et les recevoir.</text:span></text:p>
+   <text:h text:style-name="P79" text:outline-level="3"><text:bookmark-start text:name="__RefHeading___Toc536_428264128"/>Structure<text:bookmark-end text:name="__RefHeading___Toc536_428264128"/></text:h>
+   <text:p text:style-name="P17">Les messages <text:span text:style-name="T125">de JMS sont composés de 3 parties distinctes : les en-têtes, les propriétés et le corps du message.</text:span></text:p>
+   <text:p text:style-name="P60"><text:soft-page-break/>En-tête</text:p>
+   <text:p text:style-name="P18">Les en-têtes sont des champs généraux communs à tous les messages, et donnant les informations de base à propos de ceux-ci (destination, mode de communication, identifiant, horodateur, durée de vie, etc.). <text:span text:style-name="T126">La grande majorité des champs sont remplis automatiquement par JMS lorsque le message est envoyé, aussi les modifier à la main avant l’envoi peut ne pas avoir d’effet.</text:span></text:p>
    <text:p text:style-name="P19">Les en-têtes sont prédéfinis dans JMS, il n’est pas possible d’en rajouter un.</text:p>
-   <text:p text:style-name="P58">Propriété</text:p>
-   <text:p text:style-name="P20"><text:span text:style-name="T125">Ensuite, l</text:span>es propriétés sont également des champs, mais contrairement aux en-têtes, les propriétés ne sont pas obligatoires et uniques à chaque message. Elles servent à spécifier des méta-données supplémentaires ne faisant pas partie du contenu, ce qui peut par exemple permettre de <text:span text:style-name="T124">filtrer</text:span> les messages d’une certaine manière.</text:p>
+   <text:p text:style-name="P60">Propriété</text:p>
+   <text:p text:style-name="P20"><text:span text:style-name="T128">Ensuite, l</text:span>es propriétés sont également des champs, mais contrairement aux en-têtes, les propriétés ne sont pas obligatoires et uniques à chaque message. Elles servent à spécifier des métadonnées supplémentaires ne faisant pas partie du contenu, ce qui peut par exemple permettre de <text:span text:style-name="T127">filtrer</text:span> les messages d’une certaine manière.</text:p>
    <text:p text:style-name="P19">Les propriétés sont libres dans JMS, chacun pouvant définir ses propres propriétés comme bon lui semble. Les messages peuvent contenir plusieurs propriétés.</text:p>
-   <text:p text:style-name="P58">Corps</text:p>
-   <text:p text:style-name="P21">Enfin, le corps de message est le contenu <text:span text:style-name="T1">réel</text:span><text:span text:style-name="T37"> du message. </text:span><text:span text:style-name="T66">Il va définir le type de message qui sera envoyé, et correspond dans l’API a des interfaces différentes, chacune permettant l’envoi d’un certain type de données. </text:span><text:span text:style-name="T37">JMS propose 5 types de </text:span><text:span text:style-name="T67">corps de</text:span><text:span text:style-name="T37"> message différents : </text:span></text:p>
-   <text:list xml:id="list7985175156553674241" text:style-name="L1">
+   <text:p text:style-name="P60">Corps</text:p>
+   <text:p text:style-name="P21">Enfin, le corps de message est le contenu <text:span text:style-name="T1">réel</text:span><text:span text:style-name="T38"> du message. </text:span><text:span text:style-name="T67">Il va définir le type de message qui sera envoyé, et correspond dans l’API </text:span><text:span text:style-name="T97">à</text:span><text:span text:style-name="T67"> des interfaces différentes, chacune permettant l’envoi d’un certain type de données. </text:span><text:span text:style-name="T38">JMS propose 5 types de </text:span><text:span text:style-name="T68">corps de</text:span><text:span text:style-name="T38"> message différents : </text:span></text:p>
+   <text:list xml:id="list3290755992043843557" text:style-name="L1">
     <text:list-item>
-     <text:p text:style-name="P82">TextMessage</text:p>
+     <text:p text:style-name="P81">TextMessage</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P82">MapMessage</text:p>
+     <text:p text:style-name="P81">MapMessage</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P82">BytesMessage</text:p>
+     <text:p text:style-name="P81">BytesMessage</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P82">StreamMessage</text:p>
+     <text:p text:style-name="P81">StreamMessage</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P82">ObjectMessage</text:p>
+     <text:p text:style-name="P81">ObjectMessage</text:p>
     </text:list-item>
    </text:list>
-   <text:p text:style-name="P19"><text:span text:style-name="T37">Chaque type est destiné à contenir </text:span><text:span text:style-name="T66">certaines données, comme par exemple une chaîne de caractères pour le TextMessage, un set d’associations </text:span><text:span text:style-name="T12">clé-valeur</text:span><text:span text:style-name="T66"> pour le MapMessage ou encore un objet sérialisable pour l’ObjectMessage.</text:span></text:p>
-   <text:p text:style-name="P22"><text:span text:style-name="T66">U</text:span><text:span text:style-name="T37">n message donné ne peut contenir au maximum qu’un seul corps, </text:span><text:span text:style-name="T67">mais peut cependant être créé sans celui-ci : JMS propose en effet un 6ème type, le Message, qui est un message ne contenant pas de corps, </text:span><text:span text:style-name="T68">et étant seulement composé d’en-têtes et de propriétés</text:span><text:span text:style-name="T67">.</text:span></text:p>
-   <text:h text:style-name="P65" text:outline-level="2"><text:bookmark-start text:name="__RefHeading___Toc117_1028424442"/>Mettre en place une communication simplement<text:bookmark-end text:name="__RefHeading___Toc117_1028424442"/></text:h>
-   <text:h text:style-name="P76" text:outline-level="3"><text:bookmark-start text:name="__RefHeading___Toc140_1028424442"/>Créer le client<text:bookmark-end text:name="__RefHeading___Toc140_1028424442"/></text:h>
-   <text:p text:style-name="P23">Pour mettre en place un client capable d’envoyer et de recevoir des messages, il faut instancier 3 <text:span text:style-name="T126">éléments, mais les interfaces diffèrent suivant le type de communication (</text:span><text:span text:style-name="T13">pub-Sub</text:span><text:span text:style-name="T69"> ou </text:span><text:span text:style-name="T13">file de message</text:span><text:span text:style-name="T69">) que vous utilisez. La table ci-contre donne le nom des 3 interfaces à instancier en fonction du type de communication :</text:span></text:p>
+   <text:p text:style-name="P19"><text:span text:style-name="T38">Chaque type est destiné à contenir </text:span><text:span text:style-name="T67">certaines données, par exemple une chaîne de caractères pour le TextMessage, un set d’associations </text:span><text:span text:style-name="T12">clé-valeur</text:span><text:span text:style-name="T67"> pour le MapMessage ou encore un objet sérialisable pour l’ObjectMessage.</text:span></text:p>
+   <text:p text:style-name="P22"><text:span text:style-name="T67">U</text:span><text:span text:style-name="T38">n message donné ne peut contenir au maximum qu’un seul corps, </text:span><text:span text:style-name="T68">mais peut cependant être créé sans celui-ci : JMS propose en effet un 6</text:span><text:span text:style-name="T97">ème</text:span><text:span text:style-name="T68"> type, le Message, qui est un message ne contenant pas de corps, </text:span><text:span text:style-name="T69">et étant seulement composé d’en-têtes et de propriétés</text:span><text:span text:style-name="T68">.</text:span></text:p>
+   <text:h text:style-name="P67" text:outline-level="2"><text:bookmark-start text:name="__RefHeading___Toc117_1028424442"/>Mettre en place une communication simplement<text:bookmark-end text:name="__RefHeading___Toc117_1028424442"/></text:h>
+   <text:h text:style-name="P80" text:outline-level="3"><text:bookmark-start text:name="__RefHeading___Toc140_1028424442"/>Créer le client<text:bookmark-end text:name="__RefHeading___Toc140_1028424442"/></text:h>
+   <text:p text:style-name="P23">Pour mettre en place un client capable d’envoyer et de recevoir des messages, il faut instancier 3 <text:span text:style-name="T129">éléments, mais les interfaces diffèrent suivant le type de communication (</text:span><text:span text:style-name="T13">pub-Sub</text:span><text:span text:style-name="T70"> ou </text:span><text:span text:style-name="T13">file de message</text:span><text:span text:style-name="T28">s</text:span><text:span text:style-name="T70">) que vous utilisez. La table ci-contre donne le nom des 3 interfaces à instancier en fonction du type de communication :</text:span></text:p>
    <table:table table:name="Tableau1" table:style-name="Tableau1">
     <table:table-column table:style-name="Tableau1.A"/>
     <table:table-column table:style-name="Tableau1.B"/>
     <table:table-row>
      <table:table-cell table:style-name="Tableau1.A1" office:value-type="string">
-      <text:p text:style-name="P62">Communication <text:span text:style-name="T1">Pub-Sub</text:span></text:p>
+      <text:p text:style-name="P64">Communication <text:span text:style-name="T1">Pub-Sub</text:span></text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Tableau1.B1" office:value-type="string">
-      <text:p text:style-name="P62">Communication <text:span text:style-name="T1">Queue</text:span></text:p>
+      <text:p text:style-name="P64">Communication <text:span text:style-name="T1">Queue</text:span></text:p>
      </table:table-cell>
     </table:table-row>
     <text:soft-page-break/>
     <table:table-row>
      <table:table-cell table:style-name="Tableau1.A2" office:value-type="string">
-      <text:p text:style-name="P63">TopicConnectionFactory</text:p>
+      <text:p text:style-name="P65">TopicConnectionFactory</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Tableau1.B2" office:value-type="string">
-      <text:p text:style-name="P63">QueueConnectionFactory</text:p>
+      <text:p text:style-name="P65">QueueConnectionFactory</text:p>
      </table:table-cell>
     </table:table-row>
     <table:table-row>
      <table:table-cell table:style-name="Tableau1.A2" office:value-type="string">
-      <text:p text:style-name="P63">TopicConnection</text:p>
+      <text:p text:style-name="P65">TopicConnection</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Tableau1.B2" office:value-type="string">
-      <text:p text:style-name="P63">QueueConnection</text:p>
+      <text:p text:style-name="P65">QueueConnection</text:p>
      </table:table-cell>
     </table:table-row>
     <table:table-row>
      <table:table-cell table:style-name="Tableau1.A2" office:value-type="string">
-      <text:p text:style-name="P63">TopicSession</text:p>
+      <text:p text:style-name="P65">TopicSession</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Tableau1.B2" office:value-type="string">
-      <text:p text:style-name="P63">QueueSession</text:p>
+      <text:p text:style-name="P65">QueueSession</text:p>
      </table:table-cell>
     </table:table-row>
    </table:table>
    <text:p text:style-name="P3"/>
-   <text:p text:style-name="P24">Les interfaces <text:span text:style-name="T1">ConnectionFactory</text:span><text:span text:style-name="T37"> sont les premiers éléments à instancier, et vont nous permettre de créer des instances </text:span><text:span text:style-name="T1">Connection</text:span><text:span text:style-name="T37">. La</text:span><text:span text:style-name="T70"> </text:span><text:span text:style-name="T14">ConnectionFactory</text:span><text:span text:style-name="T70"> recevra, à son instanciation, les éléments permettant de se connecter au </text:span><text:span text:style-name="T14">broker</text:span><text:span text:style-name="T70"> (</text:span><text:span text:style-name="T95">l’URL</text:span><text:span text:style-name="T70"> de connexion, éventuellement des identifiants), </text:span><text:span text:style-name="T71">et chacune des instances </text:span><text:span text:style-name="T15">Connection</text:span><text:span text:style-name="T71"> que nous produiront grâce à cette </text:span><text:span text:style-name="T15">ConnectionFactory</text:span><text:span text:style-name="T71"> seront configuré pour contacter ce </text:span><text:span text:style-name="T15">broker</text:span><text:span text:style-name="T71">-ci en particulier.</text:span></text:p>
-   <text:p text:style-name="P25"><text:span text:style-name="T71">E</text:span><text:span text:style-name="T37">nsuite, la </text:span><text:span text:style-name="T1">Connection</text:span><text:span text:style-name="T37"> est une instance qui va représenter la connexion entre le client et le </text:span><text:span text:style-name="T1">broker</text:span><text:span text:style-name="T37"> pour lequel elle est configurée. </text:span><text:span text:style-name="T72">Instancier et démarrer une instance </text:span><text:span text:style-name="T16">Connection</text:span><text:span text:style-name="T72"> a pour effet de se connecter physiquement au </text:span><text:span text:style-name="T16">broker</text:span><text:span text:style-name="T72"> via </text:span><text:span text:style-name="T73">la création d’un socket </text:span><text:span text:style-name="T72">TCP/IP. </text:span><text:span text:style-name="T74">En outre, l’instance </text:span><text:span text:style-name="T17">Connection</text:span><text:span text:style-name="T74"> permet de créer des instances </text:span><text:span text:style-name="T17">Session</text:span><text:span text:style-name="T74">.</text:span></text:p>
-   <text:p text:style-name="P4"><text:span text:style-name="T131">Cette instance </text:span><text:span text:style-name="T140">Session</text:span><text:span text:style-name="T131"> est un objet mono-thread </text:span><text:span text:style-name="T132">représentant un contexte de communication entre une application et le </text:span><text:span text:style-name="T141">broker</text:span><text:span text:style-name="T132"> JMS,</text:span><text:span text:style-name="T131"> permettant la création et la consommation de messages.</text:span><text:span text:style-name="T132"> La session contient également </text:span><text:span text:style-name="T133">d’autres éléments de configuration, comme la politique d’accusé</text:span><text:span text:style-name="T134">s</text:span><text:span text:style-name="T133"> réception</text:span><text:span text:style-name="T134"> </text:span><text:span text:style-name="T135">(automatique lors de la réception, manuelle, etc.</text:span><text:span text:style-name="T136">).</text:span></text:p>
-   <text:p text:style-name="P42"><draw:frame draw:style-name="fr1" draw:name="Cadre1" text:anchor-type="paragraph" svg:x="0cm" svg:y="0.236cm" svg:width="17cm" draw:z-index="0">
+   <text:p text:style-name="P24">Les interfaces <text:span text:style-name="T1">ConnectionFactory</text:span><text:span text:style-name="T38"> sont les premiers éléments à instancier, et vont nous permettre de créer des instances </text:span><text:span text:style-name="T1">Connection</text:span><text:span text:style-name="T38">. La</text:span><text:span text:style-name="T71"> </text:span><text:span text:style-name="T14">ConnectionFactory</text:span><text:span text:style-name="T71"> recevra, à son instanciation, les éléments permettant de se connecter au </text:span><text:span text:style-name="T14">broker</text:span><text:span text:style-name="T71"> (</text:span><text:span text:style-name="T96">l’URL</text:span><text:span text:style-name="T71"> de connexion, éventuellement des identifiants), </text:span><text:span text:style-name="T72">et chacune des instances </text:span><text:span text:style-name="T15">Connection</text:span><text:span text:style-name="T72"> que nous produiron</text:span><text:span text:style-name="T97">s</text:span><text:span text:style-name="T72"> grâce à cette </text:span><text:span text:style-name="T15">ConnectionFactory</text:span><text:span text:style-name="T72"> seront configuré</text:span><text:span text:style-name="T97">s</text:span><text:span text:style-name="T72"> pour contacter ce </text:span><text:span text:style-name="T15">broker</text:span><text:span text:style-name="T72">-ci en particulier.</text:span></text:p>
+   <text:p text:style-name="P25"><text:span text:style-name="T72">E</text:span><text:span text:style-name="T38">nsuite, la </text:span><text:span text:style-name="T1">Connection</text:span><text:span text:style-name="T38"> est une instance qui va représenter la connexion entre le client et le </text:span><text:span text:style-name="T1">broker</text:span><text:span text:style-name="T38"> pour lequel elle est configurée. </text:span><text:span text:style-name="T73">Instancier et démarrer une instance </text:span><text:span text:style-name="T16">Connection</text:span><text:span text:style-name="T73"> a pour effet de se connecter physiquement au </text:span><text:span text:style-name="T16">broker</text:span><text:span text:style-name="T73"> via </text:span><text:span text:style-name="T74">la création d’un socket </text:span><text:span text:style-name="T73">TCP/IP. </text:span><text:span text:style-name="T75">En outre, l’instance </text:span><text:span text:style-name="T17">Connection</text:span><text:span text:style-name="T75"> permet de créer des instances </text:span><text:span text:style-name="T17">Session</text:span><text:span text:style-name="T75">.</text:span></text:p>
+   <text:p text:style-name="P4"><text:span text:style-name="T134">Cette instance </text:span><text:span text:style-name="T143">Session</text:span><text:span text:style-name="T134"> est un objet mono-thread </text:span><text:span text:style-name="T135">représentant un contexte de communication entre une application et le </text:span><text:span text:style-name="T144">broker</text:span><text:span text:style-name="T135"> JMS,</text:span><text:span text:style-name="T134"> permettant la création et la consommation de messages.</text:span><text:span text:style-name="T135"> La session contient également </text:span><text:span text:style-name="T136">d’autres éléments de configuration, comme la politique d’accusé</text:span><text:span text:style-name="T137">s</text:span><text:span text:style-name="T136"> réception</text:span><text:span text:style-name="T137"> </text:span><text:span text:style-name="T138">(automatique lors de la réception, manuelle, etc.</text:span><text:span text:style-name="T139">).</text:span></text:p>
+   <text:p text:style-name="P44"><draw:frame draw:style-name="fr1" draw:name="Cadre1" text:anchor-type="paragraph" svg:x="0cm" svg:y="0.236cm" svg:width="17cm" draw:z-index="0">
      <draw:text-box fo:min-height="5.196cm">
       <text:p text:style-name="Illustration"><draw:frame draw:style-name="fr3" draw:name="Image1" text:anchor-type="as-char" svg:y="-5.304cm" svg:width="17cm" style:rel-width="100%" svg:height="5.196cm" style:rel-height="scale" draw:z-index="1"><draw:image>
          <office:binary-data>iVBORw0KGgoAAAANSUhEUgAAAwQAAADsCAMAAAD92pGiAAAAAXNSR0IArs4c6QAAAARnQU1B
@@ -1676,10 +1695,10 @@
         </draw:image>
        </draw:frame><text:line-break/>Illustration <text:sequence text:ref-name="refIllustration0" text:name="Illustration" text:formula="ooow:Illustration+1" style:num-format="1">1</text:sequence>: Exemple de code pour la mise en place d&apos;un publicateur JMS</text:p>
      </draw:text-box>
-    </draw:frame><text:span text:style-name="T136">L</text:span><text:span text:style-name="T131">a figure ci-contre présente le code nécessaire pour instancier tous ces objets </text:span><text:span text:style-name="T137">pour une communication de type </text:span><text:span text:style-name="T142">Pub-Sub</text:span><text:span text:style-name="T131">, démarrer la connexion avec le </text:span><text:span text:style-name="T140">broker </text:span><text:span text:style-name="T131">JMS et créer un </text:span><text:span text:style-name="T143">publisher</text:span><text:span text:style-name="T131"> </text:span><text:span text:style-name="T138">sur le sujet </text:span><text:span text:style-name="T144">monTopicPubSub</text:span><text:span text:style-name="T131">. </text:span><text:span text:style-name="T139">Comme précisé plus tôt, nous utilisons l’implémentation </text:span><text:span text:style-name="T145">ActiveMQ</text:span><text:span text:style-name="T139"> créée par Apache.</text:span></text:p>
-   <text:p text:style-name="P26"><text:span text:style-name="T75">P</text:span><text:span text:style-name="T37">our mettre en place un </text:span><text:span text:style-name="T1">subscriber</text:span><text:span text:style-name="T37">, il suffit de remplacer d’appeler la méthode </text:span><text:span text:style-name="T1">session.createSubscriber(topic)</text:span><text:span text:style-name="T37">. </text:span><text:span text:style-name="T77">Vous devez également spécifier un MessageListener qui sera appelé lors que la réception de messages.</text:span></text:p>
-   <text:h text:style-name="P76" text:outline-level="3"><text:bookmark-start text:name="__RefHeading___Toc142_1028424442"/>Mettre en place le <text:span text:style-name="T11">middleware</text:span><text:bookmark-end text:name="__RefHeading___Toc142_1028424442"/></text:h>
-   <text:p text:style-name="P27"><text:span text:style-name="T76">L</text:span><text:span text:style-name="T37">a mise en place d’un </text:span><text:span text:style-name="T1">middleware</text:span><text:span text:style-name="T37"> est très simple avec ActiveMQ. Il suffit de spécifier un nom au broker, de lui rajouter des connecteurs, c’est-à-dire des sockets sur lesquels les clients peuvent se connecter, et de le démarrer. Un exemple de cette séquence est disponible ci-dessous : </text:span></text:p>
+    </draw:frame><text:span text:style-name="T139">L</text:span><text:span text:style-name="T134">a figure ci-contre présente le code nécessaire pour instancier tous ces objets </text:span><text:span text:style-name="T140">pour une communication de type </text:span><text:span text:style-name="T145">Pub-Sub</text:span><text:span text:style-name="T134">, démarrer la connexion avec le </text:span><text:span text:style-name="T143">broker </text:span><text:span text:style-name="T134">JMS et créer un </text:span><text:span text:style-name="T146">publisher</text:span><text:span text:style-name="T134"> </text:span><text:span text:style-name="T141">sur le sujet </text:span><text:span text:style-name="T147">monTopicPubSub</text:span><text:span text:style-name="T134">. </text:span><text:span text:style-name="T142">Comme précisé plus tôt, nous utilisons l’implémentation </text:span><text:span text:style-name="T148">ActiveMQ</text:span><text:span text:style-name="T142"> créée par Apache.</text:span></text:p>
+   <text:p text:style-name="P26"><text:span text:style-name="T76">P</text:span><text:span text:style-name="T38">our mettre en place un </text:span><text:span text:style-name="T1">subscriber</text:span><text:span text:style-name="T38">, il suffit de remplacer d’appeler la méthode </text:span><text:span text:style-name="T1">session.createSubscriber(topic)</text:span><text:span text:style-name="T38">. </text:span><text:span text:style-name="T78">Vous devez également spécifier un MessageListener qui sera appelé lors que la réception de messages.</text:span></text:p>
+   <text:h text:style-name="P80" text:outline-level="3"><text:bookmark-start text:name="__RefHeading___Toc142_1028424442"/>Mettre en place le <text:span text:style-name="T11">middleware</text:span><text:bookmark-end text:name="__RefHeading___Toc142_1028424442"/></text:h>
+   <text:p text:style-name="P27"><text:span text:style-name="T77">L</text:span><text:span text:style-name="T38">a mise en place d’un </text:span><text:span text:style-name="T1">middleware</text:span><text:span text:style-name="T38"> est très simple avec ActiveMQ. Il suffit de spécifier un nom au broker, de lui rajouter des connecteurs, c’est-à-dire des sockets sur lesquels les clients peuvent se connecter, et de le démarrer. Un exemple de cette séquence est disponible ci-dessous : </text:span></text:p>
    <text:p text:style-name="P5"><draw:frame draw:style-name="fr2" draw:name="Cadre2" text:anchor-type="paragraph" svg:width="11.299cm" draw:z-index="2">
      <draw:text-box fo:min-height="2.831cm">
       <text:p text:style-name="Illustration"><draw:frame draw:style-name="fr4" draw:name="Image2" text:anchor-type="as-char" svg:width="11.299cm" style:rel-width="100%" svg:height="2.831cm" style:rel-height="scale" draw:z-index="3"><draw:image>
@@ -1752,9 +1771,9 @@
        </draw:frame><text:line-break/>Illustration <text:sequence text:ref-name="refIllustration1" text:name="Illustration" text:formula="ooow:Illustration+1" style:num-format="1">2</text:sequence>: Exemple de code pour la mise en place d&apos;un broker ActiveMQ</text:p>
      </draw:text-box>
     </draw:frame><text:soft-page-break/></text:p>
-   <text:h text:style-name="P76" text:outline-level="3"><text:bookmark-start text:name="__RefHeading___Toc144_1028424442"/>Envoyer et recevoir des messages<text:bookmark-end text:name="__RefHeading___Toc144_1028424442"/></text:h>
-   <text:p text:style-name="P27">Dernière étape, <text:span text:style-name="T127">l’envoi de message, qui peut se faire une fois que le </text:span><text:span text:style-name="T18">publisher</text:span><text:span text:style-name="T78"> est instancié. </text:span><text:span text:style-name="T79">Pour se faire, le code suivant peut être utilisé : </text:span></text:p>
-   <text:h text:style-name="P84" text:outline-level="1"><draw:frame draw:style-name="fr2" draw:name="Cadre3" text:anchor-type="paragraph" svg:width="10.797cm" draw:z-index="4">
+   <text:h text:style-name="P80" text:outline-level="3"><text:bookmark-start text:name="__RefHeading___Toc144_1028424442"/>Envoyer et recevoir des messages<text:bookmark-end text:name="__RefHeading___Toc144_1028424442"/></text:h>
+   <text:p text:style-name="P27">Dernière étape, <text:span text:style-name="T130">l’envoi de message, qui peut se faire une fois que le </text:span><text:span text:style-name="T18">publisher</text:span><text:span text:style-name="T79"> est instancié. </text:span><text:span text:style-name="T80">Pour se faire, le code suivant peut être utilisé : </text:span></text:p>
+   <text:h text:style-name="P73" text:outline-level="1"><draw:frame draw:style-name="fr2" draw:name="Cadre3" text:anchor-type="paragraph" svg:width="10.797cm" draw:z-index="4">
      <draw:text-box fo:min-height="3.995cm">
       <text:p text:style-name="Illustration"><draw:frame draw:style-name="fr4" draw:name="Image3" text:anchor-type="as-char" svg:width="10.797cm" style:rel-width="100%" svg:height="3.995cm" style:rel-height="scale" draw:z-index="5"><draw:image>
          <office:binary-data>iVBORw0KGgoAAAANSUhEUgAAAZgAAACXCAMAAAAfxL0GAAAAAXNSR0IArs4c6QAAAARnQU1B
@@ -1831,14 +1850,14 @@
        </draw:frame><text:line-break/>Illustration <text:sequence text:ref-name="refIllustration2" text:name="Illustration" text:formula="ooow:Illustration+1" style:num-format="1">3</text:sequence>: Exemple de code pour l&apos;envoi d&apos;un message</text:p>
      </draw:text-box>
     </draw:frame><text:bookmark-start text:name="__RefHeading___Toc119_1028424442"/>Rapport d’expérience<text:bookmark-end text:name="__RefHeading___Toc119_1028424442"/></text:h>
-   <text:p text:style-name="P28">Pour rappel, nous devions pour ce projet développer une application web <text:span text:style-name="T128">permettant l’inscription à des cours ainsi que la recherche de cours via différents critères (mots-clés, date et lieu), tout en incluant un système de notifications d’inscription en utilisant </text:span><text:span text:style-name="T19">Java Message Service</text:span><text:span text:style-name="T80">.</text:span></text:p>
-   <text:p text:style-name="P29"><text:span text:style-name="T80">N</text:span><text:span text:style-name="T37">ous allons donc décrire l’application que nous avons développé sous 3 angles : tout d’abord l’architecture que nous avons créé, puis les différentes interfaces, pour finir par expliquer plus particulièrement les notifications </text:span><text:span text:style-name="T81">via </text:span><text:span text:style-name="T37">JMS.</text:span></text:p>
-   <text:p text:style-name="P40">La base de données devant être utilisée par l’application web était donnée, nous n’avions donc pas à la concevoir.</text:p>
-   <text:h text:style-name="P65" text:outline-level="2"><text:bookmark-start text:name="__RefHeading___Toc121_1028424442"/>Architecture globale<text:bookmark-end text:name="__RefHeading___Toc121_1028424442"/></text:h>
-   <text:p text:style-name="Text_20_body">L’architecture que nous avons mis en place <text:span text:style-name="T129">correspond à une architecture N-tiers </text:span><text:span text:style-name="T20">Service Oriented</text:span><text:span text:style-name="T82"> (SOA), avec différentes couches logicielles :</text:span></text:p>
-   <text:p text:style-name="P60">Couche <text:span text:style-name="T130">p</text:span>ersistance</text:p>
-   <text:p text:style-name="Text_20_body">La couche de persistance est la couche où nous assurons la persistances des différentes données. Cette persistance est gérée par <text:span text:style-name="T159">l’ORM</text:span> <text:span text:style-name="T1">Hibernate</text:span><text:span text:style-name="T37">, et nous utilisons le principe des </text:span><text:span text:style-name="T21">java </text:span><text:span text:style-name="T1">beans </text:span><text:span text:style-name="T37">pour matérialiser logiciellement les éléments des tables de la base de données qui nous a été fournie. </text:span><text:span text:style-name="T83">Des annotations ont été utilisées pour effectuer le lien entre une table et son </text:span><text:span text:style-name="T22">bean</text:span><text:span text:style-name="T83">. </text:span><text:span text:style-name="T84">Les clés étrangères </text:span><text:span text:style-name="T85">dans les tables</text:span><text:span text:style-name="T84"> ont été configurées comme des relations </text:span><text:span text:style-name="T23">many-to-on</text:span><text:span text:style-name="T24">e</text:span><text:span text:style-name="T86"> dans les </text:span><text:span text:style-name="T24">beans</text:span><text:span text:style-name="T86">, avec un </text:span><text:span text:style-name="T24">lazy-loading</text:span><text:span text:style-name="T86"> et une propagation des modifications.</text:span></text:p>
-   <text:p text:style-name="P59"><draw:frame draw:style-name="fr2" draw:name="Cadre4" text:anchor-type="paragraph" svg:width="11.776cm" draw:z-index="6">
+   <text:p text:style-name="P28">Pour rappel, nous devions pour ce projet développer une application web <text:span text:style-name="T131">permettant l’inscription à des cours ainsi que la recherche de cours via différents critères (mots-clés, date et lieu), tout en incluant un système de notifications d’inscription en utilisant </text:span><text:span text:style-name="T19">Java Message Service</text:span><text:span text:style-name="T81">.</text:span></text:p>
+   <text:p text:style-name="P29"><text:span text:style-name="T81">N</text:span><text:span text:style-name="T38">ous allons donc décrire l’application que nous avons développé</text:span><text:span text:style-name="T97">e</text:span><text:span text:style-name="T38"> sous 3 angles : tout d’abord l’architecture que nous avons créé</text:span><text:span text:style-name="T97">e</text:span><text:span text:style-name="T38">, puis les différentes interfaces, pour finir par expliquer plus particulièrement les notifications </text:span><text:span text:style-name="T82">via </text:span><text:span text:style-name="T38">JMS.</text:span></text:p>
+   <text:p text:style-name="P41">La base de données devant être utilisée par l’application web était donnée, nous n’avions donc pas à la concevoir.</text:p>
+   <text:h text:style-name="P67" text:outline-level="2"><text:bookmark-start text:name="__RefHeading___Toc121_1028424442"/>Architecture globale<text:bookmark-end text:name="__RefHeading___Toc121_1028424442"/></text:h>
+   <text:p text:style-name="Text_20_body">L’architecture que nous avons mis<text:span text:style-name="T173">e</text:span> en place <text:span text:style-name="T132">correspond à une architecture N-tiers </text:span><text:span text:style-name="T20">Service Oriented</text:span><text:span text:style-name="T83"> (SOA), avec différentes couches logicielles :</text:span></text:p>
+   <text:p text:style-name="P62">Couche <text:span text:style-name="T133">p</text:span>ersistance</text:p>
+   <text:p text:style-name="Text_20_body">La couche de persistance est la couche où nous assurons la persistance des différentes données. Cette persistance est gérée par <text:span text:style-name="T162">l’ORM</text:span> <text:span text:style-name="T1">Hibernate</text:span><text:span text:style-name="T38">, et nous utilisons le principe des </text:span><text:span text:style-name="T21">java </text:span><text:span text:style-name="T1">beans </text:span><text:span text:style-name="T38">pour matérialiser logiciellement les éléments des tables de la base de données qui nous </text:span><text:span text:style-name="T97">ont</text:span><text:span text:style-name="T38"> été fourni</text:span><text:span text:style-name="T97">s</text:span><text:span text:style-name="T38">. </text:span><text:span text:style-name="T84">Des annotations ont été utilisées pour effectuer le lien entre une table et son </text:span><text:span text:style-name="T22">bean</text:span><text:span text:style-name="T84">. </text:span><text:span text:style-name="T85">Les clés étrangères </text:span><text:span text:style-name="T86">dans les tables</text:span><text:span text:style-name="T85"> ont été configurées comme des relations </text:span><text:span text:style-name="T23">many-to-on</text:span><text:span text:style-name="T24">e</text:span><text:span text:style-name="T87"> dans les </text:span><text:span text:style-name="T24">beans</text:span><text:span text:style-name="T87">, avec un </text:span><text:span text:style-name="T24">lazy-loading</text:span><text:span text:style-name="T87"> et une propagation des modifications.</text:span></text:p>
+   <text:p text:style-name="P61"><draw:frame draw:style-name="fr2" draw:name="Cadre4" text:anchor-type="paragraph" svg:width="11.776cm" draw:z-index="6">
      <draw:text-box fo:min-height="3.334cm">
       <text:p text:style-name="Illustration"><draw:frame draw:style-name="fr4" draw:name="Image4" text:anchor-type="as-char" svg:width="11.776cm" style:rel-width="100%" svg:height="3.334cm" style:rel-height="scale" draw:z-index="7"><draw:image>
          <office:binary-data>iVBORw0KGgoAAAANSUhEUgAAAb0AAAB+CAMAAACH+z/YAAAAAXNSR0IArs4c6QAAAARnQU1B
@@ -1931,45 +1950,45 @@
        </draw:frame><text:line-break/>Illustration <text:sequence text:ref-name="refIllustration3" text:name="Illustration" text:formula="ooow:Illustration+1" style:num-format="1">4</text:sequence>: Extrait de la classe CourseSession montrant les liens many-to-one mis en place pour les clés étrangères</text:p>
      </draw:text-box>
     </draw:frame><text:soft-page-break/>Couche traitements</text:p>
-   <text:p text:style-name="P30">La couche traitement contient l<text:span text:style-name="T146">es</text:span> classe<text:span text:style-name="T146">s</text:span> de <text:span text:style-name="T1">dao</text:span><text:span text:style-name="T97">, </text:span><text:span text:style-name="T98">qui sont au nombre de </text:span><text:span text:style-name="T110">cinq</text:span><text:span text:style-name="T98"> dans notre application, </text:span><text:span text:style-name="T110">et qui implémentent toutes l’une des deux interfaces suivantes</text:span><text:span text:style-name="T98"> : </text:span></text:p>
-   <text:list xml:id="list2325980993260129075" text:style-name="L2">
+   <text:p text:style-name="P30">La couche traitement contient l<text:span text:style-name="T149">es</text:span> classe<text:span text:style-name="T149">s</text:span> de <text:span text:style-name="T1">dao</text:span><text:span text:style-name="T99">, </text:span><text:span text:style-name="T100">qui sont au nombre de </text:span><text:span text:style-name="T112">cinq</text:span><text:span text:style-name="T100"> dans notre application, </text:span><text:span text:style-name="T112">et qui implémentent toutes l’une des deux interfaces suivantes</text:span><text:span text:style-name="T100"> : </text:span></text:p>
+   <text:list xml:id="list3601584638654073529" text:style-name="L2">
     <text:list-item>
-     <text:p text:style-name="P78"><text:span text:style-name="T110">IRepoDao</text:span><text:span text:style-name="T96"> : </text:span><text:span text:style-name="T100">c</text:span><text:span text:style-name="T96">ette </text:span><text:span text:style-name="T111">interface</text:span><text:span text:style-name="T96"> </text:span><text:span text:style-name="T111">correspond aux dao chargé de gérer l’accès aux données de la base de données, et possède une implémentation par </text:span><text:span text:style-name="T31">javabeans</text:span><text:span text:style-name="T111"> existant dans le projet. </text:span><text:span text:style-name="T112">Ces implémentation utilisent toutes </text:span><text:span text:style-name="T32">Hibernate</text:span><text:span text:style-name="T112"> directement pour récupérer les données en créant <text:s/>des transactions.</text:span></text:p>
+     <text:p text:style-name="P82"><text:span text:style-name="T112">IRepoDao</text:span><text:span text:style-name="T98"> : </text:span><text:span text:style-name="T102">c</text:span><text:span text:style-name="T98">ette </text:span><text:span text:style-name="T113">interface</text:span><text:span text:style-name="T98"> </text:span><text:span text:style-name="T113">correspond au</text:span><text:span text:style-name="T121">x</text:span><text:span text:style-name="T113"> dao chargé</text:span><text:span text:style-name="T121">s</text:span><text:span text:style-name="T113"> de gérer l’accès aux données de la base de données, et possède une implémentation par </text:span><text:span text:style-name="T32">javabeans</text:span><text:span text:style-name="T113"> existant dans le projet. </text:span><text:span text:style-name="T114">Ces implémentation</text:span><text:span text:style-name="T121">s</text:span><text:span text:style-name="T114"> utilisent toutes </text:span><text:span text:style-name="T33">Hibernate</text:span><text:span text:style-name="T114"> directement pour récupérer les données en créant <text:s/>des transactions.</text:span></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P79"><text:span text:style-name="T99">I</text:span><text:span text:style-name="T96">PublisherDao : cette interface défini les méthodes pour gérer un </text:span><text:span text:style-name="T28">publisher</text:span><text:span text:style-name="T96"> pouvant envoyer des chaînes de caractères et des objets sériali</text:span><text:span text:style-name="T101">s</text:span><text:span text:style-name="T96">ables sur </text:span><text:span text:style-name="T113">un sujet (</text:span><text:span text:style-name="T33">topic</text:span><text:span text:style-name="T113">) prédéfini</text:span><text:span text:style-name="T96">.</text:span></text:p>
-     <text:p text:style-name="P80"><text:span text:style-name="T96">Nous avons également créer une classe JmsDao, qui est une implémentation de </text:span><text:span text:style-name="T28">IpublisherDao</text:span><text:span text:style-name="T96"> pour JMS, </text:span><text:span text:style-name="T102">et utilise ActiveMQ comme implémentation de JMS.</text:span></text:p>
+     <text:p text:style-name="P83"><text:span text:style-name="T101">I</text:span><text:span text:style-name="T98">PublisherDao : cette interface défini</text:span><text:span text:style-name="T121">t</text:span><text:span text:style-name="T98"> les méthodes pour gérer un </text:span><text:span text:style-name="T29">publisher</text:span><text:span text:style-name="T98"> pouvant envoyer des chaînes de caractères et des objets sériali</text:span><text:span text:style-name="T103">s</text:span><text:span text:style-name="T98">ables sur </text:span><text:span text:style-name="T115">un sujet (</text:span><text:span text:style-name="T34">topic</text:span><text:span text:style-name="T115">) prédéfini</text:span><text:span text:style-name="T98">.</text:span></text:p>
+     <text:p text:style-name="P84"><text:span text:style-name="T98">Nous avons également cré</text:span><text:span text:style-name="T121">é</text:span><text:span text:style-name="T98"> une classe JmsDao, qui est une implémentation de </text:span><text:span text:style-name="T29">IpublisherDao</text:span><text:span text:style-name="T98"> pour JMS, </text:span><text:span text:style-name="T104">et utilise ActiveMQ comme implémentation de JMS.</text:span></text:p>
     </text:list-item>
    </text:list>
-   <text:p text:style-name="P59">Couche service</text:p>
-   <text:p text:style-name="P31">La couche service contient les différentes classes de services, qui seront utilisées par les contrôleurs des interfaces. Elles contiennent le code métier et utilisent les classes de <text:span text:style-name="T1">dao</text:span><text:span text:style-name="T37"> pour réaliser les actions sur les </text:span><text:span text:style-name="T1">javabeans</text:span><text:span text:style-name="T37"> ou pour envoyer des notifications.</text:span></text:p>
-   <text:p text:style-name="P32"><text:span text:style-name="T37">Nous avons créé deux classes de services, nommé </text:span><text:span text:style-name="T1">CourseService</text:span><text:span text:style-name="T37"> et </text:span><text:span text:style-name="T1">PublisherService</text:span><text:span text:style-name="T37">, qui vont utiliser respectivement des instances </text:span><text:span text:style-name="T1">CourseDao</text:span><text:span text:style-name="T37"> et </text:span><text:span text:style-name="T1">IPublisherDao</text:span><text:span text:style-name="T37"> </text:span><text:span text:style-name="T87">pour le traitement.</text:span></text:p>
-   <text:p text:style-name="P33"><text:span text:style-name="T87">L</text:span><text:span text:style-name="T37">e premier service permet la r</text:span><text:span text:style-name="T88">écupération des sessions de cours enregistrées, des lieux ainsi que la récupération d’une liste contenant, pour chaque cours, la prochaine session enregistrée.</text:span></text:p>
-   <text:p text:style-name="P34"><text:span text:style-name="T88">L</text:span><text:span text:style-name="T37">e second service contient la méthode pour envoyer la notification d’inscription d’un client donné </text:span><text:span text:style-name="T89">pour un cours.</text:span></text:p>
-   <text:p text:style-name="P59">Couche contrôleur</text:p>
-   <text:p text:style-name="P35">Pour la couche contrôleur, nous avons créé 3 pages JSP et 3 <text:span text:style-name="T1">servlets</text:span><text:span text:style-name="T37">. Les pages JSP correspondent aux 3 pages différentes de l’interface, que nous détaillerons plus tard. </text:span><text:span text:style-name="T90">2 des 3</text:span><text:span text:style-name="T37"> </text:span><text:span text:style-name="T1">servlets</text:span><text:span text:style-name="T37"> correspondent quant à eux </text:span><text:span text:style-name="T90">à des</text:span><text:span text:style-name="T37"> message</text:span><text:span text:style-name="T90">s</text:span><text:span text:style-name="T37"> de succès et d’échec de l’inscription avec un lien vers la page principale, </text:span><text:span text:style-name="T90">le </text:span><text:span text:style-name="T37">troisième </text:span><text:span text:style-name="T1">servlet</text:span><text:span text:style-name="T37"> </text:span><text:span text:style-name="T90">permet</text:span><text:span text:style-name="T37"> </text:span><text:span text:style-name="T90">d’</text:span><text:span text:style-name="T37">effectuer l’inscription et </text:span><text:span text:style-name="T90">d’</text:span><text:span text:style-name="T37">aiguiller le client vers l’un des deux autres </text:span><text:span text:style-name="T1">servlets</text:span><text:span text:style-name="T37"> suivant le résultat. C’est également ce </text:span><text:span text:style-name="T1">servlet</text:span><text:span text:style-name="T37">-ci qui va déclencher l’émission de la notification </text:span><text:span text:style-name="T90">d’inscription dans le cas d’un succès.</text:span></text:p>
-   <text:h text:style-name="P67" text:outline-level="2"><text:bookmark-start text:name="__RefHeading___Toc123_1028424442"/>Application web<text:bookmark-end text:name="__RefHeading___Toc123_1028424442"/></text:h>
-   <text:p text:style-name="P45">Comme nous l’avons précisé plus tôt dans ce rapport, l’application web est composée de 3 pages JSP et de 3 servlets.</text:p>
-   <text:p text:style-name="P45"><text:soft-page-break/>La première des pages, <text:span text:style-name="T1">index.jsp</text:span><text:span text:style-name="T37">, contient une liste affichant, pour chaque cours présent dans la base de donnée, la date et le lieu de sa prochaine session. E</text:span><text:span text:style-name="T91">lle contient également un bouton pour rejoindre la page suivante, </text:span><text:span text:style-name="T25">search.jsp</text:span><text:span text:style-name="T91">.</text:span></text:p>
-   <text:p text:style-name="P47"/>
-   <text:p text:style-name="P47">[INSERER APERCU INDEX.JSP]</text:p>
-   <text:p text:style-name="P53"/>
-   <text:p text:style-name="P51"><text:span text:style-name="T37">Cette dernière, </text:span>search.jsp<text:span text:style-name="T37">, contient un formulaire permettant la spécification des critères de recherche : ce formulaire possède un champs texte pour les mots-clés, un sélecteur de dates pour restreindre la recherche en fonction de la date des sessions et une liste déroulante contenant tous les lieux enregistrés. L’utilisateur peut utiliser tout ou partie de ces éléments pour restreindre la liste des sessions, qu’il peut actualiser en appuyant sur un bouton intitulé « Rechercher » présent dans le formulaire.</text:span></text:p>
-   <text:p text:style-name="P54">En dessous du formulaire se trouve la liste des sessions correspondantes, initialement vide, qui correspondent aux critères spécifiés.</text:p>
+   <text:p text:style-name="P61">Couche service</text:p>
+   <text:p text:style-name="P31">La couche service contient les différentes classes de services, qui seront utilisées par les contrôleurs des interfaces. Elles contiennent le code métier et utilisent les classes de <text:span text:style-name="T1">dao</text:span><text:span text:style-name="T38"> pour réaliser les actions sur les </text:span><text:span text:style-name="T1">javabeans</text:span><text:span text:style-name="T38"> ou pour envoyer des notifications.</text:span></text:p>
+   <text:p text:style-name="P32"><text:span text:style-name="T38">Nous avons créé deux classes de services, nommé </text:span><text:span text:style-name="T1">CourseService</text:span><text:span text:style-name="T38"> et </text:span><text:span text:style-name="T1">PublisherService</text:span><text:span text:style-name="T38">, qui vont utiliser respectivement des instances </text:span><text:span text:style-name="T1">CourseDao</text:span><text:span text:style-name="T38"> et </text:span><text:span text:style-name="T1">IPublisherDao</text:span><text:span text:style-name="T38"> </text:span><text:span text:style-name="T88">pour le traitement.</text:span></text:p>
+   <text:p text:style-name="P33"><text:span text:style-name="T88">L</text:span><text:span text:style-name="T38">e premier service permet la r</text:span><text:span text:style-name="T89">écupération des sessions de cours enregistrées, des lieux, ainsi que la récupération d’une liste contenant, pour chaque cours, la prochaine session enregistrée.</text:span></text:p>
+   <text:p text:style-name="P34"><text:span text:style-name="T89">L</text:span><text:span text:style-name="T38">e second service contient la méthode pour envoyer la notification d’inscription d’un client donné </text:span><text:span text:style-name="T90">pour un cours.</text:span></text:p>
+   <text:p text:style-name="P61">Couche contrôleur</text:p>
+   <text:p text:style-name="P35">Pour la couche contrôleur, nous avons créé 3 pages JSP et 3 <text:span text:style-name="T1">servlets</text:span><text:span text:style-name="T38">. Les pages JSP correspondent aux 3 pages différentes de l’interface, que nous détaillerons plus tard. </text:span><text:span text:style-name="T91">2 des 3</text:span><text:span text:style-name="T38"> </text:span><text:span text:style-name="T1">servlets</text:span><text:span text:style-name="T38"> correspondent quant à eux </text:span><text:span text:style-name="T91">à des</text:span><text:span text:style-name="T38"> message</text:span><text:span text:style-name="T91">s</text:span><text:span text:style-name="T38"> de succès et d’échec de l’inscription avec un lien vers la page principale, </text:span><text:span text:style-name="T91">le </text:span><text:span text:style-name="T38">troisième </text:span><text:span text:style-name="T1">servlet</text:span><text:span text:style-name="T38"> </text:span><text:span text:style-name="T91">permet</text:span><text:span text:style-name="T38"> </text:span><text:span text:style-name="T91">d’</text:span><text:span text:style-name="T38">effectuer l’inscription et </text:span><text:span text:style-name="T91">d’</text:span><text:span text:style-name="T38">aiguiller le client vers l’un des deux autres </text:span><text:span text:style-name="T1">servlets</text:span><text:span text:style-name="T38"> suivant le résultat. C’est également ce </text:span><text:span text:style-name="T1">servlet</text:span><text:span text:style-name="T38">-ci qui va déclencher l’émission de la notification </text:span><text:span text:style-name="T91">d’inscription dans le cas d’un succès.</text:span></text:p>
+   <text:h text:style-name="P69" text:outline-level="2"><text:bookmark-start text:name="__RefHeading___Toc123_1028424442"/>Application web<text:bookmark-end text:name="__RefHeading___Toc123_1028424442"/></text:h>
+   <text:p text:style-name="P47">Comme nous l’avons précisé plus tôt dans ce rapport, l’application web est composée de 3 pages JSP et de 3 servlets.</text:p>
+   <text:p text:style-name="P47"><text:soft-page-break/>La première des pages, <text:span text:style-name="T1">index.jsp</text:span><text:span text:style-name="T38">, contient une liste affichant, pour chaque cours présent dans la base de donnée</text:span><text:span text:style-name="T97">s</text:span><text:span text:style-name="T38">, la date et le lieu de sa prochaine session. E</text:span><text:span text:style-name="T92">lle contient également un bouton pour rejoindre la page suivante, </text:span><text:span text:style-name="T25">search.jsp</text:span><text:span text:style-name="T92">.</text:span></text:p>
    <text:p text:style-name="P49"/>
-   <text:p text:style-name="P46"><text:span text:style-name="T37">[INSERER APERCU </text:span><text:span text:style-name="T92">SEARCH</text:span><text:span text:style-name="T37">.JSP]</text:span></text:p>
+   <text:p text:style-name="P49">[INSERER APERCU INDEX.JSP]</text:p>
    <text:p text:style-name="P55"/>
-   <text:p text:style-name="P52"><text:span text:style-name="T37">Les éléments de la liste sont des liens vers la troisième page, </text:span>register.jsp<text:span text:style-name="T37">, qui contient le formulaire d’inscription à une session, la session ayant été sélectionnée par l’utilisateur. Un rappel des informations de la session est également présent sur la page.</text:span></text:p>
+   <text:p text:style-name="P53"><text:span text:style-name="T38">Cette dernière, </text:span>search.jsp<text:span text:style-name="T38">, contient un formulaire permettant la spécification des critères de recherche : ce formulaire possède un champ texte pour les mots-clés, un sélecteur de dates pour restreindre la recherche en fonction de la date des sessions et une liste déroulante contenant tous les lieux enregistrés. L’utilisateur peut utiliser tout ou partie de ces éléments pour restreindre la liste des sessions, qu’il peut actualiser en appuyant sur un bouton intitulé « Rechercher » présent dans le formulaire.</text:span></text:p>
+   <text:p text:style-name="P56">En dessous du formulaire se trouve la liste des sessions correspondantes, initialement vide, qui correspondent aux critères spécifiés.</text:p>
+   <text:p text:style-name="P51"/>
+   <text:p text:style-name="P48"><text:span text:style-name="T38">[INSERER APERCU </text:span><text:span text:style-name="T93">SEARCH</text:span><text:span text:style-name="T38">.JSP]</text:span></text:p>
+   <text:p text:style-name="P57"/>
+   <text:p text:style-name="P54"><text:span text:style-name="T38">Les éléments de la liste sont des liens vers la troisième page, </text:span>register.jsp<text:span text:style-name="T38">, qui contient le formulaire d’inscription à une session, la session ayant été sélectionnée par l’utilisateur. Un rappel des informations de la session est également présent sur la page.</text:span></text:p>
+   <text:p text:style-name="P52"/>
+   <text:p text:style-name="P54"><text:span text:style-name="T150">[INSERER APERCU </text:span><text:span text:style-name="T151">REGISTER</text:span><text:span text:style-name="T150">.JSP]</text:span></text:p>
    <text:p text:style-name="P50"/>
-   <text:p text:style-name="P52"><text:span text:style-name="T147">[INSERER APERCU </text:span><text:span text:style-name="T148">REGISTER</text:span><text:span text:style-name="T147">.JSP]</text:span></text:p>
-   <text:p text:style-name="P48"/>
-   <text:p text:style-name="P56"><text:span text:style-name="T149">Lorsque l’utilisateur valide l’inscription, le premier servlet va être appelé : </text:span><text:span text:style-name="T154">RegistrationServlet</text:span><text:span text:style-name="T149">. </text:span><text:span text:style-name="T150">Comme nous l’avons dit plus tôt, ce </text:span><text:span text:style-name="T155">servlet</text:span><text:span text:style-name="T150"> va tenter d’inscrire le client à la session d’un point de vue logiciel. S’il y parvient, il va alors envoyer la notification d’inscription JMS et va rediriger la requête vers le </text:span><text:span text:style-name="T155">servlet</text:span><text:span text:style-name="T150"> </text:span><text:span text:style-name="T152">affichant le succès de l’opération via la classe </text:span><text:span text:style-name="T157">RequestDispatcher</text:span><text:span text:style-name="T152">. Dans le cas d’un échec, aucune notification JMS n’est publiée et la redirection est faite vers le servlet affichant l’échec de l’opération.</text:span></text:p>
-   <text:p text:style-name="P57"><text:span text:style-name="T151">Les </text:span><text:span text:style-name="T156">servlets </text:span><text:span text:style-name="T151">de succès et d’échec affichent un texte similaire, contenant un message décrivant le statut de l’opération d’inscription (succès/échec), accompagné de liens permettant de retourner vers la page </text:span><text:span text:style-name="T156">index.jsp</text:span><text:span text:style-name="T151">.</text:span></text:p>
-   <text:p text:style-name="P57"><text:span text:style-name="T151">Le </text:span><text:span text:style-name="T156">servlet</text:span><text:span text:style-name="T151"> d’erreur affichent en plus la raison de l’erreur, qui peut se trouver en tant que paramètre dans la requête http. La présence de ce paramètre est due au </text:span><text:span text:style-name="T156">servlet</text:span><text:span text:style-name="T151"> <text:s/></text:span><text:span text:style-name="T158">RegistrationServlet</text:span><text:span text:style-name="T153"> </text:span><text:span text:style-name="T151">qui peut, dans certains cas d’erreur, l’ajouter à la requête avant de la rediriger. Cependant, tous les cas d’erreurs ne sont pas pris en compte, aussi l’affichage du message d’erreur change suivant si la raison de l’erreur est connue ou non.</text:span></text:p>
-   <text:h text:style-name="P66" text:outline-level="2"><text:bookmark-start text:name="__RefHeading___Toc125_1028424442"/>Intégration JMS<text:bookmark-end text:name="__RefHeading___Toc125_1028424442"/></text:h>
-   <text:p text:style-name="Text_20_body">Pour intégrer l’utilisation du <text:span text:style-name="T1">Java Message Service</text:span><text:span text:style-name="T96"> dans les notifications d’inscription, nous avons mis en place le service de publication décrit précédemment. Ce service, lorsqu’une inscription est fai</text:span><text:span text:style-name="T103">t</text:span><text:span text:style-name="T96">e, se connectera à un </text:span><text:span text:style-name="T28">broker</text:span><text:span text:style-name="T96"> </text:span><text:span text:style-name="T104">JMS </text:span><text:span text:style-name="T96">et transmettra un message texte contenant les informations sur l’inscription.</text:span></text:p>
-   <text:p text:style-name="P43"><text:soft-page-break/><text:span text:style-name="T96">Nous avons choisi le mode de transmission </text:span><text:span text:style-name="T28">Publisher-Subscriber</text:span><text:span text:style-name="T96"> car même si dans le cadre de ce projet nous n’avons qu’un seul destinataire au maximum, il nous semblait plus logique de nous baser sur un système de notifications par événements </text:span><text:span text:style-name="T114">avec plus d’un </text:span><text:span text:style-name="T35">consommateur</text:span><text:span text:style-name="T96">. De plus, <text:s/>le nombres de </text:span><text:span text:style-name="T28">publisher</text:span><text:span text:style-name="T96"> n’est lui pas fixé à 1, et on peut très bien avoir plusieurs serveurs web proposant l’application que nous avons développé. Dans un cas de figure comme celui-ci, le client doit pouvoir recevoir </text:span><text:span text:style-name="T115">des messages de la part de plusieurs </text:span><text:span text:style-name="T34">producteurs.</text:span></text:p>
-   <text:p text:style-name="Text_20_body"><text:span text:style-name="T105">Côté réception </text:span><text:span text:style-name="T108">de notifications</text:span><text:span text:style-name="T105">, nous avons créé une petite application </text:span><text:span text:style-name="T29">client lourd</text:span><text:span text:style-name="T105"> mettant initialisant le </text:span><text:span text:style-name="T29">broker</text:span><text:span text:style-name="T105"> ainsi que le </text:span><text:span text:style-name="T36">consommateur</text:span><text:span text:style-name="T105"> des notifications. </text:span><text:span text:style-name="T106">Pour le moment, </text:span><text:span text:style-name="T30">localhost</text:span><text:span text:style-name="T106"> est utilisé pour l’adresse du </text:span><text:span text:style-name="T30">broker</text:span><text:span text:style-name="T106"> de manière a éviter de passer par le réseau de l’UTBM </text:span><text:span text:style-name="T107">lors des démonstrations, mais l’adresse peut être modifiée facilement. </text:span><text:span text:style-name="T109">Nous avons utilisé JavaFX pour créer son interface, </text:span><text:span text:style-name="T116">qui est composé uniquement d’une zone de texte non-modifiable affichant les informations et les messages lorsqu’ils arrivent. </text:span><text:span text:style-name="T117">Attention cependant à bien démarrer en premier le serveur </text:span><text:span text:style-name="T118">T</text:span><text:span text:style-name="T117">omcat au prix d’avoir des conflit de port </text:span><text:span text:style-name="T118">pour le protocole </text:span><text:span text:style-name="T165">RMI lancé par Tomcat et ActiveM</text:span><text:span text:style-name="T168">Q (</text:span><text:span text:style-name="T169">si on démarre le module et l’application sur la même machine</text:span><text:span text:style-name="T168">)</text:span><text:span text:style-name="T169">.</text:span></text:p>
+   <text:p text:style-name="P58"><text:span text:style-name="T152">Lorsque l’utilisateur valide l’inscription, le premier servlet va être appelé : </text:span><text:span text:style-name="T157">RegistrationServlet</text:span><text:span text:style-name="T152">. </text:span><text:span text:style-name="T153">Comme nous l’avons dit plus tôt, ce </text:span><text:span text:style-name="T158">servlet</text:span><text:span text:style-name="T153"> va tenter d’inscrire le client à la session d’un point de vue logiciel. S’il y parvient, il va alors envoyer la notification d’inscription JMS et va rediriger la requête vers le </text:span><text:span text:style-name="T158">servlet</text:span><text:span text:style-name="T153"> </text:span><text:span text:style-name="T155">affichant le succès de l’opération via la classe </text:span><text:span text:style-name="T160">RequestDispatcher</text:span><text:span text:style-name="T155">. Dans le cas d’un échec, aucune notification JMS n’est publiée et la redirection est faite vers le servlet affichant l’échec de l’opération.</text:span></text:p>
+   <text:p text:style-name="P59"><text:span text:style-name="T154">Les </text:span><text:span text:style-name="T159">servlets </text:span><text:span text:style-name="T154">de succès et d’échec affichent un texte similaire, contenant un message décrivant le statut de l’opération d’inscription (succès/échec), accompagné de liens permettant de retourner vers la page </text:span><text:span text:style-name="T159">index.jsp</text:span><text:span text:style-name="T154">.</text:span></text:p>
+   <text:p text:style-name="P59"><text:span text:style-name="T154">Le </text:span><text:span text:style-name="T159">servlet</text:span><text:span text:style-name="T154"> d’erreur affiche en plus la raison de l’erreur, qui peut se trouver en tant que paramètre dans la requête http. La présence de ce paramètre est due au </text:span><text:span text:style-name="T159">servlet</text:span><text:span text:style-name="T154"> <text:s/></text:span><text:span text:style-name="T161">RegistrationServlet</text:span><text:span text:style-name="T156"> </text:span><text:span text:style-name="T154">qui peut, dans certains cas d’erreur, l’ajouter à la requête avant de la rediriger. Cependant, tous les cas d’erreurs ne sont pas pris en compte, aussi l’affichage du message d’erreur change suivant si la raison de l’erreur est connue ou non.</text:span></text:p>
+   <text:h text:style-name="P68" text:outline-level="2"><text:bookmark-start text:name="__RefHeading___Toc125_1028424442"/>Intégration JMS<text:bookmark-end text:name="__RefHeading___Toc125_1028424442"/></text:h>
+   <text:p text:style-name="Text_20_body">Pour intégrer l’utilisation du <text:span text:style-name="T1">Java Message Service</text:span><text:span text:style-name="T98"> dans les notifications d’inscription, nous avons mis en place le service de publication décrit précédemment. Ce service, lorsqu’une inscription est fai</text:span><text:span text:style-name="T105">t</text:span><text:span text:style-name="T98">e, se connectera à un </text:span><text:span text:style-name="T29">broker</text:span><text:span text:style-name="T98"> </text:span><text:span text:style-name="T106">JMS </text:span><text:span text:style-name="T98">et transmettra un message texte contenant les informations sur l’inscription.</text:span></text:p>
+   <text:p text:style-name="P45"><text:soft-page-break/><text:span text:style-name="T98">Nous avons choisi le mode de transmission </text:span><text:span text:style-name="T29">Publisher-Subscriber</text:span><text:span text:style-name="T98"> car même si dans le cadre de ce projet nous n’avons qu’un seul destinataire au maximum, il nous semblait plus logique de nous baser sur un système de notifications par événements </text:span><text:span text:style-name="T116">avec plus d’un </text:span><text:span text:style-name="T36">consommateur</text:span><text:span text:style-name="T98">. De plus, le nombre de </text:span><text:span text:style-name="T29">publisher</text:span><text:span text:style-name="T98"> n’est lui pas fixé à 1, et on peut très bien avoir plusieurs serveurs web proposant l’application que nous avons développé</text:span><text:span text:style-name="T121">e</text:span><text:span text:style-name="T98">. Dans un cas de figure comme celui-ci, le client doit pouvoir recevoir </text:span><text:span text:style-name="T117">des messages de la part de plusieurs </text:span><text:span text:style-name="T35">producteurs.</text:span></text:p>
+   <text:p text:style-name="Text_20_body"><text:span text:style-name="T107">Côté réception </text:span><text:span text:style-name="T110">de notifications</text:span><text:span text:style-name="T107">, nous avons créé une petite application </text:span><text:span text:style-name="T30">client lourd</text:span><text:span text:style-name="T107"> mettant initialisant le </text:span><text:span text:style-name="T30">broker</text:span><text:span text:style-name="T107"> ainsi que le </text:span><text:span text:style-name="T37">consommateur</text:span><text:span text:style-name="T107"> des notifications. </text:span><text:span text:style-name="T108">Pour le moment, </text:span><text:span text:style-name="T31">localhost</text:span><text:span text:style-name="T108"> est utilisé pour l’adresse du </text:span><text:span text:style-name="T31">broker</text:span><text:span text:style-name="T108"> de manière a éviter de passer par le réseau de l’UTBM </text:span><text:span text:style-name="T109">lors des démonstrations, mais l’adresse peut être modifiée facilement. </text:span><text:span text:style-name="T111">Nous avons utilisé JavaFX pour créer son interface, </text:span><text:span text:style-name="T118">qui est composé</text:span><text:span text:style-name="T121">e</text:span><text:span text:style-name="T118"> uniquement d’une zone de texte non-modifiable affichant les informations et les messages lorsqu’ils arrivent. </text:span><text:span text:style-name="T119">Attention cependant à bien démarrer en premier le serveur </text:span><text:span text:style-name="T120">T</text:span><text:span text:style-name="T119">omcat au prix d’avoir des conflit</text:span><text:span text:style-name="T121">s</text:span><text:span text:style-name="T119"> de port </text:span><text:span text:style-name="T120">pour le protocole </text:span><text:span text:style-name="T168">RMI lancé par Tomcat et ActiveM</text:span><text:span text:style-name="T171">Q (</text:span><text:span text:style-name="T172">si on démarre le module et l’application sur la même machine</text:span><text:span text:style-name="T171">)</text:span><text:span text:style-name="T172">.</text:span></text:p>
   </office:text>
  </office:body>
 </office:document>
