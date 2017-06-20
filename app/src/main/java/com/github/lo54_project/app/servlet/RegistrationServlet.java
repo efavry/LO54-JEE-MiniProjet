@@ -98,7 +98,7 @@ public class RegistrationServlet extends HttpServlet
                     dispatcher = request.getRequestDispatcher("/registration/success");
                     try
                     {
-                        PublisherService publisherService = new PublisherService("tcp://localhost:61616");
+                        PublisherService publisherService = new PublisherService("tcp://172.17.2.22:61616");
 
                         publisherService.startService();
                         publisherService.publishRegistrationMessage(client);
