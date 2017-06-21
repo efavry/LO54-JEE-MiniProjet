@@ -8,5 +8,6 @@ A really simple project used to experiment with some jee technology.
 mvn install
 java -jar broker_jms-1.0-SNAPSHOT-jar-with-dependencies.jar
 ### App
+Beware the ip of the broker is to be set manually in the code in the registration servlet
 mvn war:war
 deploy and run in tomcat 8 app-1.0-SNAPSHOT.war with the javadb set to the base available in conception/final.sql
